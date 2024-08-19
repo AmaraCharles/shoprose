@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.hertunba.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.hertunba.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.hertunba.com/collections/sunday-culture.atom"/>
+  <title>Hertunba</title>
+  <updated>2023-12-10T15:59:56+01:00</updated>
+  <author>
+    <name>Hertunba</name>
+  </author>
+  <entry>
+    <id>https://www.hertunba.com/products/6930182406234</id>
+    <published>2023-12-10T15:59:56+01:00</published>
+    <updated>2023-12-10T15:59:56+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/zusie-set"/>
+    <title>Zusie Set</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/zusie-set-500812.jpg?v=1705327753"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            135.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span style="font-weight: 400;">The Zusie Set, in a bold red hue, exudes confidence. Made from premium woven organza, this unique set is a versatile wardrobe essential. The flared skirt adds elegance and ease to your movement, while the playful design brings a touch of femininity and fashionable flair to your look</span></p>
+<ul data-mce-fragment="1">
+<li data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Handle with care</span></li>
+<li data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Dry clean only </span></li>
+<li data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">100% polyester</span></li>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Skirt length 20 inches </span></li>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Top length 21</span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930182406234</id>
+      <title>S / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ZS-SU-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930182406234</id>
+      <title>S / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ZS-SU-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930182406234</id>
+      <title>M / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ZS-SU-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930182406234</id>
+      <title>M / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ZS-SU-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930182406234</id>
+      <title>L / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ZS-SU-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930182406234</id>
+      <title>L / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ZS-SU-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930182406234</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ZS-SU-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930182406234</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ZS-SU-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6930178080858</id>
+    <published>2023-12-10T15:59:56+01:00</published>
+    <updated>2023-12-10T15:59:56+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/ada-black-set"/>
+    <title>Ada Black Set</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/ada-black-set-520692.jpg?v=1705327242"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            135.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span style="font-weight: 400;">The Ada Black Set, with its embellished strap, caters to the fashion-savvy working woman. Effortless yet striking, this two-piece set seamlessly blends style with professionalism for a sleek and timeless appearance.</span></p>
+<ul data-mce-fragment="1">
+<li style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1">60% polyester  40% viscose </span></li>
+<li style="font-weight: 400;" data-mce-fragment="1">100% Upcycled material</li>
+<li style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1">Pants length: 46 inches </span></li>
+<li style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1">Top length 24 inches </span></li>
+<li style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1">Dry clean only </span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930178080858</id>
+      <title>S / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ABS-SU-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930178080858</id>
+      <title>S / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ABS-SU-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930178080858</id>
+      <title>M / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ABS-SU-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930178080858</id>
+      <title>M / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ABS-SU-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930178080858</id>
+      <title>L / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ABS-SU-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930178080858</id>
+      <title>L / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ABS-SU-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930178080858</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ABS-SU-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930178080858</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku>ABS-SU-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6930173952090</id>
+    <published>2023-12-10T15:59:55+01:00</published>
+    <updated>2023-12-10T15:59:55+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/udi-lounge-set"/>
+    <title>Udi lounge Set</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/udi-lounge-set-547702.jpg?v=1705327702"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            180.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">Experience unparalleled comfort with the Udi Lounge Set, adorned with indigenous Nsibidi markings. The lustrous satin fabric not only enhances comfort but also adds a touch of glamour to your look. Whether you're unwinding at home or heading out for a casual outing, this set elevates loungewear with a touch of sophistication.</span></p>
+<ul>
+<li><span style="font-weight: 400;">Dry clean only </span></li>
+<li><span style="font-weight: 400;">Satin</span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930173952090</id>
+      <title>S / ng</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UL-DR-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930173952090</id>
+      <title>S / intl</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UL-DR-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930173952090</id>
+      <title>M / ng</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UL-DR-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930173952090</id>
+      <title>M / intl</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UL-DR-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930173952090</id>
+      <title>L / ng</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UL-DR-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930173952090</id>
+      <title>L / intl</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UL-DR-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930173952090</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UL-DR-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930173952090</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UL-DR-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6930169561178</id>
+    <published>2023-12-10T15:59:54+01:00</published>
+    <updated>2023-12-10T15:59:54+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/ornament-achebe"/>
+    <title>The Ornament Achebe dress</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/ornament-achebe-830957.jpg?v=1705327588"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            215.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span style="font-weight: 400;">The Ornament Achebe dress is made from a patchwork of handmade Akwete fabric, designed to show timeless elegance and dedication to cultural appreciation. Celebrate your heritage and style in this exceptional tunic dress.</span></p>
+<ul data-mce-fragment="1">
+<li style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Loose fit and two straps for a relaxed and easy-wear experience</span></li>
+<li style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Side zip</span></li>
+<li style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Open sides on lower half </span></li>
+<li style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Dry clean only</span></li>
+<li style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Due to its upcycled nature no two Achebe tunics are exactly the same. </span></li>
+<li style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Do not soak or bleach</span></li>
+<li style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">100% cotton </span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930169561178</id>
+      <title>S / ng</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku>AO-DR-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930169561178</id>
+      <title>S / intl</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku>AO-DR-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930169561178</id>
+      <title>M / ng</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku>AO-DR-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930169561178</id>
+      <title>M / intl</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku>AO-DR-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930169561178</id>
+      <title>L / ng</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku>AO-DR-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930169561178</id>
+      <title>L / intl</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku>AO-DR-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930169561178</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku>AO-DR-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930169561178</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku>AO-DR-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6930163302490</id>
+    <published>2023-12-10T15:59:54+01:00</published>
+    <updated>2023-12-10T15:59:54+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/the-udi-robe"/>
+    <title>The Udi  Robe</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/the-udi-robe-922613.jpg?v=1705327707"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            180.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span style="font-weight: 400;">The Udi Robe is crafted to lift your lounging experience with a touch of elegance. Versatile for dressing up or down, it gracefully drapes you with a soothing feel on your skin. Elevate your daily routine with this exquisite robe, where comfort seamlessly meets sophistication.</span></p>
+<ul>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Length-62 inches</span></li>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Dry clean only  </span></li>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Satin </span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930163302490</id>
+      <title>S / ng</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UR-DR-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930163302490</id>
+      <title>S / intl</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UR-DR-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930163302490</id>
+      <title>M / ng</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UR-DR-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930163302490</id>
+      <title>M / intl</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UR-DR-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930163302490</id>
+      <title>L / ng</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UR-DR-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930163302490</id>
+      <title>L / intl</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UR-DR-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930163302490</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UR-DR-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930163302490</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku>UR-DR-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6930156978266</id>
+    <published>2023-12-10T15:59:53+01:00</published>
+    <updated>2023-12-10T15:59:53+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/copy-of-ona-bronze-dress"/>
+    <title>The cherry body glove</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/the-cherry-body-glove-434294.jpg?v=1705327695"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            105.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div><span style="font-weight: 400;">The Cherry Body Glove, made from high-quality mesh fabric, seamlessly blends style and comfort. This vibrant piece is a form-fitting silhouette, complete with our signature hood, designed to accentuate your curves.</span></div>
+<ul>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Dress length ; 60 inches </span></li>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Dry clean only </span></li>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Long sleeves </span></li>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">100% polyester </span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930156978266</id>
+      <title>S / ng</title>
+      <s:price currency="USD">105.00</s:price>
+      <s:sku>CBG-DR-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930156978266</id>
+      <title>S / intl</title>
+      <s:price currency="USD">105.00</s:price>
+      <s:sku>CBG-DR-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930156978266</id>
+      <title>M / ng</title>
+      <s:price currency="USD">105.00</s:price>
+      <s:sku>CBG-DR-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930156978266</id>
+      <title>M / intl</title>
+      <s:price currency="USD">105.00</s:price>
+      <s:sku>CBG-DR-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930156978266</id>
+      <title>L / ng</title>
+      <s:price currency="USD">105.00</s:price>
+      <s:sku>CBG-DR-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930156978266</id>
+      <title>L / intl</title>
+      <s:price currency="USD">105.00</s:price>
+      <s:sku>CBG-DR-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930156978266</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">105.00</s:price>
+      <s:sku>CBG-DR-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930156978266</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">105.00</s:price>
+      <s:sku>CBG-DR-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6930151080026</id>
+    <published>2023-12-10T15:59:53+01:00</published>
+    <updated>2023-12-10T15:59:53+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/ona-bronze-dress"/>
+    <title>Ona Bronze Dress</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/ona-bronze-dress-864508.jpg?v=1705327587"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            175.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span style="font-weight: 400;">The Ona Bronze Dress is a timeless piece that combines sophistication and allure seamlessly. Made from layers of high-quality mercury organza, this dress with our signature shoulder and bust detail, exudes charm for any special occasion.</span></p>
+<ul>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Dry clean only </span></li>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Length- 34</span></li>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Back zip</span></li>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Multiple layers</span></li>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">100% polyester</span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930151080026</id>
+      <title>S / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>OBD-SU-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930151080026</id>
+      <title>S / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>OBD-SU-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930151080026</id>
+      <title>M / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>ODB-SU-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930151080026</id>
+      <title>M / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>ODB-SU-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930151080026</id>
+      <title>L / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>ODB-SU-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930151080026</id>
+      <title>L / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>ODB-SU-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930151080026</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>ODB-SU-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930151080026</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>ODB-SU-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6930148491354</id>
+    <published>2023-12-10T15:59:52+01:00</published>
+    <updated>2023-12-10T15:59:52+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/copy-of-teal-akweke-kaftan"/>
+    <title>The Ego Kaftan</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/ego-kaftan-364581.jpg?v=1705327401"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            250.00 - 285.00
+            <a href="https://www.hertunba.com/products/copy-of-teal-akweke-kaftan">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div><span style="font-weight: 400;">The Ego Kaftan is a remarkable masterpiece carefully handcrafted from the finest Akwete fabric, seamlessly blending comfort with cultural richness in every thread. Tailored for the artistic and creative woman who loves the spotlight, it features one patchwork pocket and two side pockets.</span></div>
+<ul data-mce-fragment="1">
+<li style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1">Dress length: 60 inches</span></li>
+<li style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1">Width 36-38</span></li>
+<li style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1">Loose fit</span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930148491354</id>
+      <title>Free Size / without scarf / ng</title>
+      <s:price currency="USD">250.00</s:price>
+      <s:sku>EK-DR-F-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930148491354</id>
+      <title>Free Size / without scarf / intl</title>
+      <s:price currency="USD">250.00</s:price>
+      <s:sku>EK-DR-F-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930148491354</id>
+      <title>Free Size / with scarf / ng</title>
+      <s:price currency="USD">285.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930148491354</id>
+      <title>Free Size / with scarf / intl</title>
+      <s:price currency="USD">285.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6930146721882</id>
+    <published>2023-12-10T15:59:52+01:00</published>
+    <updated>2023-12-10T15:59:52+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/copy-of-eze-kaftan"/>
+    <title>Teal  Akweke Kaftan</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/teal-akweke-kaftan-464211.jpg?v=1705327694"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            250.00 - 285.00
+            <a href="https://www.hertunba.com/products/copy-of-eze-kaftan">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span style="font-weight: 400;">Step into elegance with the Teal Akweke Kaftan, a stunning garment crafted from the finest Akwete design. This kaftan promises a beautiful silhouette that effortlessly combines comfort and style. Whether worn for a special occasion or as a statement piece, this kaftan is designed to leave a lasting impression with its centre patchwork pocket and two side pockets.</span></p>
+<ul data-mce-fragment="1">
+<li style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1">Dress length: 60 inches</span></li>
+<li style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1">Width 36-38</span></li>
+<li style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1">Loose fit for ease of movement and a relaxed, elegant look</span></li>
+<li style="font-weight: 400;" data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1">Dry clean only</span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930146721882</id>
+      <title>Free Size / without scarf / ng</title>
+      <s:price currency="USD">250.00</s:price>
+      <s:sku>TAK-DR-F-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930146721882</id>
+      <title>Free Size / without scarf / intl</title>
+      <s:price currency="USD">250.00</s:price>
+      <s:sku>TAK-DR-F-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930146721882</id>
+      <title>Free Size / with scarf / ng</title>
+      <s:price currency="USD">285.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930146721882</id>
+      <title>Free Size / with scarf / intl</title>
+      <s:price currency="USD">285.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6930136924250</id>
+    <published>2023-12-10T15:59:51+01:00</published>
+    <updated>2023-12-10T15:59:51+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/copy-of-chi-suit-in-nude"/>
+    <title>The Eze Kaftan</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/eze-kaftan-991497.jpg?v=1705327445"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            250.00 - 285.00
+            <a href="https://www.hertunba.com/products/copy-of-chi-suit-in-nude">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div><span style="font-weight: 400;">The Eze Kaftan in the Sunday Culture Collection is a stunning full-length garment carefully crafted from cotton Akwete fabric. The enchanting teal hue exudes sophistication, making a bold fashion statement. Thoughtfully designed for effortless movement and a relaxed yet refined fit, this kaftan drapes gracefully on your body, creating a flattering and flowing silhouette. Complete with a patchwork pocket and two side pockets, it seamlessly combines style with practicality, adding a touch of elegance to your wardrobe.</span></div>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dress length: 60 inches</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Width 36-38</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Loose fit </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dry clean only</span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930136924250</id>
+      <title>Free Size / with scarf / ng</title>
+      <s:price currency="USD">285.00</s:price>
+      <s:sku>EZ-SU-F-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930136924250</id>
+      <title>Free Size / with scarf / intl</title>
+      <s:price currency="USD">285.00</s:price>
+      <s:sku>EZ-SU-F-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930136924250</id>
+      <title>Free Size / without scarf / ng</title>
+      <s:price currency="USD">250.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6930136924250</id>
+      <title>Free Size / without scarf / intl</title>
+      <s:price currency="USD">250.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6929907941466</id>
+    <published>2023-12-10T15:59:50+01:00</published>
+    <updated>2023-12-10T15:59:50+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/copy-of-jite-black-suit"/>
+    <title>Chi suit in nude</title>
+    <s:type>Suit</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/chi-suit-in-nude-635106.jpg?v=1705327305"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Suit<br>
+        <strong>Price: </strong>
+            195.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">The Rose Gold Chi Suit exudes luxury with a bishop collar detail, creating an elongated neck. Designed for an oversized look with statement shoulders, this suit epitomizes effortless elegance. </span></p>
+<ul>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">79% polyester, 21% silk</span></li>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Dry clean only.</span></li>
+<li><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Model wears a medium </span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929907941466</id>
+      <title>S / ng</title>
+      <s:price currency="USD">195.00</s:price>
+      <s:sku>CS-SU-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929907941466</id>
+      <title>S / intl</title>
+      <s:price currency="USD">195.00</s:price>
+      <s:sku>CS-SU-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929907941466</id>
+      <title>M / ng</title>
+      <s:price currency="USD">195.00</s:price>
+      <s:sku>CS-SU-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929907941466</id>
+      <title>M / intl</title>
+      <s:price currency="USD">195.00</s:price>
+      <s:sku>CS-SU-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929907941466</id>
+      <title>L / ng</title>
+      <s:price currency="USD">195.00</s:price>
+      <s:sku>CS-SU-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929907941466</id>
+      <title>L / intl</title>
+      <s:price currency="USD">195.00</s:price>
+      <s:sku>CS-SU-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929907941466</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">195.00</s:price>
+      <s:sku>CS-SU-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929907941466</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">195.00</s:price>
+      <s:sku>CS-SU-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6929872420954</id>
+    <published>2023-12-10T15:59:50+01:00</published>
+    <updated>2023-12-10T15:59:50+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/copy-of-achebe-tunic-dress"/>
+    <title>Jite Black Suit</title>
+    <s:type>Suit</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/jite-black-suit-103649.jpg?v=1705327444"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Suit<br>
+        <strong>Price: </strong>
+            225.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">The Jite Black Suit, designed for the confident woman who commands attention, is an off-shoulder corset suit paired with boot-cut pants. This luxurious ensemble radiates power and class.</span></p>
+<ul>
+<li>
+<span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Made from </span>70% viscose, 30% polyester</li>
+<li>Dry clean only</li>
+<li><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Model wears a medium</span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929872420954</id>
+      <title>S / ng</title>
+      <s:price currency="USD">225.00</s:price>
+      <s:sku>JBS-SU-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929872420954</id>
+      <title>S / intl</title>
+      <s:price currency="USD">225.00</s:price>
+      <s:sku>JBS-SU-S-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929872420954</id>
+      <title>M / ng</title>
+      <s:price currency="USD">225.00</s:price>
+      <s:sku>JBS-SU-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929872420954</id>
+      <title>M / intl</title>
+      <s:price currency="USD">225.00</s:price>
+      <s:sku>JBS-SU-M-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929872420954</id>
+      <title>L / ng</title>
+      <s:price currency="USD">225.00</s:price>
+      <s:sku>JBS-SU-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929872420954</id>
+      <title>L / intl</title>
+      <s:price currency="USD">225.00</s:price>
+      <s:sku>JBS-SU-L-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929872420954</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">225.00</s:price>
+      <s:sku>JBS-SU-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6929872420954</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">225.00</s:price>
+      <s:sku>JBS-SU-XL-08122023</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

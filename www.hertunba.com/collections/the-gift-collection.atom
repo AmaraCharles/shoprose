@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.hertunba.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.hertunba.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.hertunba.com/collections/the-gift-collection.atom"/>
+  <title>Hertunba</title>
+  <updated>2020-12-12T18:00:01+01:00</updated>
+  <author>
+    <name>Hertunba</name>
+  </author>
+  <entry>
+    <id>https://www.hertunba.com/products/4819683082330</id>
+    <published>2020-12-12T18:00:01+01:00</published>
+    <updated>2020-12-12T18:00:01+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/sisi-rose-slip-set"/>
+    <title>Sisi Rose Slip Set</title>
+    <s:type></s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/sisi-rose-slip-set-335602.jpg?v=1700847959"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            75.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">The Sisi Rose Slip Set is made from luxurious silk fabric with a charming rose print. It features a sensual cowl neck slip cami paired with a simple mini skirt, creating a feminine and sexy ensemble.</span></p>
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1"><br></span></p>
+<p data-mce-fragment="1"><a title="Hertunba Size Chart" href="https://hertunba.com/pages/size-chart" target="_blank"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Size Chart</span></a></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683082330</id>
+      <title>S / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683082330</id>
+      <title>S / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683082330</id>
+      <title>M / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683082330</id>
+      <title>L / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683082330</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683082330</id>
+      <title>M / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683082330</id>
+      <title>L / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683082330</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/4819684261978</id>
+    <published>2020-12-12T17:50:02+01:00</published>
+    <updated>2020-12-12T17:50:02+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/jade-green-blazer-dress"/>
+    <title>Jade Green Blazer Dress</title>
+    <s:type></s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/jade-green-blazer-dress-668499.jpg?v=1696109699"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            100.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">The Jade Green Blazer Dress lives up to its name, offering a structured, boss-like look. With an oversized fit, this dress features a surprising detail: the short sleeves seamlessly transition into deep green net fabric, adding a unique touch to the blazer dress.</span></p>
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1"></span><a title="Hertunba Size Chart" href="https://hertunba.com/pages/size-chart" target="_blank"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Size Chart</span></a></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819684261978</id>
+      <title>S / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819684261978</id>
+      <title>S / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819684261978</id>
+      <title>M / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819684261978</id>
+      <title>M / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819684261978</id>
+      <title>L / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819684261978</id>
+      <title>L / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819684261978</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819684261978</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/4819683213402</id>
+    <published>2020-12-12T17:50:02+01:00</published>
+    <updated>2020-12-12T17:50:02+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/kilimanjaro-kimono"/>
+    <title>Kilimanjaro Kimono</title>
+    <s:type></s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/kilimanjaro-kimono-239248.jpg?v=1696109700"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            75.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p data-mce-fragment="1"><span style="font-weight: 400;">The Kilimanjaro Kimono, in a beautiful green hue reflecting the season's colours, is crafted from exquisite silk fabric adorned with paisley and tribal prints. Wear it belted for a standalone look or use it to complement another outfit; it's stunning either way.</span></p>
+<br data-mce-fragment="1">
+<p data-mce-fragment="1"><a href="https://hertunba.com/pages/size-chart" title="Hertunba Size Chart" target="_blank"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Size Chart</span></a></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683213402</id>
+      <title>S / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683213402</id>
+      <title>M / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683213402</id>
+      <title>L / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683213402</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683213402</id>
+      <title>S / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683213402</id>
+      <title>M / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683213402</id>
+      <title>L / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819683213402</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/4819682066522</id>
+    <published>2020-12-12T17:50:02+01:00</published>
+    <updated>2020-12-12T17:50:02+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/emotan-red-cold-suit"/>
+    <title>Emotan Red Cold Suit</title>
+    <s:type></s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/emotan-red-cold-suit-932535.jpg?v=1696109623"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            175.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">The Emotan Red Cold Suit, made from embroidered damask and crumpled taffeta, is a sleek ensemble designed to enhance your alluring beauty. The suit's structure, slits, and colors exude an aura of charisma and power, reminiscent of the great Lady Emotan.</span></p>
+<p> </p>
+<p data-mce-fragment="1"><a href="https://hertunba.com/pages/size-chart" title="Hertunba Size Chart" target="_blank"><span style="font-weight: 400;" data-mce-style="font-weight: 400;" data-mce-fragment="1">Size Chart</span></a></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819682066522</id>
+      <title>S / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819682066522</id>
+      <title>S / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819682066522</id>
+      <title>M / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819682066522</id>
+      <title>L / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819682066522</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819682066522</id>
+      <title>M / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819682066522</id>
+      <title>L / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/4819682066522</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

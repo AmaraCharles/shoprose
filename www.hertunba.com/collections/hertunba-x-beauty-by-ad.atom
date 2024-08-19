@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.hertunba.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.hertunba.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.hertunba.com/collections/hertunba-x-beauty-by-ad.atom"/>
+  <title>Hertunba</title>
+  <updated>2023-09-30T09:59:29+01:00</updated>
+  <author>
+    <name>Hertunba</name>
+  </author>
+  <entry>
+    <id>https://www.hertunba.com/products/6859874074714</id>
+    <published>2023-09-30T09:59:29+01:00</published>
+    <updated>2023-09-30T09:59:29+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/copy-of-misa-art-dress"/>
+    <title>Adisa Electric Kaftan</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/adisa-electric-kaftan-778083.jpg?v=1696109601"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            100.00 - 135.00
+            <a href="https://www.hertunba.com/products/copy-of-misa-art-dress">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta name="uuid" content="uuidc8DELTBTR9sz"><meta charset="utf-8">
+<p><span style="font-weight: 400;">Step into bold elegance with the Adisa Electric Kaftan. Crafted from breathable organdy fabric, this kaftan’s electrifying colours make a statement in every room.</span></p>
+<ul>
+<li><span data-preserver-spaces="true">Kaftan length 60 inches </span></li>
+<li><span data-preserver-spaces="true">One size fits all</span></li>
+<li><span data-preserver-spaces="true">Fragile material handle with care.</span></li>
+</ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul data-mce-fragment="1"></ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>HertunbaXBeauty</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>S / without scarf / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>S / without scarf / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>S / with scarf / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>S / with scarf / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>M / without scarf / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>M / without scarf / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>M / with scarf / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>M / with scarf / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>L / without scarf / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>L / without scarf / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>L / with scarf / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>L / with scarf / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>XL / without scarf / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>XL / without scarf / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>XL / with scarf / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859874074714</id>
+      <title>XL / with scarf / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6860004917338</id>
+    <published>2023-06-09T16:00:05+01:00</published>
+    <updated>2023-06-09T16:00:05+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/ixora-in-champagne-1"/>
+    <title>Ixora Champagne set</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/ixora-in-champagne-635028.jpg?v=1696109621"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            90.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta content="uuidc8DELTBTR9sz" name="uuid"><meta charset="utf-8">
+<div><span style="font-weight: 400;">Experience the perfect blend of comfort and elegance with the Ixora Coral set. Crafted from silk and dutchess satin, this ensemble showcases a silky, elegant champagne orange top paired with flowing pants complete with pockets. Whether you're heading to brunch, enjoying a vacation, or working from the comfort of your home, this set is versatile for any occasion.</span></div>
+<ul>
+<li>Top is 34 inches long<br>
+</li>
+<li><span data-preserver-spaces="true">Pants are 46 inches long</span></li>
+<li><span data-preserver-spaces="true">Model wears a small</span></li>
+<li><span data-preserver-spaces="true">Fragile material handle with care.</span></li>
+</ul>
+<p><br></p>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul data-mce-fragment="1"></ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>HertunbaXBeauty</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6860004917338</id>
+      <title>S / ng</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6860004917338</id>
+      <title>S / intl</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6860004917338</id>
+      <title>M / ng</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6860004917338</id>
+      <title>M / intl</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6860004917338</id>
+      <title>L / ng</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6860004917338</id>
+      <title>L / intl</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6860004917338</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6860004917338</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6859870961754</id>
+    <published>2023-06-09T16:00:04+01:00</published>
+    <updated>2023-06-09T16:00:04+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/coco-set-brown"/>
+    <title>Coco Set Brown</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/coco-set-brown-525388.jpg?v=1696109600"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            350.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta name="uuid" content="uuidc8DELTBTR9sz"><meta charset="utf-8">
+<p> </p>
+<p><span style="font-weight: 400;">The Coco Set in Brown is a distinctive ensemble designed for the artsy woman who is not afraid of commanding attention. With a halter neck corset and a midi-length signature pleat skirt, this set gives you a bold and unique aesthetic. The use of non-stretch silk mikado and hand-woven taffeta fabric adds a luxurious touch, ensuring both style and comfort.</span></p>
+<p> </p>
+<ul>
+<li><span data-preserver-spaces="true">Corset length 13 inches</span></li>
+<li><span data-preserver-spaces="true">Skirt length 38 inches</span></li>
+<li><span data-preserver-spaces="true">Model wears a medium </span></li>
+</ul>
+<ul data-mce-fragment="1"></ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>HertunbaXBeauty</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870961754</id>
+      <title>S / ng</title>
+      <s:price currency="USD">350.00</s:price>
+      <s:sku>COCOSET1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870961754</id>
+      <title>S / intl</title>
+      <s:price currency="USD">350.00</s:price>
+      <s:sku>COCOSETINTL1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870961754</id>
+      <title>M / ng</title>
+      <s:price currency="USD">350.00</s:price>
+      <s:sku>COCOSET2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870961754</id>
+      <title>M / intl</title>
+      <s:price currency="USD">350.00</s:price>
+      <s:sku>COCOSETINT2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870961754</id>
+      <title>L / ng</title>
+      <s:price currency="USD">350.00</s:price>
+      <s:sku>COCOSET3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870961754</id>
+      <title>L / intl</title>
+      <s:price currency="USD">350.00</s:price>
+      <s:sku>COCOSETINTL3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870961754</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">350.00</s:price>
+      <s:sku>COCOSET4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870961754</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">350.00</s:price>
+      <s:sku>COCOSETINTL4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6859870666842</id>
+    <published>2023-06-09T16:00:04+01:00</published>
+    <updated>2023-06-09T16:00:04+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/rolly-quartz-dress"/>
+    <title>Rolly Quartz Dress</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/rolly-quartz-dress-451882.jpg?v=1700847962"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            115.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta name="uuid" content="uuidc8DELTBTR9sz"><meta charset="utf-8">
+<p data-mce-fragment="1"><span style="font-weight: 400;">Inspired by our colourful original Rolly dress, this quartz version is a timeless beauty. Highlighted by our signature tulle bow in simple black, the Rolly Quartz is crafted from soft mesh fabric and adorned with carefully hand-stoned details on the chest area.</span></p>
+<ul data-mce-fragment="1">
+<li data-mce-fragment="1"><span data-preserver-spaces="true" data-mce-fragment="1">Stretchy </span></li>
+<li data-mce-fragment="1"><span data-preserver-spaces="true" data-mce-fragment="1">Length 60</span></li>
+<li data-mce-fragment="1"><span data-preserver-spaces="true" data-mce-fragment="1">Model wears a small</span></li>
+<li data-mce-fragment="1"><span data-preserver-spaces="true" data-mce-fragment="1">Handle with care</span></li>
+<li data-mce-fragment="1"><span data-preserver-spaces="true" data-mce-fragment="1">Dry Clean only</span></li>
+<li data-mce-fragment="1"><span data-preserver-spaces="true" data-mce-fragment="1">Stoned part should be kept away from water</span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>HertunbaXBeauty</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870666842</id>
+      <title>S / ng</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>ROLLYQUARTZ1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870666842</id>
+      <title>S / intl</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>ROLLYQUARTZINTL1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870666842</id>
+      <title>M / ng</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>ROLLYQUARTZ2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870666842</id>
+      <title>M / intl</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>ROLLYQUARTZINTL2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870666842</id>
+      <title>L / ng</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>ROLLYQUARTZ3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870666842</id>
+      <title>L / intl</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>ROLLYQUARTZINTL3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870666842</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>ROLLYQUARTZ4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859870666842</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>ROLLYQUARTZINTL4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6859867095130</id>
+    <published>2023-06-09T16:00:04+01:00</published>
+    <updated>2023-06-09T16:00:04+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/rolly-firefly-dress"/>
+    <title>Rolly Firefly Dress</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/rolly-firefly-dress-792704.jpg?v=1705327591"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            110.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">A stunning piece made from fine, stretchy mesh fabric to accentuate all your curves with bright and vibrant colors are artfully combined to uplift your mood. This dress features a bow tulle bust cut designed with multiple layers, ensuring it complements all bust sizes with or without a bra. For added support, we've incorporated a halter neck design.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>HertunbaXBeauty</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859867095130</id>
+      <title>S / ng</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>ROLLYFIREFLY1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859867095130</id>
+      <title>S / intl</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>ROLLYFIREFLY1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859867095130</id>
+      <title>M / ng</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>ROLLYFIREFLY2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859867095130</id>
+      <title>M / intl</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>ROLLYFIREFLY2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859867095130</id>
+      <title>L / ng</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>ROLLYFIREFLY3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859867095130</id>
+      <title>L / intl</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>ROLLYFIREFLY3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859867095130</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>ROLLYFIREFLY4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859867095130</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>ROLLYFIREFLY4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6859872960602</id>
+    <published>2023-06-09T16:00:03+01:00</published>
+    <updated>2023-06-09T16:00:03+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/lola-kaftan-set"/>
+    <title>Lola kaftan set</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/lola-kaftan-set-943925.jpg?v=1700847786"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            140.00 - 175.00
+            <a href="https://www.hertunba.com/products/lola-kaftan-set">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta content="uuidc8DELTBTR9sz" name="uuid"><meta charset="utf-8">
+<p><span style="font-weight: 400;">The Lola Kaftan Set is a timeless ensemble, showcasing an asymmetrical agbada-inspired Duchess silk kaftan paired with flowing silk pants. Effortlessly making a statement, this classic set blends elegance with ease.</span></p>
+<ul>
+<li><span data-preserver-spaces="true">Kaftan is 62 inches long</span></li>
+<li><span data-preserver-spaces="true">Pants are 46 inches long</span></li>
+<li><span data-preserver-spaces="true">Model wears a medium </span></li>
+</ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul data-mce-fragment="1"></ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>HertunbaXBeauty</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>S / without scarf / ng</title>
+      <s:price currency="USD">140.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>S / without scarf / intl</title>
+      <s:price currency="USD">140.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>S / with scarf / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>S / with scarf / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>M / without scarf / ng</title>
+      <s:price currency="USD">140.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>M / without scarf / intl</title>
+      <s:price currency="USD">140.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>M / with scarf / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>M / with scarf / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>L / without scarf / ng</title>
+      <s:price currency="USD">140.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>L / without scarf / intl</title>
+      <s:price currency="USD">140.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>L / with scarf / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>L / with scarf / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>XL / without scarf / ng</title>
+      <s:price currency="USD">140.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>XL / without scarf / intl</title>
+      <s:price currency="USD">140.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>XL / with scarf / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872960602</id>
+      <title>XL / with scarf / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6859872403546</id>
+    <published>2023-06-09T16:00:03+01:00</published>
+    <updated>2023-06-09T16:00:03+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/ixora-in-champagne"/>
+    <title>Ixora Coral Set</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/ixora-coral-378362.jpg?v=1696109626"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            100.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta name="uuid" content="uuidc8DELTBTR9sz"><meta charset="utf-8">
+<p><span data-preserver-spaces="true"><span style="font-weight: 400;">Experience the perfect blend of comfort and elegance with the Ixora Coral set. Crafted from silk and dutchess satin, this ensemble showcases a silky, elegant coral orange top paired with flowing pants complete with pockets. Whether you're heading to brunch, enjoying a vacation, or working from the comfort of your home, this set is versatile for any occasion.</span></span><br></p>
+<ul>
+<li><span data-preserver-spaces="true">Top is 34 inches long</span></li>
+<li><span data-preserver-spaces="true">Pants are 46 inches long.</span></li>
+</ul>
+<ul></ul>
+<ul></ul>
+<ul data-mce-fragment="1"></ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>HertunbaXBeauty</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872403546</id>
+      <title>S / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872403546</id>
+      <title>S / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872403546</id>
+      <title>M / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872403546</id>
+      <title>M / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872403546</id>
+      <title>L / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA9</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872403546</id>
+      <title>L / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA9</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872403546</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA13</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859872403546</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA13</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6859871912026</id>
+    <published>2023-06-09T16:00:03+01:00</published>
+    <updated>2023-06-09T16:00:03+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/deola-dress"/>
+    <title>Deola dress</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/deola-dress-295716.jpg?v=1696109606"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            100.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta content="uuidc8DELTBTR9sz" name="uuid"><meta charset="utf-8">
+<p><span style="font-weight: 400;">The Deola dress is a classic piece made from firm yet lightweight cotton, perfect for the elegant woman who likes to have fun with her clothes. Its versatile design allows you to adjust both layers to achieve your preferred length, and it comes with a detached belt for added styling options</span></p>
+<ul>
+<li><span data-preserver-spaces="true">Full dress length </span></li>
+</ul>
+<ul></ul>
+<ul data-mce-fragment="1"></ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>classy</s:tag>
+    <s:tag>Dress</s:tag>
+    <s:tag>HertunbaXBeauty</s:tag>
+    <s:tag>maxi dress</s:tag>
+    <s:tag>mini dress</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>S / Pink / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DEOLADRESS1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>S / Pink / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DEOLADRESS1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>S / White / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>S / White / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>S / Black / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>S / Black / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>S / Red / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>S / Red / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>S / Beige / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>S / Beige / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>M / Pink / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DEOLADRESS3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>M / Pink / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DEOLADRESS3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>M / White / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>M / White / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>M / Black / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>M / Black / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>M / Red / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>M / Red / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>M / Beige / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>M / Beige / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>L / Pink / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DEOLADRESS5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>L / Pink / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DEOLADRESS5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>L / White / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>L / White / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>L / Black / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>L / Black / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>L / Red / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>L / Red / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>L / Beige / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>L / Beige / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>XL / Pink / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DEOLADRESS7</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>XL / Pink / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DEOLADRESS7</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>XL / White / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>XL / White / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>XL / Black / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>XL / Black / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>XL / Red / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>XL / Red / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>XL / Beige / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859871912026</id>
+      <title>XL / Beige / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6859873550426</id>
+    <published>2023-06-09T16:00:02+01:00</published>
+    <updated>2023-06-09T16:00:02+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/dara-mini"/>
+    <title>Dara Mini</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/dara-mini-401679.jpg?v=1696109601"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            150.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta content="uuidc8DELTBTR9sz" name="uuid"><meta charset="utf-8">
+<p><span style="font-weight: 400;">Crafted from the finest knit and liquid silk organza combination, the Dara Mini is designed to make a bold statement with its new flair design. This mini orange dress is a celebration of fun and joy, creating a vibrant atmosphere for you and those around you. </span></p>
+<ul>
+<li><span data-preserver-spaces="true">Dress length</span></li>
+<li><span data-preserver-spaces="true">Model wears a small</span></li>
+</ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul data-mce-fragment="1"></ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>HertunbaXBeauty</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873550426</id>
+      <title>S / ng</title>
+      <s:price currency="USD">150.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873550426</id>
+      <title>S / intl</title>
+      <s:price currency="USD">150.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873550426</id>
+      <title>M / ng</title>
+      <s:price currency="USD">150.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873550426</id>
+      <title>M / intl</title>
+      <s:price currency="USD">150.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873550426</id>
+      <title>L / ng</title>
+      <s:price currency="USD">150.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873550426</id>
+      <title>L / intl</title>
+      <s:price currency="USD">150.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873550426</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">150.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873550426</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">150.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6859873222746</id>
+    <published>2023-06-09T16:00:02+01:00</published>
+    <updated>2023-06-09T16:00:02+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/naylah-fringe-suit"/>
+    <title>Naylah Fringe Suit</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/naylah-fringe-suit-648610.jpg?v=1700847925"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            215.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta content="uuidc8DELTBTR9sz" name="uuid"><meta charset="utf-8">
+<div><span style="font-weight: 400;">The Naylah Fringe Suit adds a double-breasted single-button blazer paired with nicely tailored bootcut pants, a touch of soft fringe detail in front and artistic silk organza detailing at the back. This suit is designed to make a bold and stylish statement.</span></div>
+<ul>
+<li><span data-preserver-spaces="true">Pant length 48</span></li>
+<li><span data-preserver-spaces="true">Model wears a small </span></li>
+</ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul data-mce-fragment="1"></ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>HertunbaXBeauty</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873222746</id>
+      <title>S / ng</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873222746</id>
+      <title>S / intl</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873222746</id>
+      <title>M / ng</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873222746</id>
+      <title>M / intl</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873222746</id>
+      <title>L / ng</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873222746</id>
+      <title>L / intl</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873222746</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873222746</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6859873845338</id>
+    <published>2023-06-09T16:00:01+01:00</published>
+    <updated>2023-06-09T16:00:01+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/misa-art-dress"/>
+    <title>The Misa Art Dress</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/misa-art-dress-393987.jpg?v=1700847926"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            145.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><meta name="uuid" content="uuidc8DELTBTR9sz"><meta charset="utf-8">
+<p><span style="font-weight: 400;">The Misa Art Dress is an elegant midi-length masterpiece, seamlessly blending see-through mesh and patchwork fabric. With dramatic flare sleeves and intricate hand-beaded details at the bottom, it exudes sophistication and charm.</span></p>
+<ul>
+<li><span data-preserver-spaces="true">56 inches long </span></li>
+<li><span data-preserver-spaces="true">Model wears a medium </span></li>
+</ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul data-mce-fragment="1"></ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>HertunbaXBeauty</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873845338</id>
+      <title>S / ng</title>
+      <s:price currency="USD">145.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873845338</id>
+      <title>S / intl</title>
+      <s:price currency="USD">145.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873845338</id>
+      <title>M / ng</title>
+      <s:price currency="USD">145.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873845338</id>
+      <title>M / intl</title>
+      <s:price currency="USD">145.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873845338</id>
+      <title>L / ng</title>
+      <s:price currency="USD">145.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873845338</id>
+      <title>L / intl</title>
+      <s:price currency="USD">145.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873845338</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">145.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6859873845338</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">145.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

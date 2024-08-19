@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.hertunba.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.hertunba.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.hertunba.com/collections/hertunba-x-kim.atom"/>
+  <title>Hertunba</title>
+  <updated>2022-04-17T17:50:01+01:00</updated>
+  <author>
+    <name>Hertunba</name>
+  </author>
+  <entry>
+    <id>https://www.hertunba.com/products/6730911973466</id>
+    <published>2022-04-17T17:50:01+01:00</published>
+    <updated>2022-04-17T17:50:01+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/the-kim-two-piece-suit"/>
+    <title>The Kim Two Piece Suit</title>
+    <s:type></s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/the-kim-two-piece-suit-954202.jpg?v=1705327695"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            165.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">The Kim Two-Piece Suit is a stunning piece crafted from the finest Mikado silk and damask fabric. It pairs a crop jacket with dramatic sleeves, with an electric blue mini skirt for an elegant finish.</span><br data-mce-fragment="1"></p>
+<p><br data-mce-fragment="1"><span data-mce-fragment="1">Top length 18</span><br data-mce-fragment="1"><span data-mce-fragment="1">Skirt length 18</span><br data-mce-fragment="1"><span data-mce-fragment="1">Kim is 5’7 and wears a Medium</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911973466</id>
+      <title>S / ng</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911973466</id>
+      <title>S / intl</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911973466</id>
+      <title>M / ng</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911973466</id>
+      <title>M / intl</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911973466</id>
+      <title>L / ng</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911973466</id>
+      <title>L / intl</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911973466</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911973466</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6730912825434</id>
+    <published>2022-04-17T15:40:02+01:00</published>
+    <updated>2022-04-17T15:40:02+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/ona-fire-suit"/>
+    <title>Ona Fire Suit</title>
+    <s:type></s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/ona-fire-suit-471250.jpg?v=1700847924"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            165.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div class="Yk-eKrold-Sg Yk-Vq7Udc-Sg" dir="ltr" data-mce-fragment="1">
+<span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">The Ona Fire Suit merges elegance with striking design, presenting an elevated blazer top and finely tailored boot-cut pants. Made from a blend of smooth viscose and damask fabric, it preserves the sophistication of a classic black work suit with a zipper fastening that gives an edge and a vibrant pop of color.</span><br data-mce-fragment="1">
+<ul>
+<li>Blazer 30 inches long</li>
+<li>Pants 46 inches long</li>
+<li>Kim is 5’7 and wears a Medium</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912825434</id>
+      <title>S / ng</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>ONA-FIRE</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912825434</id>
+      <title>S / intl</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>ONA-FIRE</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912825434</id>
+      <title>M / ng</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>ONA-FIRE-2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912825434</id>
+      <title>M / intl</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>ONA-FIRE-2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912825434</id>
+      <title>L / ng</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>ONA-FIRE-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912825434</id>
+      <title>L / intl</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>ONA-FIRE-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912825434</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>ONA-FIRE-4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912825434</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>ONA-FIRE-4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6730912530522</id>
+    <published>2022-04-17T15:40:01+01:00</published>
+    <updated>2022-04-17T15:40:01+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/omoh-dress"/>
+    <title>Omoh Dress</title>
+    <s:type></s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/omoh-dress-258574.jpg?v=1700847924"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            100.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">This asymmetrical black dress with corset-inspired details on the chest and cut-out sleeves is designed to ensure a flattering fit for all body types.</span><br data-mce-fragment="1"><span data-mce-fragment="1">Length 43</span><br data-mce-fragment="1"><span data-mce-fragment="1">Kim is 5’7 and wears a Medium</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912530522</id>
+      <title>S / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>OMOH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912530522</id>
+      <title>S / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>OMOH</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912530522</id>
+      <title>M / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>OMOH-2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912530522</id>
+      <title>M / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>OMOH-2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912530522</id>
+      <title>L / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>OMOH-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912530522</id>
+      <title>L / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>OMOH-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912530522</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>OMOH-4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730912530522</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>OMOH-4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6730911613018</id>
+    <published>2022-04-17T15:40:01+01:00</published>
+    <updated>2022-04-17T15:40:01+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/oprah-wrap-dress"/>
+    <title>Oprah Wrap Dress</title>
+    <s:type></s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/oprah-wrap-dress-315206.jpg?v=1700847923"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            100.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">The Oprah Wrap Dress is a timeless wardrobe essential, crafted from upcycled fragments of print fabric on fine wool-blend crepe. For a stylish finish, the dress comes with attached belts designed to accentuate your curves. </span></p>
+<ul>
+<li>Belts are attached to dress</li>
+<li><span data-mce-fragment="1">The dress is 36 inches long</span></li>
+<li><span data-mce-fragment="1">Kim is 5’7 and wears a Medium</span></li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911613018</id>
+      <title>S / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911613018</id>
+      <title>S / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911613018</id>
+      <title>M / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911613018</id>
+      <title>M / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911613018</id>
+      <title>L / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911613018</id>
+      <title>L / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911613018</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730911613018</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6730910924890</id>
+    <published>2022-04-17T15:40:00+01:00</published>
+    <updated>2022-04-17T15:40:00+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/bianca-dress"/>
+    <title>Bianca Dress</title>
+    <s:type></s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/bianca-dress-108929.jpg?v=1696109601"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            100.00 - 120.00
+            <a href="https://www.hertunba.com/products/bianca-dress">(8 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div><span style="font-weight: 400;">The Bianca Dress is the perfect choice for a woman looking to make a bold statement. This black, long-sleeve dress adorned with ruffle details and studded buttons commands attention effortlessly.</span></div>
+<ul>
+<li><span data-mce-fragment="1">Length 48</span></li>
+<li><span data-mce-fragment="1">Kim is 5’7 and wears a Small</span></li>
+<li><span data-mce-fragment="1">Fabric has slight stretch</span></li>
+</ul>
+<meta charset="utf-8"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910924890</id>
+      <title>S / ng</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>Bianca</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910924890</id>
+      <title>S / intl</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>Bianca</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910924890</id>
+      <title>M / ng</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>Bianca-2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910924890</id>
+      <title>M / intl</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>Bianca-2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910924890</id>
+      <title>L / ng</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>Bianca-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910924890</id>
+      <title>L / intl</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>Bianca-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910924890</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>Bianca-4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910924890</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>Bianca-4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6730910072922</id>
+    <published>2022-04-17T15:40:00+01:00</published>
+    <updated>2022-04-17T15:40:00+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/aima-robe-dress-1"/>
+    <title>Aima Robe dress</title>
+    <s:type></s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/aima-robe-dress-971119.jpg?v=1696109601"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            100.00 - 120.00
+            <a href="https://www.hertunba.com/products/aima-robe-dress-1">(8 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span style="font-weight: 400;" data-mce-fragment="1">The Aima Robe Dress, crafted from fine silk satin fabric, epitomizes elegance and comfort. With a waist-defining belt and a tasteful slit, this dress effortlessly balances allure with ease. </span><br data-mce-fragment="1"><span data-mce-fragment="1">Kim is 5’7 and wears a Medium</span></p>
+<p><span data-mce-fragment="1">100% upcycled material </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910072922</id>
+      <title>S / ng</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>AIMA</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910072922</id>
+      <title>S / intl</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>AIMA</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910072922</id>
+      <title>M / ng</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>AIMA -2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910072922</id>
+      <title>M / intl</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>AIMA -2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910072922</id>
+      <title>L / ng</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>AIMA -3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910072922</id>
+      <title>L / intl</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>AIMA -3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910072922</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">120.00</s:price>
+      <s:sku>AIMA -4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6730910072922</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>AIMA -4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

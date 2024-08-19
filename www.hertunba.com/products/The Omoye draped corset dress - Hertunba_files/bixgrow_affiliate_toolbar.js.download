@@ -1,0 +1,238 @@
+var bixgrowUrl = 'https://api.bixgrow.com';
+getStoreToolBars();
+function bgGetParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+function getStoreToolBars(){
+    let gbRefParamLink = bgGetParameterByName('bg_ref');
+if(gbRefParamLink)
+{
+    if(gbRefParamLink.indexOf(':')!=-1)
+    {
+        let tempgbRefParam = gbRefParamLink.split(':');
+        gbRefParamLink =  tempgbRefParam[1];   
+    }
+}
+    let affiliate_id = bgGetHasCode(bgGetCookie('bgaffilite_id'));
+    if(gbRefParamLink)
+    {
+        affiliate_id = gbRefParamLink;
+    }
+    if(affiliate_id)
+    {
+        let xhttp = new XMLHttpRequest;
+        xhttp.open("GET", bixgrowUrl+"/api/store-toolbar?shop="+Shopify.shop+"&affiliate_id="+ affiliate_id, true);
+        xhttp.setRequestHeader("Content-Type", "application/json");  
+        xhttp.send();
+        xhttp.onload = function(){
+            let obj = JSON.parse(this.responseText);
+       
+            if(Object.keys(obj).length>0)
+            {
+                var enable_shopping_with_toolbar = obj.settings.enable_shopping_with_toolbar;
+                var enable_shopping_with_floating_widget = obj.settings.enable_shopping_with_floating_widget;
+                var shopping_with_toolbar =  obj.settings.shopping_with_toolbar;
+                var shopping_with_floating_widget = obj.settings.shopping_with_floating_widget; 
+                if(shopping_with_toolbar.textContent){
+                    shopping_with_toolbar.textContent = replacesTagsToolBar(obj.affiliate_infos,shopping_with_toolbar.textContent,true);
+                }
+                if(shopping_with_floating_widget.textContent){
+                    shopping_with_floating_widget.textContent = replacesTagsToolBar(obj.affiliate_infos,shopping_with_floating_widget.textContent);              
+
+                }
+                if(enable_shopping_with_toolbar)
+                {
+                    let checkExistElement = document.getElementById('__bixgrow_topbar');
+                    if(!checkExistElement)
+                    {
+                        let head = document.head || document.getElementsByTagName('head')[0];
+                        let style = document.createElement('style');
+                        let topBar = document.createElement("div");
+                        topBar.style.width = '100%';
+                        topBar.style.zIndex = '2157484649';
+                        topBar.style.position = 'relative';
+                        topBar.id='__bixgrow_topbar';  
+                        window.onscroll = function(){
+                            if(document.body.scrollTop > 5 || document.documentElement.scrollTop > 5){
+                                topBar.classList.add('bixgrow_fixed');
+                            } 
+                            else{
+                                topBar.classList.remove('bixgrow_fixed');
+                            }
+                        }
+                        document.body.insertBefore(topBar,document.body.firstChild);
+                        let css =
+                                '#__bixgrow_topbar_style {'+
+                                    'padding: 8px;'+
+                                    'text-align:'+ shopping_with_toolbar.textAlign+';'+
+                                    'background-color:'+ shopping_with_toolbar.bgColor +';'+
+                                    'color:'+ shopping_with_toolbar.textColor + ';width: 100%;'+                   
+                                '}'+
+                                '.bixgrow_fixed{position: '+shopping_with_toolbar.position+' !important;top: 0;width: 100%;z-index: 2157484649;}'+
+                                '.bixgrow-toolbar-special-text{ color:'+
+                                shopping_with_toolbar.special_text +
+                                     '}';
+                        style.type = 'text/css';
+                        if (style.styleSheet){
+                         // This is required for IE8 and below.
+                        style.styleSheet.cssText = css;
+                        } else {
+                            style.appendChild(document.createTextNode(css));
+                        }
+                        head.appendChild(style);
+                        let divContent = '<div id="__bixgrow_topbar_style">'+ shopping_with_toolbar.textContent +'</div>';
+                        topBar.insertAdjacentHTML('beforeend',divContent);      
+                    }
+                  
+                }
+                if(enable_shopping_with_floating_widget)
+                {
+                    let checkExistElement = document.getElementById('__bixgrow_float_widget');
+                    if(!checkExistElement)
+                    {
+                        let head = document.head || document.getElementsByTagName('head')[0];
+                        let style = document.createElement('style');
+                        let widget = document.createElement("div");
+                        widget.id='__bixgrow_float_widget';
+                        widget.classList.add('bixgrow_div_main');
+                        if(shopping_with_floating_widget.is_show_only_avatar == 0){
+                            widget.classList.add('bixgrow_style_toogle_click');
+                        }
+                        document.body.appendChild(widget);
+                        let css = 
+                        '.bixgrow_div_main{'+'overflow: hidden;position: fixed;'+
+                                'bottom: '+ shopping_with_floating_widget.spacingBottom+'px;'+'z-index: 21111;box-sizing: content-box;'+
+                                shopping_with_floating_widget.position+': '+ shopping_with_floating_widget.spacingRight+'px;'+
+                                'box-shadow: rgb(0 0 0 / 20%) 0px 4px 8px 0px;'+
+                                'border-radius: 50%;'+
+                                'background-color: '+ shopping_with_floating_widget.bgColor+';'+
+                                'height:auto;'+
+                                '-webkit-box-pack: end;'+
+                                'justify-content: end;'+
+                                '-webkit-box-align: center;'+
+                                'align-items: center;'+
+                                'min-height: 50px;'+
+                                'display: flex;'+
+                                'flex-direction: row;'+
+                                'padding: 8.46667px;}'+
+                         '#__bixgrow_text_floating_widget_style {'+
+                                    'margin-right: 16px; margin-left: 16px; white-space: pre-line;'+
+                                    'color:'+ shopping_with_floating_widget.textColor + ';'+                   
+                                '}'+
+                         '.bixgrow_style_toogle_click{border-radius:1.2rem '+ shopping_with_floating_widget.size+'px '+shopping_with_floating_widget.size+ 'px ' +'1.2rem;}'+
+                         '.__bixgrow_img_floating_widget_style{border-radius: 50%;overflow: hidden;object-fit: cover;'+
+                         'width:' +shopping_with_floating_widget.size+'px;'+
+                         'height:' +shopping_with_floating_widget.size+'px;'+
+                         'transition: all 0.3s ease 0s;pointer-events: auto;}'+
+                         '.__bixgrow_img_floating_widget_style:hover{'+
+                            'transform: scale(0.85);'+
+                        '}'+     '.bixgrow-widget-special-text{ color:'+
+                        shopping_with_floating_widget.special_text +
+                             '}';
+                        style.type = 'text/css';
+                        if (style.styleSheet){
+                         // This is required for IE8 and below.
+                        style.styleSheet.cssText = css;
+                        } else {
+                            style.appendChild(document.createTextNode(css));
+                        }
+                        head.appendChild(style);
+                        let divContent = `<div id="__bixgrow_text_floating_widget_style" ${shopping_with_floating_widget.is_show_only_avatar == 0?'style="display:block"': 'style="display:none"'} >`+ shopping_with_floating_widget.textContent +'</div>';
+                        widget.insertAdjacentHTML('beforeend',divContent);
+                        let img = document.createElement('IMG');
+                        img.classList.add('__bixgrow_img_floating_widget_style');
+                        img.src = obj.affiliate_infos.avatar_link? obj.affiliate_infos.avatar_link : shopping_with_floating_widget.placeholderIcon;
+                        img.addEventListener('click', function(event){
+                           let divContentTemp = document.getElementById("__bixgrow_text_floating_widget_style");
+                           if(divContentTemp.style.display==='none')
+                           {
+                                divContentTemp.style.display='block';
+                           }
+                           else{
+                            divContentTemp.style.display='none'; 
+                           }
+                            widget.classList.toggle("bixgrow_style_toogle_click");
+                        });
+                        widget.appendChild(img);
+                    }
+    
+                }
+            }
+        }
+    }
+
+}
+function bgGetCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+  }
+
+  function bgGetHasCode(bgRef)
+  {
+      if(bgRef){
+        if(bgRef.indexOf(':') != -1)
+        {
+            return bgRef.split(':')[1];
+        }
+        return bgRef;
+      }
+      return '';
+  }
+
+ function replacesTagsToolBar(tags, content, isToolBar = false)
+  {
+      spanInsertTag = ''; 
+      isToolBar? spanInsertTag = '<span class="bixgrow-toolbar-special-text">': spanInsertTag ='<span class="bixgrow-widget-special-text">';
+        for (let key in tags) {
+            let search = `{${key}}`;
+            let searchRegExp = new RegExp(search, "g");
+            if(tags[key]){
+                content = content.replace(
+              searchRegExp,
+              spanInsertTag + tags[key] + "</span>");
+            }
+            else{
+                searchRegExp=new RegExp(`\n\n\n${search}`, "g");
+                content = content.replace(
+              searchRegExp,
+              ''
+            );
+            searchRegExp=new RegExp(`\n\n${search}`, "g");
+                content = content.replace(
+              searchRegExp,
+              ''
+            );
+                searchRegExp=new RegExp(`\n${search}`, "g");
+                content = content.replace(
+              searchRegExp,
+              ''
+            );  
+            searchRegExp=new RegExp(`${search}`, "g");
+                content = content.replace(
+              searchRegExp,
+              ''
+            ); 
+            }
+          }
+      return content;
+  }
+
+  console.log(`%c ► Bixgrow: toolbar`, "background-color: #f90; color: #fff; padding: 5px;")
+
+  

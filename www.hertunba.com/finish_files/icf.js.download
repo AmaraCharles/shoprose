@@ -1,0 +1,5 @@
+var icf_n = document.getElementsByTagName("script")[0];
+var icf_r = document.createElement("script");
+icf_r.type = "text/javascript";
+icf_r.src = "https://www.improvedcontactform.com/js/loader.js";
+icf_n.parentNode.insertBefore(icf_r, icf_n);

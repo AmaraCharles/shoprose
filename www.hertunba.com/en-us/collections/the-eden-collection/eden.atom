@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.shoprosecc.com/en-us/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.shoprosecc.com/en-us/collections/the-eden-collection.atom"/>
+  <title>Hertunba</title>
+  <updated>2023-02-06T18:00:08+01:00</updated>
+  <author>
+    <name>Hertunba</name>
+  </author>
+  <entry>
+    <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+    <published>2023-02-06T18:00:08+01:00</published>
+    <updated>2023-02-06T18:00:08+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/black-tamarind-suit"/>
+    <title>Black Tamarind Suit</title>
+    <s:type>Clothing</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/black-tamarind-suit-573295.jpg?v=1696109613"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Clothing<br>
+        <strong>Price: </strong>
+            200.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">This sleek single-breasted ensemble with boot-cut pants, crafted from woven damask wool-blend fabric, is complemented by a vibrant splash of orange or magenta against a solid black background. The Tamarind Suit is designed to make you feel both beautiful and powerful.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EDEN</s:tag>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>S / Orange / intl</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>S / Orange / ng</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND9</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>S / Magenta / intl</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>S / Magenta / ng</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND11</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>M / Orange / intl</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>M / Orange / ng</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND12</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>M / Magenta / intl</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>M / Magenta / ng</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND13</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>L / Orange / intl</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>L / Orange / ng</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND14</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>L / Magenta / intl</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND6</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>L / Magenta / ng</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND15</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>XL / Orange / intl</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND7</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>XL / Orange / ng</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND16</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>XL / Magenta / intl</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND8</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973501018</id>
+      <title>XL / Magenta / ng</title>
+      <s:price currency="USD">200.00</s:price>
+      <s:sku>BLACKTAMARIND17</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.shoprosecc.com/en-us/products/6843973992538</id>
+    <published>2023-02-06T18:00:07+01:00</published>
+    <updated>2023-02-06T18:00:07+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/mango-multi-colour-dress"/>
+    <title>Mango multi-colour dress</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/mango-multi-colour-dress-112858.jpg?v=1700847930"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            100.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">The Mango Multi-Color Dress is an elegant midi-length garment crafted from sheer mesh and patchwork fabric. With its dramatic flare sleeves and hand-beaded details at the bottom, it's sure to add a sophisticated and charming appeal to your style. </span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EDEN</s:tag>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973992538</id>
+      <title>S / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>MANGO-1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973992538</id>
+      <title>S / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>MANGO-2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973992538</id>
+      <title>M / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>MANGO-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973992538</id>
+      <title>M / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>MANGO-4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973992538</id>
+      <title>L / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>MANGO-5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973992538</id>
+      <title>L / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>MANGO-6</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973992538</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>MANGO-7</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973992538</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>MANGO-8</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.shoprosecc.com/en-us/products/6843973861466</id>
+    <published>2023-02-06T18:00:07+01:00</published>
+    <updated>2023-02-06T18:00:07+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/tangerine-knit-dress"/>
+    <title>Tangerine Knit Dress</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/tangerine-knit-dress-977499.jpg?v=1705327639"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            90.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">This knit dress is crafted with the simplicity and organic essence of nature in focus. This lovely piece has three strategically placed cutouts for a sexy and carefree vibe—you'll feel fabulous in it!</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EDEN</s:tag>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973861466</id>
+      <title>S / ng</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku>TANGERINE-1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973861466</id>
+      <title>S / intl</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku>TANGERINE-2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973861466</id>
+      <title>M / ng</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku>TANGERINE-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973861466</id>
+      <title>M / intl</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku>TANGERINE-4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973861466</id>
+      <title>L / ng</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku>TANGERINE-5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973861466</id>
+      <title>L / intl</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku>TANGERINE-6</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973861466</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku>TANGERINE-7</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843973861466</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">90.00</s:price>
+      <s:sku>TANGERINE-8</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+    <published>2023-02-06T18:00:06+01:00</published>
+    <updated>2023-02-06T18:00:06+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/calla-kaftan"/>
+    <title>Calla Kaftan</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/calla-kaftan-968351.jpg?v=1696109602"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            100.00 - 135.00
+            <a href="https://www.shoprosecc.com/en-us/products/calla-kaftan">(16 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">The Calla Kaftan, crafted from silky teal Dutchess fabric, is a single-sleeve flowing dress designed for comfort and elegance. This look is designed to make you feel regal.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EDEN</s:tag>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>S / without scarf / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>CALLA-1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>S / without scarf / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>CALLA-1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>S / with scarf / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>S / with scarf / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>M / without scarf / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>CALLA-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>M / without scarf / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>CALLA-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>M / with scarf / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>M / with scarf / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>L / without scarf / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>CALLA-5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>L / without scarf / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>CALLA-5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>L / with scarf / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>L / with scarf / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>XL / without scarf / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>CALLA-7</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>XL / without scarf / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>CALLA-7</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>XL / with scarf / ng</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974189146</id>
+      <title>XL / with scarf / intl</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.shoprosecc.com/en-us/products/6843974156378</id>
+    <published>2023-02-06T18:00:06+01:00</published>
+    <updated>2023-02-06T18:00:06+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/ixora-set"/>
+    <title>Ixora Set</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/ixora-set-219730.jpg?v=1696109623"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            100.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">The Ixora Set is the perfect blend of comfort and style. Crafted from silk and Dutchess satin, it features a silky print top paired with plain teal blue flowing pants, complete with pockets. Whether it's brunch, vacation, or working from the comfort of your home, this elegant set is versatile for various occasions.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EDEN</s:tag>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974156378</id>
+      <title>S / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA-1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974156378</id>
+      <title>S / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA-2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974156378</id>
+      <title>M / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974156378</id>
+      <title>M / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA-4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974156378</id>
+      <title>L / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA-5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974156378</id>
+      <title>L / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA-6</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974156378</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA-7</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974156378</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>IXORA-8</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.shoprosecc.com/en-us/products/6843974090842</id>
+    <published>2023-02-06T18:00:06+01:00</published>
+    <updated>2023-02-06T18:00:06+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/blue-marigold-suit"/>
+    <title>Blue Marigold Suit</title>
+    <s:type>Suit</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/blue-marigold-suit-507660.jpg?v=1696109605"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Suit<br>
+        <strong>Price: </strong>
+            165.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">This double-breasted power ensemble, with a distinctive collar detail and cigarette-cut pants made from a blend of plain and woven damask fabric is sure to steal the show everytime. </span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EDEN</s:tag>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974090842</id>
+      <title>S / intl</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>BLUEMARIGOLD-1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974090842</id>
+      <title>S / ng</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>BLUEMARIGOLD-2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974090842</id>
+      <title>M / intl</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>BLUEMARIGOLD-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974090842</id>
+      <title>M / ng</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>BLUEMARIGOLD-4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974090842</id>
+      <title>L / intl</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>BLUEMARIGOLD-5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974090842</id>
+      <title>L / ng</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>BLUEMARIGOLD-6</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974090842</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>BLUEMARIGOLD-7</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974090842</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">165.00</s:price>
+      <s:sku>BLUEMARIGOLD-8</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.shoprosecc.com/en-us/products/6843974320218</id>
+    <published>2023-02-06T18:00:05+01:00</published>
+    <updated>2023-02-06T18:00:05+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/orange-body-glove"/>
+    <title>Orange Body Glove</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/orange-body-glove-709762.jpg?v=1700847966"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            75.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">The Orange Body Glove is a mesh maxi dress featuring a hooded detail, crafted to give you a fierce and sexy look. It's specially designed for the bold beautiful ones.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EDEN</s:tag>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974320218</id>
+      <title>S / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>ORANGEBODY-1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974320218</id>
+      <title>S / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>ORANGEBODY-2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974320218</id>
+      <title>M / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>ORANGEBODY-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974320218</id>
+      <title>M / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>ORANGEBODY-4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974320218</id>
+      <title>L / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>ORANGEBODY-5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974320218</id>
+      <title>L / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>ORANGEBODY-6</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974320218</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>ORANGEBODY-7</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974320218</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>ORANGEBODY-8</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.shoprosecc.com/en-us/products/6843974352986</id>
+    <published>2023-02-06T18:00:04+01:00</published>
+    <updated>2023-02-06T18:00:04+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/daisy-velvet-dress"/>
+    <title>Daisy Velvet Dress</title>
+    <s:type>Dress</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/daisy-velvet-dress-740334.jpg?v=1696109604"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Dress<br>
+        <strong>Price: </strong>
+            100.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">The Daisy Velvet Dress is crafted from a blend of velvet and tulle fabric. The sleek black velvet adds an elegant touch, while the blue tulle brings a vibrant pop of color, injecting a sense of fun into the ensemble.</span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>EDEN</s:tag>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974352986</id>
+      <title>S / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DAISYVELVET-1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974352986</id>
+      <title>S / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DAISYVELVET-2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974352986</id>
+      <title>M / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DAISYVELVET-3</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974352986</id>
+      <title>M / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DAISYVELVET-4</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974352986</id>
+      <title>L / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DAISYVELVET-5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974352986</id>
+      <title>L / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DAISYVELVET-6</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974352986</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DAISYVELVET-7</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.shoprosecc.com/en-us/products/6843974352986</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">100.00</s:price>
+      <s:sku>DAISYVELVET-8</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

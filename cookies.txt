@@ -1,0 +1,14 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.hertunba.com	TRUE	/en-us	FALSE	1999999999	localization	BM
+hertunba.com	TRUE	/	FALSE	1999999999	_tracking_consent	%7B%22region%22%3A%22NGLA%22%2C%22reg%22%3A%22%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%2C%22m%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%7D
+hertunba.com	TRUE	/	FALSE	1999999999	_landing_page	%2F
+www.hertunba.com	TRUE	/	FALSE	1999999999	_shopify_country	Nigeria
+www.hertunba.com	TRUE	/	FALSE	1999999999	localization	NG
+www.hertunba.com	TRUE	/	FALSE	1999999999	keep_alive	0dee68ed-8662-4a08-a6f2-7c221c3636b4
+hertunba.com	TRUE	/	FALSE	1999999999	_cmp_a	%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
+hertunba.com	TRUE	/	FALSE	1999999999	_shopify_y	e31b9731-7ffa-4a24-b806-94cd0adf045e
+www.hertunba.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+hertunba.com	TRUE	/	FALSE	1999999999	_shopify_s	9ac37e24-dbca-4231-94fb-f91e6359f1f3
+www.hertunba.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+

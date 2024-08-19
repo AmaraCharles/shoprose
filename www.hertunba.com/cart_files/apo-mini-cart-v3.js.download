@@ -1,0 +1,2592 @@
+AvisOptionsConfig.mini_carts = [
+  {
+    cart_item: {
+      key: "form[action*=\"/cart\"].mini-cart cart-items ul li",
+      details: ".product-description > dl",
+      quantity: {
+          wrapper: "quantity-input.quantity",
+          input: "quantity-input .quantity__input",
+          decrease: ".quantity__button[name=\"minus\"]",
+          increase: ".quantity__button[name=\"plus\"]"
+      },
+      removeButton: "a.delete-product"
+  }
+  },
+  {
+    theme: "Dawn",
+    cart_item: {
+          key: "cart-drawer form[action*=\"/cart\"] .cart-items .cart-item",
+          details: ".cart-item__details",
+          quantity: {
+              wrapper: "quantity-input.quantity",
+              input: "quantity-input .quantity__input",
+              decrease: ".quantity__button[name=\"minus\"]",
+              increase: ".quantity__button[name=\"plus\"]"
+          },
+          removeButton: "cart-remove-button"
+      }
+  },
+  {
+    cart_item: {
+          key: "form[action*=\"/cart\"] .ajax-cart__cart-items > ul",
+          details: "li.ajax-cart__item-details",
+          quantity: {
+              wrapper: "li.ajax-cart__item-qty .ajax-cart__item-quantity",
+              input: ".ajax-cart__qty-input",
+              decrease: ".ajax-cart__qty-control--down",
+              increase: ".ajax-cart__qty-control--up"
+          },
+          removeButton: "li.ajax-cart__item-remove"
+      }
+  },
+  {
+      cart_item: {
+          key: "form[action*=\"/cart\"] .cart-items .cart-item",
+          details: "",
+          quantity: {
+              wrapper: "",
+              input: "",
+              decrease: "",
+              increase: ""
+          },
+          removeButton: "cart-remove-button"
+      }
+  },
+  {
+    cart_item: {
+          key: "form[action*=\"/cart\"]#mini-cart .mini-cart__line-item",
+          details: ".mini-cart__product-info",
+          quantity: {
+              wrapper: ".mini-cart__quantity .quantity-selector",
+              input: "input.quantity-selector__value",
+              decrease: ".quantity-selector__button[data-action=\"decrease-quantity\"]",
+              increase: ".quantity-selector__button[data-action=\"increase-quantity\"]"
+          },
+          removeButton: "a.mini-cart__quantity-remove"
+      }
+  },
+  {
+    theme: "Spark v2.6.2", 
+    cart_item: {
+          key: ".quick-cart .quick-cart__items .quick-cart__item",
+          details: ".quick-cart__item-middle",
+          quantity: {
+              wrapper: ".quick-cart__control .quick-cart__control-top",
+              input: "",
+              decrease: "button.quick-cart__button",
+              increase: ""
+          },
+          removeButton: ""
+      }
+  },
+  {
+    theme: "", 
+    cart_item: {
+          key: "form[action*=\"/cart\"]#cart-drawer-form .cart-item",
+          details: ".cart-item__details",
+          quantity: {
+              wrapper: ".qty-input.qty-input--combined",
+              input: ".qty-input__input.input",
+              decrease: ".qty-input__btn.btn.btn--minus",
+              increase: ".qty-input__btn.btn.btn--plus"
+          },
+          removeButton: "a.cart-item__remove"
+      }
+  },
+  {
+    theme: "", 
+    cart_item: {
+          key: ".cart-drawer__items line-item.line-item",
+          details: ".line-item-info",
+          "quantity": {
+          "wrapper": 'quantity-selector.quantity-selector',
+          "input": 'input.quantity-selector__input',
+          "decrease": '.quantity-selector__button',
+          "increase": '.quantity-selector__button'
+      },
+      "removeButton": 'line-item-quantity a.link'
+      }
+  },
+  {
+    theme_name: "Stiletto 2.1.0",
+    cart_item: {
+      "key": 'form[action*=\"/cart\"].quick-cart__form .quick-cart__item',
+      "details": '.quick-cart__item-top',
+      "quantity": {
+          "wrapper": '.quantity-input',
+          "input": 'input.quantity-input__input',
+          "decrease": 'button.product__quantity-subtract-item',
+          "increase": 'button.product__quantity-add-item'
+      },
+      "removeButton": 'button.quick-cart__item-remove'
+    },
+  },
+  {
+    theme_name: "Bullet 2.4.6",
+    cart_item: {
+      "key": 'c.entry grid.productsInCart',
+      "details": 'c.name',
+      "quantity": {
+        "wrapper": 'flex.controllers',
+        "input": '',
+        "decrease": 'button.is-blank.plus',
+        "increase": 'button.is-blank.minus'
+      },
+      "removeButton": 'button[rv-data-cart-remove]'
+    },
+  },
+  {
+    theme: "Pipeline 7.1.3", 
+    cart_item: {
+      key: "[data-section-type='cart-drawer'] .cart__items .cart__items__row",
+      details: ".cart__items__title",
+      "quantity": {
+          "wrapper": '.quantity__wrapper',
+          "input": 'input.quantity__input',
+          "decrease": '.quantity__button--plus',
+          "increase": '.quantity__button--minus'
+      },
+      "removeButton": '.cart__items__remove a'
+    },
+  },
+  {
+    theme: "Ella 6.5.4",
+    cart_item: {
+      key: ".previewCart-wrapper .previewCartItem",
+      details: ".card-properties.cart-item-properties",
+      "quantity": {
+          "wrapper": 'cart-update-quantity.previewCartItem-qty',
+          "input": 'input.form-input.quantity',
+          "decrease": 'a.minus.btn-quantity',
+          "increase": 'a.plus.btn-quantity'
+      },
+      "removeButton": 'button.previewCartItem-remove'
+    },
+  },
+  {
+    theme_name: "Abode 2.0.2",
+    cart_item: {
+      "key": 'form[action*=\"/cart\"].cart__contents cart-notification-item',
+      "details": '.cart-notification-item__details',
+      "quantity": {
+          "wrapper": '.quantity-input',
+          "input": 'input.quantity__input',
+          "decrease": 'button.quantity__button[name=\"minus\"]',
+          "increase": 'button.quantity__button[name=\"plus\"]'
+      },
+      "removeButton": 'cart-remove-button a.link'
+    },
+  },
+  {
+    theme_name: "Local 2.0.0",
+    cart_item: {
+      "key": 'form[action*=\"/cart\"]#cart .cart-item',
+      "details": '.cart-item__content',
+      "quantity": {
+          "wrapper": 'cart-product-quantity',
+          "input": 'input.quantity__input',
+          "decrease": 'button.qty-button.qty-minus',
+          "increase": 'button.qty-button.qty-plus'
+      },
+      "removeButton": 'a.remove'
+    },
+  },
+  {
+    theme_name: "Local 2.0.0",
+    cart_item: {
+      "key": '.slidecarthq .items .item',
+      "details": '',
+      "quantity": {
+          "wrapper": '.quantity-selector',
+          "input": 'input[type="text"]',
+          "decrease": '.quantity-selector button[aria-label*="decrease"]',
+          "increase": '.quantity-selector button[aria-label*="increase"]'
+      },
+      "removeButton": 'button.remove'
+    }
+  },
+  {
+    theme_name: "Broadcast 5.5.0",
+    cart_item: {
+      "key": 'cart-items .cart__item',
+      "details": '.cart__item__content-inner',
+      "quantity": {
+          "wrapper": 'quantity-counter.cart__quantity-counter',
+          "input": 'input.cart__quantity-field',
+          "decrease": 'button.cart__quantity-minus',
+          "increase": 'button.cart__quantity-plus'
+      },
+      "removeButton": 'a.cart__item__remove'
+    }
+  },
+  {
+    theme_name: "Impulse 7.4.1", //monster_upsell app
+    cart_item: {
+      "key": '#monster-cart-wrapper .mu-cart-item',
+      "details": '.mu-item-properties',
+      "quantity": {
+          "wrapper": '.mu-item-quantity',
+          "input": '',
+          "decrease": 'button.mu-rounded-l',
+          "increase": 'button.mu-rounded-r'
+      },
+      "removeButton": 'button.mu-rounded-l'
+    }
+  },
+  {
+    theme_name: "Impact 4.3.3",
+    cart_item: {
+      "key": 'cart-drawer#cart-drawer .cart-drawer__line-items .cart-itembox line-item.cart-itembox-item',
+      "details": '.cart-itembox-item-details',
+      "quantity": {
+          "wrapper": 'line-item-quantity .ajaxcart__qty',
+          "input": 'input.quantity-input',
+          "decrease": 'button.ajaxcart__qty-adjust.ajaxcart__qty--minus',
+          "increase": 'button.ajaxcart__qty-adjust.ajaxcart__qty--plus'
+      },
+      "removeButton": 'a.delete-qty.ajaxcart__qty-remove'
+    }
+  },
+  {
+    theme_name: "Palo Alto 5.4.1",
+    cart_item: {
+      "key": '#cart-drawer .cart__item',
+      "details": '.cart__item__info',
+      "quantity": {
+          "wrapper": '.cart__item__quantity',
+          "input": 'input.cart__item__quantity-field',
+          "decrease": 'button.cart__item__quantity-minus',
+          "increase": 'button.cart__item__quantity-plus'
+      },
+      "removeButton": 'a.cart__item__remove'
+    }
+  },
+  {
+    theme_name: "Focal 11.1.0",
+    cart_item: {
+      "key": 'form[action*=\"/cart\"]#mini-cart-form line-item',
+      "details": '.product-item-meta__property-list',
+      "quantity": {
+          "wrapper": 'line-item-quantity.line-item__quantity',
+          "input": 'input.quantity-selector__input',
+          "decrease": '.quantity-selector__button[aria-label=\"Decrease quantity\"]',
+          "increase": '.quantity-selector__button[aria-label=\"Increase quantity\"]'
+      },
+      "removeButton": 'a.line-item__remove-button'
+    }
+  },
+  {
+    theme_name: "Expanse 4.3.4",
+    cart_item: {
+      "key": '.rebuy-cart__flyout li.rebuy-cart__flyout-item',
+      "details": '.rebuy-cart__flyout-item-properties',
+      "quantity": {
+          "wrapper": '.rebuy-cart__flyout-item-quantity-widget',
+          "input": '',
+          "decrease": 'button',
+          "increase": 'button'
+      },
+      "removeButton": 'button.rebuy-cart__flyout-item-remove'
+    }
+  },
+  {
+    theme_name: "Athens 2.2.0",
+    cart_item: {
+      "key": 'form[action*=\"/cart\"].mini-cart-inner .mini-cart-item',
+      "details": '.mini-cart-item-info',
+      "quantity": {
+          "wrapper": '.quantity-input.quantity-input',
+          "input": 'input.quantity-input-field',
+          "decrease": 'button.quantity-input-button.quantity-input-minus',
+          "increase": 'button.quantity-input-button.quantity-input-plus'
+      },
+      "removeButton": 'cart-remove-button a'
+    }
+  },
+  {
+    theme_name: "Ella 6.4.1",
+    cart_item: {
+      "key": '.halo-sidebar-wrapper .previewCartItem',
+      "details": '.card-properties',
+      "quantity": {
+          "wrapper": 'cart-update-quantity.previewCartItem-qty',
+          "input": 'input.form-input.quantity',
+          "decrease": 'a.minus.btn-quantity',
+          "increase": 'a.plus.btn-quantity'
+      },
+      "removeButton": 'a.previewCartItem-remove'
+    }
+  },
+  {
+    theme_name: "People Village",
+    cart_item: {
+      "key": '#spro-cart-sidebar .spro-sidebar-wrapper .previewCart .previewCartList .previewCartItem',
+      "details": '.previewCartItem-content',
+      "quantity": {
+          "wrapper": '.previewCartItem-qty',
+          "input": 'input.form-input.quantity',
+          "decrease": 'a.minus.btn-quantity',
+          "increase": 'a.plus.btn-quantity'
+      },
+      "removeButton": 'a.previewCartItem-remove'
+    }
+  },
+  {
+    theme_name: "Electro",
+    cart_item: {
+      "key": 'form[action*=\"/cart\"].cart-drawer__form .cart-drawer__product',
+      "details": '.cart-drawer__product-info',
+      "quantity": {
+          "wrapper": 'sht-cart-drwr-qty-inp',
+          "input": 'input.js-cart-drawer-quantity-input',
+          "decrease": 'button.js-cart-drawer-quantity-btn-minus',
+          "increase": 'button.js-cart-drawer-quantity-btn-plus'
+      },
+      "removeButton": 'button.js-cart-drawer-delete-btn'
+    }
+  },
+  {
+    theme_name: "Shine",
+    cart_item: {
+      "key": 'form[action*=\"/cart\"].cart-drawer__form .cart-drawer__product',
+      "details": '.cart-drawer__product-info',
+      "quantity": {
+          "wrapper": 'sht-cart-drwr-qty-inp',
+          "input": 'input.js-cart-drawer-quantity-input',
+          "decrease": 'button.js-cart-drawer-quantity-btn-minus',
+          "increase": 'button.js-cart-drawer-quantity-btn-plus'
+      },
+      "removeButton": 'button.js-cart-drawer-delete-btn'
+    }
+  },
+  {
+    theme_name: "Debutify",
+    cart_item: {
+      "key": 'form[action*=\"/cart\"]#ajaxCartForm .ajaxcart_row.cart-item',
+      "details": '.grid__item.eight-twelfths .spacer-auto-xs',
+      "quantity": {
+          "wrapper": '.qty-container',
+          "input": 'input.qty-input.cart__product-qty',
+          "decrease": 'button.qty-minus',
+          "increase": 'button.qty-plus'
+      },
+      "removeButton": 'button.cart__product-remove'
+    }
+  },
+  {
+    theme_name: "Honey",
+    cart_item: {
+      "key": 'form[action*=\"/cart\"]#CartDrawer-Form .cart__item',
+      "details": '.cart__product-details',
+      "quantity": {
+          "wrapper": 'quantity-input',
+          "input": 'input.quantity__input',
+          "decrease": 'button.qtyminus',
+          "increase": 'button.qtyplus'
+      },
+      "removeButton": 'cart-remove-button a'
+    }
+  }
+];
+let cartForms = [
+  {
+    store_id:"",
+    key: 'cart-items form[action*=\"/cart\"]'
+  },
+  {
+    store_id:"",
+    key: "form#updateform"
+  },
+  {
+    store_id:"",
+    key: "form#cartForm"
+  },
+  {
+    store_id:"",
+    key: "form.cart-form"
+  },
+  {
+    store_id:"",
+    key: "form[action*=\"/cart\"]#cartform"
+  },
+  {
+    store_id:"",
+    key: ".page-content form[action=\"/cart\"]"
+  },
+  {
+    store_id:"",
+    key: '[data-section-type="cart"]'
+  },
+  {
+    store_id:"",
+    key: "form[action*=\"/cart\"]:not([action*=\"/cart/add\"]):not([hidden])"
+  },
+  {
+    store_id:"",
+    key: ".page-content.page-content--fluid"
+  },
+  {
+    store_id:"",
+    key: ".cart-content-wrapper"
+  },
+  {
+    store_id:"",
+    key: ".cart-page .ajax-cart__form-wrapper form[action*=\"/cart\"]"
+  },
+  {
+    store_id:"",
+    key: "form[action*=\"/cart\"]"
+  },
+  {
+    store_id:"",
+    key: ".main__content-wrapper form[action*=\"/cart\"]"
+  },
+  {
+    store_id:"",
+    key: ".wlm-content form[action*=\"/cart\"]"
+  },
+  {
+    store_id:"",
+    key: "form#cart_form"
+  }
+]
+
+let cartLineItems = [
+  {
+    store_id: "",
+    key: {
+        "key": "cart-items form[action*=\"/cart\"] .cart-item",
+        "details": ".cart-item__details",
+        "quantity": {
+            "wrapper": "quantity-input",
+            "input": "quantity-input input",
+            "decrease": ".quantity__button[name=\"minus\"]",
+            "increase": ".quantity__button[name=\"plus\"]"
+        },
+        "removeButton": "cart-remove-button a"
+    },
+    theme_name: "",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .cart-item",
+      "details": ".cart__item-meta",
+      "quantity": {
+          "wrapper": ".qty-container",
+          "input": "input.qty-input.cart__product-qty",
+          "decrease": "button.qty-minus",
+          "increase": "button.qty-plus"
+      },
+      "removeButton": "a.cart__product-remove"
+    },
+    theme_name: "Debutify",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .cart-item",
+      "details": ".cart-item__column.cart-item__description",
+      "quantity": {
+          "wrapper": ".quantity",
+          "input": ".quantity input",
+          "decrease": ".notabutton.quantity-down",
+          "increase": ".notabutton.quantity-up "
+      },
+      "removeButton": "a.cart-item__remove"
+    },
+    theme_name: "Symmetry 6.0.3",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .cart-item",
+      "details": ".cart-item__column.cart-item__description",
+      "quantity": {
+          "wrapper": ".quantity",
+          "input": ".quantity input",
+          "decrease": ".notabutton.quantity-down",
+          "increase": ".notabutton.quantity-up "
+      },
+      "removeButton": "a.remove"
+    },
+    theme_name: "Symmetry",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] ul",
+      "details": ".ajax-cart__item-details",
+      "quantity": {
+          "wrapper": ".ajax-cart__item-quantity",
+          "input": ".ajax-cart__item-quantity input",
+          "decrease": ".ajax-cart__qty-control--down",
+          "increase": ".ajax-cart__qty-control--up"
+      },
+      "removeButton": "li.ajax-cart__item-remove--js"
+    },
+    theme_name: "Vantage",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .CartItem",
+      "details": ".CartItem__Info",
+      "quantity": {
+          "wrapper": ".QuantitySelector",
+          "input": ".QuantitySelector input",
+          "decrease": ".QuantitySelector__Button",
+          "increase": ".QuantitySelector__Button"
+      },
+      "removeButton": ".CartItem__Remove"
+    },
+    theme_name: "Pursuit, Prestige",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .cart__item",
+      "details": ".cart__info--text",
+      "quantity": {
+          "wrapper": ".quantity--input",
+          "input": ".quantity--input input",
+          "decrease": ".quantity--input__button.quantity--input__incr",
+          "increase": ".quantity--input__button.quantity--input__decr"
+      },
+      "removeButton": ".cart__trash.hide-mobile span"
+    },
+    theme_name: "Booster",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .cart-item",
+      "details": ".cart-item-description",
+      "quantity": {
+          "wrapper": ".quantity-adjuster",
+          "input": ".quantity-adjuster input",
+          "decrease": "a[aria-label=\"Minus\"]",
+          "increase": "a[aria-label=\"Plus\"]"
+      },
+      "removeButton": ".cart-remove"
+    },
+    theme_name: "Expression",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] table tbody tr.cart__row",
+      "details": "td.text-left.cart-flex-item",
+      "quantity": {
+          "wrapper": ".qtyField",
+          "input": ".qtyField input",
+          "decrease": ".qtyBtn.minus",
+          "increase": ".qtyBtn.plus"
+      },
+      "removeButton": ".btn.remove"
+    },
+    theme_name: "Avone os 2.0",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .t4s-page_cart__item",
+      "details": ".t4s-page_cart__meta",
+      "quantity": {
+          "wrapper": ".t4s-quantity-wrapper.t4s-quantity-cart-item",
+          "input": ".t4s-quantity-wrapper.t4s-quantity-cart-item input",
+          "decrease": ".t4s-quantity-selector.is--minus",
+          "increase": ".t4s-quantity-selector.is--plus"
+      },
+      "removeButton": ".t4s-page_cart__remove"
+    },
+    theme_name: "Kalles",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .cart_item",
+      "details": ".mini_cart_body",
+      "quantity": {
+          "wrapper": ".quantity",
+          "input": ".quantity input",
+          "decrease": ".quantity button.minus",
+          "increase": ".quantity button.plus"
+      },
+      "removeButton": ".cart_ac_remove",
+      "editButton": ".cart_ac_edit"
+    },
+    theme_name: "Kalles 2.7.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] div[data-products] .cart__item",
+      "details": ".cart__item--details .cart__item--name",
+      "quantity": {
+          "wrapper": ".cart__item--qty",
+          "input": ".cart__item--qty input",
+          "decrease": ".js-qty__adjust.js-qty__adjust--minus",
+          "increase": ".js-qty__adjust.js-qty__adjust--plus"
+      },
+      "removeButton": ".js-qty__adjust.js-qty__adjust--minus"
+    },
+    theme_name: "Motion",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] table tbody tr",
+      "details": "tr td.cart-table-title",
+      "quantity": {
+          "wrapper": ".quantity-controls",
+          "input": ".quantity-controls input",
+          "decrease": ".qty-minus",
+          "increase": ".qty-plus"
+      },
+      "removeButton": ".cart-table-item-remove a"
+    },
+    theme_name: "Envy",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .cart__item",
+      "details": ".cart__item-details .cart__item-title",
+      "quantity": {
+          "wrapper": ".js-qty__wrapper",
+          "input": ".js-qty__wrapper input",
+          "decrease": ".js-qty__adjust.js-qty__adjust--minus",
+          "increase": ".js-qty__adjust.js-qty__adjust--plus"
+      },
+      "removeButton": ".cart__remove a"
+    },
+    theme_name: "Expanse",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .cart__items .cart-item",
+      "details": ".cart__items .cart-item .content",
+      "quantity": {
+          "wrapper": ".actions",
+          "input": ".actions input",
+          "decrease": "",
+          "increase": ""
+      },
+      "removeButton": ".remove"
+    },
+    theme_name: "Kingdom",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": ".page-content.page-content--fluid table tbody tr.line-item",
+      "details": ".line-item__info",
+      "quantity": {
+          "wrapper": ".quantity-selector",
+          "input": ".quantity-selector input",
+          "decrease": ".quantity-selector__button",
+          "increase": ".quantity-selector__button"
+      },
+      "removeButton": ".line-item__remove-button"
+    },
+    theme_name: "Focal",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": ".cart-content-wrapper .cart-item",
+      "details": ".cart-item .cart-item-block-right",
+      "quantity": {
+          "wrapper": ".cart-item-qty",
+          "input": ".cart-item-qty input",
+          "decrease": ".minus.btn-quantity",
+          "increase": ".plus.btn-quantity"
+      },
+      "removeButton": ".cart-remove"
+    },
+    theme_name: "Ella",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": ".cart-page .ajax-cart__form-wrapper form[action*=\"/cart\"] .ajax-cart__cart-items ul.ajax-cart__cart-item",
+      "details": ".cart-page .ajax-cart__form-wrapper .ajax-cart__cart-title__wrapper",
+      "quantity": {
+          "wrapper": ".ajax-cart__item-quantity",
+          "input": ".ajax-cart__item-quantity input",
+          "decrease": ".ajax-cart__qty-control--down",
+          "increase": ".ajax-cart__qty-control--up"
+      },
+      "removeButton": ".ajax-cart__item-remove"
+    },
+    theme_name: "Foodie",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .m-cart--item",
+      "details": ".sf-cart__item-product-info .sf-cart__item-product-details",
+      "quantity": {
+          "wrapper": "m-quantity-input",
+          "input": "m-quantity-input input",
+          "decrease": ".m-cart-quantity--button[name*=\"/minus\"]",
+          "increase": ".m-cart-quantity--button[name*=\"/plus\"]"
+      },
+      "removeButton": ".scd-item__remove"
+    },
+    theme_name: "Minimog - OS 2.0",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] table tbody tr",
+      "details": "table tbody tr .tt-title",
+      "quantity": {
+          "wrapper": ".tt-input-counter.input-counter",
+          "input": ".tt-input-counter.input-counter input",
+          "decrease": ".minus-btn",
+          "increase": ".plus-btn"
+      },
+      "removeButton": "td .tt-btn-close"
+    },
+    theme_name: "Wokiee",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": ".cart-wrapper .line-item-table .line-item",
+      "details": ".line-item-table .line-item .line-item__meta",
+      "quantity": {
+          "wrapper": ".quantity-selector",
+          "input": ".quantity-selector input",
+          "decrease": ".quantity-selector__button",
+          "increase": ".quantity-selector__button"
+      },
+      "removeButton": ".line-item__quantity-removes"
+    },
+    theme_name: "Warehouse",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .cart__row",
+      "details": ".cart__row .grid .grid__item.two-thirds",
+      "quantity": {
+          "wrapper": ".js-qty",
+          "input": ".js-qty input",
+          "decrease": ".js-qty__adjust--minus",
+          "increase": ".js-qty__adjust--plus"
+      },
+      "removeButton": ".cart__product-meta"
+    },
+    theme_name: "Brooklyn",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .cart__item",
+      "details": ".cart__item .cart__item-title",
+      "quantity": {
+          "wrapper": ".js-qty__wrapper",
+          "input": ".js-qty__wrapper input",
+          "decrease": ".js-qty__adjust--minus",
+          "increase": ".js-qty__adjust--plus"
+      },
+      "removeButton": ".cart__remove"
+    },
+    theme_name: "Impulse",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .cart-item", 
+      "details": ".cart-line-item-properties",
+      "quantity": {
+          "wrapper": ".cart-item-quantity",
+          "input": "input.cart-item-quantity-display",
+          "decrease": ".cart-item-decrease",
+          "increase": ".cart-item-increase"
+      },
+      "removeButton": "a.cart-item-remove"
+    },
+    theme_name: "Pacific",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .sf-cart__item.scd-item", 
+      "details": ".sf-cart__item-product-details",
+      "quantity": {
+          "wrapper": ".scd-item__qty",
+          "input": ".scd-item__qty input",
+          "decrease": ".scd-item__btn[data-qty-change=\"dec\"]",
+          "increase": ".scd-item__btn[data-qty-change=\"inc\"]"
+      },
+      "removeButton": ".scd-item__remove"
+    },
+    theme_name: "Minimog - OS 2.0",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] ul.cart__row li", 
+      "details": "ul.cart__row li section",
+      "quantity": {
+          "wrapper": ".semantic-amount.last-child",
+          "input": ".semantic-amount.last-child input",
+          "decrease": ".incr",
+          "increase": ".decr"
+      },
+      "removeButton": ".remove-from-cart-link"
+    },
+    theme_name: "Xtra",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .apo-cart__item", 
+      "details": ".ecom-cart__product-infos",
+      "quantity": {
+          "wrapper": ".ecom-cart__product-quantity-wrapper",
+          "input": "input.ecom-cart__product-quantity--input",
+          "decrease": ".ecom-cart__product-quantity--button.ecom-quantity-minus",
+          "increase": ".ecom-cart__product-quantity--button.ecom-quantity-plus"
+      },
+      "removeButton": "a.ecom-cart__product-item-remove-button.desktop"
+    },
+    theme_name: "",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .ecom-cart__product-item", 
+      "details": ".ecom-cart__product-informations",
+      "quantity": {
+          "wrapper": ".ecom-cart__product-quantity-wrapper",
+          "input": ".ecom-cart__product-quantity-wrapper input",
+          "decrease": ".ecom-cart__product-quantity--button.ecom-quantity-minus",
+          "increase": ".ecom-cart__product-quantity--button.ecom-quantity-plus"
+      },
+      "removeButton": ".ecom-cart__product-item-remove-button.desktop"
+    },
+    theme_name: "",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] section.cartitems--container ul li.cart-item", 
+      "details": "li.cart-item .cart-item--content",
+      "quantity": {
+          "wrapper": ".quantity-selector__wrapper",
+          "input": ".quantity-selector__wrapper input",
+          "decrease": "div[data-button-wrapper-minus] button",
+          "increase": "div[data-button-wrapper-plus] button"
+      },
+      "removeButton": ".cart-item__remove a"
+    },
+    theme_name: "Empire",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .cartTable .cartItemWrap .flexRow.noGutter", 
+      "details": ".productInfo",
+      "quantity": {
+          "wrapper": ".velaQty",
+          "input": ".velaQtyNum.velaQtyText ",
+          "decrease": ".velaQtyAdjust.velaQtyButton.velaQtyMinus",
+          "increase": ".velaQtyAdjust.velaQtyButton.velaQtyPlus"
+      },
+      "removeButton": ".cartRemove"
+    },
+    theme_name: "Ap Bedove",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] .cart__card.container.is-align-center", 
+      "details": ".cart__text",
+      "quantity": {
+          "wrapper": ".quantity-wrapper",
+          "input": "input.quantity-input",
+          "decrease": ".minus-control span.quantity-minus",
+          "increase": ".plus-control span.quantity-minus"
+      },
+      "removeButton": ".cart__remove a"
+    },
+    theme_name: "Flex",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"].cartForm .cartItemWrap .flexRow.noGutter", 
+      "details": ".productInfo",
+      "quantity": {
+        "wrapper": ".velaQty",
+        "input": ".velaQtyNum",
+        "decrease": ".velaQtyMinus",
+        "increase": ".velaQtyPlus"
+      },
+      "removeButton": ".cartRemove",
+      "editButton": ".btnUpdateCart"
+    },
+    theme_name: "Gokwik",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": "form[action*=\"/cart\"] table tbody tr.cart__row", 
+      "details": ".cart__product-information .list-view-item__title",
+      "quantity": {
+        "wrapper": ".cart__qty",
+        "input": ".cart__qty input",
+        "decrease": "",
+        "increase": ""
+      },
+      "removeButton": ".cart__remove a",
+    },
+    theme_name: "Debut",
+  },
+  {
+    store_id: "",
+    key: {
+        "key": "cart-items form[action*=\"/cart\"] .cart-item",
+        "details": ".cart-item__details",
+        "quantity": {
+            "wrapper": "quantity-input",
+            "input": "quantity-input .quantity__input",
+            "decrease": "",
+            "increase": ""
+        },
+        "removeButton": "cart-remove-button a"
+    },
+    theme_name: "Dawn 7.0.1",
+  },
+
+  {
+    store_id: "",
+    key: {
+        "key": "form[action*=\"/cart\"].cart__contents .cart-items tr.cart-item",
+        "details": ".cart-item__details",
+        "quantity": {
+            "wrapper": "quantity-input.quantity",
+            "input": "quantity-input .quantity__input",
+            "decrease": ".quantity__button[name=\"minus\"]",
+            "increase": ".quantity__button[name=\"plus\"]"
+        },
+        "removeButton": "cart-remove-button a"
+    },
+    theme_name: "Be Yours",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'cart-items cart-item[class="#cart-item"]',
+      "details": 'div[class="#cart-item-meta"]',
+      "quantity": {
+          "wrapper": 'div[class*="#cart-item-qty-controls"]',
+          "input": 'div[class*="#cart-item-qty-controls"] input',
+          "decrease": 'div[class*="#cart-item-qty-controls"] button[data-dec]',
+          "increase": 'div[class*="#cart-item-qty-controls"] button[data-inc]'
+      },
+      "removeButton": 'a[class*="#cart-item-remove"]'
+    },
+    theme_name: "Galleria",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": '.cart__container.page__inner form[action*=\"/cart\"] .cart__item',
+      "details": '.cart__item-details',
+      "quantity": {
+          "wrapper": '.cart__item-qty-selector',
+          "input": '.cart__item-qty-selector input',
+          "decrease": '.cart__item-qty-selector button.cart__item-button.cart__item-button--minus',
+          "increase": '.cart__item-qty-selector button.cart__item-button.cart__item-button--plus'
+      },
+      "removeButton": 'a.cart-item__remove.btn.btn--text-link'
+    },
+    theme_name: "Spark 3.2.2",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"].cart-form .cart__row',
+      "details": '.o-layout > div.o-layout__item:first-child',
+      "quantity": {
+          "wrapper": '.cart-item__qty .js-qty',
+          "input": 'input.js-qty-input',
+          "decrease": 'button.js-qty__adjust--minus',
+          "increase": 'button.js-qty__adjust--plus'
+      },
+      "removeButton": 'a.cart-item__remove'
+    },
+    theme_name: "Venue",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": '.content-wrapper form[action*=\"/cart\"].ajax-cart__cart-form .ajax-cart__cart-item',
+      "details": '.ajax-cart__item-details',
+      "quantity": {
+          "wrapper": '.ajax-cart__item-quantity',
+          "input": 'input.ajax-cart__qty-input',
+          "decrease": 'button.ajax-cart__qty-control--down',
+          "increase": 'button.ajax-cart__qty-control--up'
+      },
+      "removeButton": 'li.ajax-cart__item-remove'
+    },
+    theme_name: "Testament",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .cartitems .cart-item',
+      "details": '.cart-item--content',
+      "quantity": {
+          "wrapper": '.form-field-select-wrapper',
+          "input": 'select.form-field-input.form-field-select.form-field-filled',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": 'a.cart-item--remove-link'
+    },
+    theme_name: "Empire",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"]#cart .cart-form-item',
+      "details": '.cart-form-item__price-title-variants',
+      "quantity": {
+          "wrapper": 'product-quantity cart-product-quantity',
+          "input": '.qty.qty-selector.product__quantity',
+          "decrease": '.qty-button.qty-minus',
+          "increase": '.qty-button.qty-plus'
+      },
+      "removeButton": 'a.remove'
+    },
+    theme_name: "Local",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] table.cart-table.responsive-table tbody tr.cart__row.responsive-table__row',
+      "details": 'td.cart__table-cell--meta.text-center.large-up--text-left',
+      "quantity": {
+          "wrapper": 'td.medium-up--text-right.cart__table-cell--quantity',
+          "input": 'input.quantity-selector',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": 'a.cart__remove'
+    },
+    theme_name: "Simple 12.5.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] table.cart-table.full.table--responsive tbody tr.cart__row.table__section',
+      "details": 'td.cart__row--product-details',
+      "quantity": {
+          "wrapper": 'td.text-center div.js-qty-wrapper div.js-qty',
+          "input": 'input.js-qty__num',
+          "decrease": 'button.js-qty__adjust--minus',
+          "increase": 'button.js-qty__adjust--plus'
+      },
+      "removeButton": 'a.cart__remove'
+    },
+    theme_name: "Flow 35.0.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .cart-template__item',
+      "details": '.cart-template__details',
+      "quantity": {
+          "wrapper": '.product-form__item.product-form__quantity',
+          "input": 'input.product-form__input.product-form__input--quantity',
+          "decrease": '.product-form__quantity-button.product-form__quantity-subtract-item',
+          "increase": '.product-form__quantity-button.product-form__quantity-add-item'
+      },
+      "removeButton": 'a.bttn.bttn--secondary.bttn--small'
+    },
+    theme_name: "Lorenza",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"].cart.form.cart--with-items .cart-item',
+      "details": '.cart-item__details',
+      "quantity": {
+          "wrapper": '.qty-input.qty-input--combined',
+          "input": 'input.qty-input__input.input',
+          "decrease": '.qty-input__btn.btn.btn--minus',
+          "increase": '.qty-input__btn.btn.btn--plus'
+      },
+      "removeButton": 'a.cart-item__remove'
+    },
+    theme_name: "Enterprise",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'table.order-summary tbody.order-summary__body tr',
+      "details": 'td line-item .line-item__info',
+      "quantity": {
+          "wrapper": 'td.align-center.text-center.text-subdued line-item-quantity',
+          "input": 'input.quantity-input',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": 'td line-item-quantity .text-xs a'
+    },
+    theme_name: "Impact 4.7.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"]#cartForm .cart-item',
+      "details": '.cart-item__product .wb-break-word:not(.m-zero.subtext)',
+      "quantity": {
+          "wrapper": 'sht-qty-inp.field_quantity',
+          "input": 'input.js-quantity-input.input-number',
+          "decrease": '.js-quantity-btn.js-quantity-btn-minus',
+          "increase": '.js-quantity-btn.js-quantity-btn-plus'
+      },
+      "removeButton": 'sht-cart-rmv-btn a'
+    },
+    theme_name: "Electro 1.3.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"].cart__form .cart__inner .cart__content .cart__items .cart__item',
+      "details": '.cart__item__content .cart__item__content-inner',
+      "quantity": {
+          "wrapper": 'quantity-counter .cart__quantity',
+          "input": 'input.cart__quantity-field',
+          "decrease": 'button.cart__quantity-minus',
+          "increase": 'button.cart__quantity-plus'
+      },
+      "removeButton": 'a.cart__item__remove'
+    },
+    theme_name: "Broadcast 5.4.0",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] div[data-cart-items] div[class="#cart-item"]',
+      "details": 'div[class="#cart-item-product"] div[class="#cart-item-product-info"]',
+      "quantity": {
+          "wrapper": 'div[class="#cart-item-side"] div[class="#cart-item-quantity"] div[class*="#cart-item-quantity-controls"]',
+          "input": 'cart-qty-input input',
+          "decrease": 'cart-qty-button[class="#cart-item-quantity-controls-item"]',
+          "increase": 'cart-qty-button[class="#cart-item-quantity-controls-item"]'
+      },
+      "removeButton": 'div[class="#cart-item-remove"] cart-qty-button a'
+    },
+    theme_name: "ShowTime 7.13.4",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .cart__items .cart__item.cart__row',
+      "details": '.cart__row-product .cart__row-content',
+      "quantity": {
+          "wrapper": '.grid__item.medium-up--one-half .grid.grid--full.cart__row--table .grid__item.medium-up--one-third.text-center',
+          "input": 'div input.cart__quantity',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": '.grid__item.medium-up--one-third.text-center a.cart__remove'
+    },
+    theme_name: "Streamline 3.0.4",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] table.cart-items tbody tr.cart-item',
+      "details": 'td.product-item .product-item-details',
+      "quantity": {
+          "wrapper": 'td.quantity',
+          "input": 'input[id*="updates"]',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": 'td.product-item a.remove'
+    },
+    theme_name: "Grid 6.1.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": '.main__content-wrapper form[action*=\"/cart\"] .ajax-cart__cart-item',
+      "details": '.ajax-cart__cart-variants',
+      "quantity": {
+          "wrapper": '.ajax-cart__item-quantity',
+          "input": 'input.ajax-cart__qty-input',
+          "decrease": '.ajax-cart__qty-control--down',
+          "increase": '.ajax-cart__qty-control--up'
+      },
+      "removeButton": '.ajax-cart__item-remove.js-cart-remove'
+    },
+    theme_name: "Mr Parker",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'interactive-cart#main-cart cart-item',
+      "details": 'cart-item-details',
+      "quantity": {
+          "wrapper": 'cart-item-quantity',
+          "input": 'quantity-input input',
+          "decrease": 'quantity-input button[minus]',
+          "increase": 'quantity-input button[plus]'
+      },
+      "removeButton": 'a.cart-item__remove'
+    },
+    theme_name: "Venue",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": '.cart__form form[action*=\"/cart\"] .container .cart__item-list .cart__card.container',
+      "details": '.cart__info .cart__description .cart__text',
+      "quantity": {
+          "wrapper": '.cart__quantity .purchase-details__quantity.product-quantity-box .quantity-wrapper',
+          "input": '.quantity-input-control input.quantity-input',
+          "decrease": '.control.minus-control .quantity-minus.quantity-element',
+          "increase": '.control.plus-control .quantity-plus.quantity-element'
+      },
+      "removeButton": '.cart__remove a.cart__remove-btn button.close'
+    },
+    theme_name: "Flex 2.0.3",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .t4s-cartPage__items div[data-cart-item]',
+      "details": '.t4s-page_cart__info',
+      "quantity": {
+          "wrapper": '',
+          "input": '',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": 'a.t4s-page_cart__remove'
+    },
+    theme_name: "Fold Premium 2.1.0",
+  },
+
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"].cart-page table tbody tr',
+      "details": '.line-item-info',
+      "quantity": {
+          "wrapper": 'quantity-selector.quantity-selector',
+          "input": 'input.quantity-selector__input',
+          "decrease": '.quantity-selector__button',
+          "increase": '.quantity-selector__button'
+      },
+      "removeButton": 'line-item-quantity a.link'
+    },
+    theme_name: "Prestige",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"].cart table tbody tr',
+      "details": 'td.cart__meta.cart-flex-item',
+      "quantity": {
+          "wrapper": 'td.cart__update-wrapper',
+          "input": 'input.cart__qty-input',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": '.small--hide a.btn.cart__remove'
+    },
+    theme_name: "Debut 1.9.0",
+  },
+
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] grid.item',
+      "details": 'c.name',
+      "quantity": {
+          "wrapper": 'c[span-s] > flex',
+          "input": '',
+          "decrease": 'button.is-blank.plus',
+          "increase": 'button.is-blank.minus'
+      },
+      "removeButton": 'c[span-s] > flex > c > button'
+    },
+    theme_name: "Bullet 2.4.6",
+  },
+
+  {
+    store_id: "",
+    key: {
+      "key": 'c.entry grid.productsInCart',
+      "details": 'c.name',
+      "quantity": {
+          "wrapper": 'flex.controllers',
+          "input": '',
+          "decrease": 'button.is-blank.plus',
+          "increase": 'button.is-blank.minus'
+      },
+      "removeButton": 'button[rv-data-cart-remove]'
+    },
+    theme_name: "Bullet 2.4.6",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"].cart__form .cart__form-item',
+      "details": '.cart__form-item-info',
+      "quantity": {
+          "wrapper": '.quantity-input',
+          "input": 'input.quantity-input__input',
+          "decrease": 'button.product__quantity-subtract-item',
+          "increase": 'button.product__quantity-add-item'
+      },
+      "removeButton": 'button.cart__form-item-remove'
+    },
+    theme_name: "Stiletto 2.1.0",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .responsive-table__row',
+      "details": 'td.cart__cell--image + td',
+      "quantity": {
+          "wrapper": '.js-qty',
+          "input": 'input.js-qty__input',
+          "decrease": 'button.js-qty__adjust.js-qty__adjust--minus',
+          "increase": 'button.js-qty__adjust.js-qty__adjust--plus'
+      },
+      "removeButton": 'p a'
+    },
+    theme_name: "Venture 12.6.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": '#MainContent form[action*=\"/cart\"] .cart-item',
+      "details": '.cart-item__details',
+      "quantity": {
+          "wrapper": 'quantity-popover',
+          "input": 'input.quantity__input',
+          "decrease": 'button.quantity__button[name=\"minus\"]',
+          "increase": 'button.quantity__button[name=\"plus\"]'
+      },
+      "removeButton": 'cart-remove-button a.button.button--tertiary'
+    },
+    theme_name: "Crave 11.0.0",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"].quick-cart__form .quick-cart__item',
+      "details": '.quick-cart__item-top',
+      "quantity": {
+          "wrapper": '.quantity-input',
+          "input": 'input.quantity-input__input',
+          "decrease": 'button.product__quantity-subtract-item',
+          "increase": 'button.product__quantity-add-item'
+      },
+      "removeButton": 'button.quick-cart__item-remove'
+    },
+    theme_name: "Stiletto 2.1.0",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"]#mainCartForm .cart-details-item',
+      "details": '.item-varient-title',
+      "quantity": {
+          "wrapper": '.product-quantity-inner',
+          "input": 'input.quantity-input',
+          "decrease": 'button.quantity-button[title=\"Decrease\"]',
+          "increase": 'button.quantity-button[title=\"Increase\"]'
+      },
+      "removeButton": 'a.cart-remove-link'
+    },
+    theme_name: "Starlite 3.1.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"].cart > div > .cart__row--table-large',
+      "details": '.grid__item.two-thirds',
+      "quantity": {
+          "wrapper": '.grid__item.one-quarter.text-center',
+          "input": 'input.cart__quantity-selector',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": 'a.cart__remove'
+    },
+    theme_name: "Minimal 12.0.2",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .cart__item.cart-item',
+      "details": '.cart__item--name.cart-item--cell',
+      "quantity": {
+          "wrapper": '.cart__item--qty',
+          "input": 'input.js-qty__num',
+          "decrease": '.js-qty__adjust--minus',
+          "increase": '.js-qty__adjust--plus'
+      },
+      "removeButton": '.cart-item--remove'
+    },
+    theme_name: "Streamline 4.4.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .cart__card',
+      "details": '.cart__product-options',
+      "quantity": {
+          "wrapper": '',
+          "input": '',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": '.cart__remove a'
+    },
+    theme_name: "Flex 5.1.10",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": '.cart-wrapper__inner-inner .line-item',
+      "details": '.line-item__property-list',
+      "quantity": {
+          "wrapper": '.line-item__quantity .quantity-selector',
+          "input": 'input.quantity-selector__value',
+          "decrease": 'button.quantity-selector__button[data-action=\"decrease-quantity\"]',
+          "increase": 'button.quantity-selector__button[data-action=\"increase-quantity\"]'
+      },
+      "removeButton": 'a.line-item__quantity-remove'
+    },
+    theme_name: "Warehouse 4.2.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .cart__row .cart__row--table-large',
+      "details": '.large--three-fifths .grid__item.two-thirds',
+      "quantity": {
+          "wrapper": '.grid__item.cart__pricing .grid__item.one-third',
+          "input": 'input.cart__product-qty',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": '.cart__product-meta a'
+    },
+    theme_name: "Brooklyn 17.7.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": '#MainContent form[action*=\"/cart\"] .cart__item',
+      "details": '.cart__item-title',
+      "quantity": {
+          "wrapper": '.cart__item-quantity',
+          "input": 'input.js-qty__num',
+          "decrease": 'button.js-qty__adjust.js-qty__adjust--minus',
+          "increase": 'button.js-qty__adjust.js-qty__adjust--plus'
+      },
+      "removeButton": '.cart__item-remove a'
+    },
+    theme_name: "Expanse 5.1.0",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"].cart-page tbody tr',
+      "details": '.line-item-info',
+      "quantity": {
+          "wrapper": 'quantity-selector',
+          "input": 'input.quantity-selector__input',
+          "decrease": 'a.quantity-selector__button',
+          "increase": 'a.quantity-selector__button'
+      },
+      "removeButton": 'quantity-selector + a'
+    },
+    theme_name: "Prestige 9.2.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .cart__item',
+      "details": '.cart__item__info',
+      "quantity": {
+          "wrapper": '.cart__item__quantity',
+          "input": 'input.cart__item__quantity-field',
+          "decrease": 'button.cart__item__quantity-minus',
+          "increase": 'button.cart__item__quantity-plus'
+      },
+      "removeButton": 'a.cart__item__remove'
+    },
+    theme_name: "Palo Alto 5.4.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .cart__row.apo-cart__item',
+      "details": '.grid__item.three-quarters',
+      "quantity": {
+          "wrapper": '.grid__item.one-third.text-center',
+          "input": 'input.cart__product-qty',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": '.cart__product-meta a.btn.btn--secondary'
+    },
+    theme_name: "Impulse 3.1.0",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"].cart-contents .cart-item',
+      "details": '.cart-item-details',
+      "quantity": {
+          "wrapper": '.cart-item-quantity',
+          "input": 'input.quantity-input-field',
+          "decrease": 'button.quantity-input-button.quantity-input-minus',
+          "increase": 'button.quantity-input-button.quantity-input-plus'
+      },
+      "removeButton": 'cart-remove-button a'
+    },
+    theme_name: "Athens 2.2.0",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .cart__row.th_pb_cart_line',
+      "details": '.grid__item.three-quarters',
+      "quantity": {
+          "wrapper": '',
+          "input": '',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": '.grid__item.one-third.text-center a'
+    },
+    theme_name: "Impulse 1.3.1",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form#cart_form .table-row',
+      "details": '.column-2',
+      "quantity": {
+          "wrapper": 'column-4',
+          "input": 'input.t-center.num-product',
+          "decrease": 'button.btn-num-product-down',
+          "increase": 'button.btn-num-product-up'
+      },
+      "removeButton": 'button.remove'
+    },
+    theme_name: "Fashe 1.0.0",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .cart__row > .cart__row--table-large',
+      "details": '.grid__item.three-quarters',
+      "quantity": {
+          "wrapper": '.grid__item.one-third.text-center',
+          "input": 'input.cart__product-qty',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": '.cart__product-meta a.btn.btn--secondary'
+    },
+    theme_name: "Impulse 3.1.0",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] #main-cart-items .cart-items .cart-item',
+      "details": 'td.cart-item__details',
+      "quantity": {
+          "wrapper": 'td.cart-item__quantity quantity-input.quantity',
+          "input": 'input.quantity__input',
+          "decrease": 'button.quantity__button[name="minus"]',
+          "increase": 'button.quantity__button[name="plus"]'
+      },
+      "removeButton": 'cart-remove-button a.button.button--tertiary'
+    },
+    theme_name: "Charlotte 2022",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"].scd__content .sf-cart__item',
+      "details": '.sf-cart__item-product-info',
+      "quantity": {
+          "wrapper": '.sf-cart__table-quantity',
+          "input": 'input.scd-item__qty_input',
+          "decrease": 'button.scd-item__btn[data-qty-change="dec"]',
+          "increase": 'button.scd-item__btn[data-qty-change="inc"]'
+      },
+      "removeButton": 'button.scd-item__remove'
+    },
+    theme_name: "Lemon - OS 2.0",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .cart-item',
+      "details": '.cart-item__details',
+      "quantity": {
+          "wrapper": '.cart-item__quantity',
+          "input": 'input.quantity__input',
+          "decrease": 'button.quantity__button[name="minus"]',
+          "increase": 'button.quantity__button[name="plus"]'
+      },
+      "removeButton": 'cart-remove-button a'
+    },
+    theme_name: "Velatheme",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .apo-cart__item',
+      "details": '.title_column',
+      "quantity": {
+          "wrapper": '.purchase-details__quantity',
+          "input": 'input.quantity',
+          "decrease": '.product-minus',
+          "increase": '.product-plus'
+      },
+      "removeButton": '.cart__itemTotalContainer a.remove'
+    },
+    theme_name: "Responsive",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": '.cart-page form[action*=\"/cart\"] .grid-wrapper:not(.title-list)',
+      "details": '.cart-wrapper.item-info',
+      "quantity": {
+          "wrapper": '.product-quantity-action',
+          "input": 'input.qt',
+          "decrease": '.dec.qtybutton',
+          "increase": '.inc.qtybutton'
+      },
+      "removeButton": '.item-remove a'
+    },
+    theme_name: "Spront",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"]#cartForm .cart-item',
+      "details": '.cart-item__product > .wb-break-word',
+      "quantity": {
+          "wrapper": '.cart-item__quantity',
+          "input": 'input.js-quantity-input',
+          "decrease": '.js-quantity-btn-minus',
+          "increase": '.js-quantity-btn-plus'
+      },
+      "removeButton": 'sht-cart-rmv-btn a'
+    },
+    theme_name: "Shine",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .cart__item',
+      "details": '.cart_content_info.cart__item--content',
+      "quantity": {
+          "wrapper": '.product-quantity-box',
+          "input": 'input.quantity',
+          "decrease": 'span.product-minus',
+          "increase": 'span.product-plus'
+      },
+      "removeButton": 'a.cart__remove-btn'
+    },
+    theme_name: "",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .item.clearfix',
+      "details": '.desc',
+      "quantity": {
+          "wrapper": '.quantity',
+          "input": 'input.select-on-focus',
+          "decrease": 'a.minus',
+          "increase": 'a.plus'
+      },
+      "removeButton": 'a.remove'
+    },
+    theme_name: "Showcase",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": '.cart-content-item[data-cart-content] .cart-item',
+      "details": '.cart-item-properties',
+      "quantity": {
+          "wrapper": 'cart-update-quantity',
+          "input": 'input.cart-item-qty-input',
+          "decrease": 'a.minus.btn-quantity',
+          "increase": 'a.plus.btn-quantity'
+      },
+      "removeButton": 'a.cart-remove'
+    },
+    theme_name: "People Village",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"] .cart-item',
+      "details": '.cart-item-properties',
+      "quantity": {
+          "wrapper": '.cart-table-columns__quantity',
+          "input": 'input.styled-text-field',
+          "decrease": '',
+          "increase": ''
+      },
+      "removeButton": 'a.cart-item__remove'
+    },
+    theme_name: "Editions",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"].cart__contents .cart__item',
+      "details": '.cart__product-details',
+      "quantity": {
+          "wrapper": 'quantity-input',
+          "input": 'input.quantity__input',
+          "decrease": 'button.qtyminus',
+          "increase": 'button.qtyplus'
+      },
+      "removeButton": 'cart-remove-button a'
+    },
+    theme_name: "Honey",
+  },
+  {
+    store_id: "",
+    key: {
+      "key": 'form[action*=\"/cart\"].t4s-cartPage__form .t4s-page_cart__item',
+      "details": '.t4s-page_cart__info',
+      "quantity": {
+          "wrapper": '.t4s-quantity-wrapper.t4s-quantity-cart-item',
+          "input": 'input.t4s-quantity-input',
+          "decrease": 'button.t4s-quantity-selector.is--minus',
+          "increase": 'button.t4s-quantity-selector.is--plus'
+      },
+      "removeButton": 'a.t4s-page_cart__remove'
+    },
+    theme_name: "Gecko",
+  }
+];
+let cartFormByStoreId = cartForms.map(({key})=> key);
+let cartLineItemByStoreId = cartLineItems;
+AvisOptionsConfig.them_key = {
+  cart: {
+      page: {
+          form: cartFormByStoreId,
+          lineitem: cartLineItemByStoreId
+      },
+      drawer:{
+          form: cartFormByStoreId,
+          lineitem: cartLineItemByStoreId
+      }
+  }
+}
+function apo_MiniCart(){
+  window.apo_js_loaded.minicart = true;
+let isSetIntevalMiniCart = false;
+let isMonsterUpsell = false;
+let shopIdApo = window.ap_front_settings.shop_id;
+var joinAddChargeApo = window.ap_front_settings.joinAddCharge;
+    if (shopIdApo === "59437023322")
+      {
+        joinAddChargeApo = "||";
+      }
+const getCartJs = async () => fetch("/cart.js?avis",{method: "GET"}).then((t) => t.json()).then((t) => t);
+function apoMiniCart() {
+  var listCartUpdate = {};
+  var apoMiniCartSelector = document.querySelector('mini-cart') || document.querySelector('cart-drawer') || document.querySelector('#CartDrawer')  || document.querySelector('#spro-cart-sidebar')  || document.querySelector('sht-cart-drwr');
+  if (!apoMiniCartSelector)
+  {
+    apoMiniCartSelector = document.querySelector('#mini-cart');
+  }
+  if (!apoMiniCartSelector)
+  {
+    apoMiniCartSelector = document.querySelector('.quick-cart[data-quick-cart]'); // Theme Spark v2.6.2 - id: 10302619744
+  }
+  if (!apoMiniCartSelector)
+  {
+    apoMiniCartSelector = document.querySelector('[data-section-type="cart-drawer"]');
+  }
+  if (!apoMiniCartSelector)
+  {
+    apoMiniCartSelector = document.querySelector('#slidecarthq .slidecarthq'); // Theme Symmetry - id:55949590694
+    if (apoMiniCartSelector)
+    {
+      isSetIntevalMiniCart = true;
+    }
+  }
+  if (!apoMiniCartSelector)
+  {
+    apoMiniCartSelector = document.querySelector("#monster-upsell-cart");
+    if (apoMiniCartSelector)
+    {
+      isSetIntevalMiniCart = true;
+      isMonsterUpsell = true;
+    }
+  }
+  if (!apoMiniCartSelector)
+  {
+    apoMiniCartSelector = document.querySelector('#cart-drawer');
+  }
+  if (!apoMiniCartSelector)
+    {
+      apoMiniCartSelector = document.querySelector('#halo-cart-sidebar');
+    }
+  
+  if (!apoMiniCartSelector) return;
+  const getCartV2 = async () => fetch("/cart.json?avis=minicart").then((t) => t.json()).then((t) => t);
+  const updateCart = (t) => {
+    fetch("/cart/update.js", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(t),
+    })
+      .then((t) => t.json())
+      .then((t) => {
+        console.log("update carts", t);
+        if (!t?.status)
+        {
+          if (shopIdApo === "79302132006")
+          {
+            window.location = window.location.href + (location.search && location.search.indexOf("open-cart") > -1 ? "" : ((location.search ? "&" : "?") + "open-cart"))
+            return;
+          }
+          
+          if (typeof apoMiniCartSelector.renderContents === "function") {
+            apoMiniCartSelector.renderContents(t);
+            apoMiniCartSelector.classList.toggle('is-empty', t.item_count === 0);
+          }
+          else 
+          {
+            if (window?.routes?.cart_url)
+              window.location = window.routes.cart_url;
+            else window.location.href = "/cart";
+          }
+        }
+      })
+      .catch((t) => {
+        console.log("Error:", t);
+      });
+  }
+  const handleCartUpdate = async (lineItemKey) => {
+    let cart = await getCartV2();
+    let cartItems = cart?.items;
+    if (isMonsterUpsell && cartItems?.length > 0) cartItems = cartItems.filter(x => !x.product_type || x.product_type !== "Hide");
+    let lineItemElems = apoMiniCartSelector.querySelectorAll(lineItemKey.key);
+    if (cartItems && cartItems.length > 0 && lineItemElems.length > 0) {
+      if (isMonsterUpsell) newIndex = cartItems.length - 1;
+      lineItemElems.forEach((lineItemSelector, index) => {
+        let cartItem = isMonsterUpsell ? cartItems[newIndex - index] : cartItems[index];
+        ((o, n) => {
+          let r = !1,
+            a = !1,
+            p = !1;
+          let lineItemHasOptionAddCharge = false;
+          if (n?.properties && Object.keys(n.properties).length > 0) {
+            if (n.properties.hasOwnProperty('_apo_variants')) {
+              r = !0;
+              p = n.properties['_apo_variants'];
+              lineItemHasOptionAddCharge = true;
+            }
+            else if (n.properties.hasOwnProperty('_apo_added_by')) {
+              a = !0;
+              p = n.id;
+            }
+          }
+          let s = lineItemKey.quantity.wrapper ? o.querySelectorAll(lineItemKey.quantity.wrapper) : [],
+            inputSelector = lineItemKey.quantity.input ? o.querySelectorAll(lineItemKey.quantity.input) : [],
+            c = lineItemKey.quantity.decrease ? o.querySelectorAll(lineItemKey.quantity.decrease) : [],
+            l = lineItemKey.quantity.increase ? o.querySelectorAll(lineItemKey.quantity.increase) : [],
+            u = lineItemKey.removeButton ? o.querySelectorAll(lineItemKey.removeButton) : [];
+          let isHideQuantityInput = shopIdApo === "79163588941";
+          if (a) {
+            (
+              s.length &&
+              s.forEach((t) => t.classList.add("apo-opacity-05")),
+              inputSelector.length &&
+              inputSelector.forEach((t) => isHideQuantityInput ? t.classList.add("apo-hidden") : t.readOnly = true),
+              c.length &&
+              c.forEach((t) => t.classList.add("apo-hidden")),
+              l.length &&
+              l.forEach((t) => t.classList.add("apo-hidden")),
+              u.length &&
+              u.forEach((t) => t.classList.add("apo-hidden"))),
+              o.classList.add("apo-cart-item-mini");
+          }
+        })(lineItemSelector, cartItem)
+      });
+
+      ((t) => {
+        let e = t.map((t) => t.variant_id);
+        if (e.length > 0) {
+          let isSectionID = true;
+          if(shopIdApo === "72434319636"
+                || shopIdApo === "63532892418"
+                || shopIdApo === "79438512462") {
+            isSectionID = false
+          }
+          let sections = (typeof apoMiniCartSelector.getSectionsToRender === "function") ? apoMiniCartSelector.getSectionsToRender().map((section) => isSectionID ? section.id : section.section) : [];
+          let e = {sections: sections, updates:{}};
+          t.forEach((o, n) => {
+            if (o.properties &&
+              !(Object.keys(o.properties).length === 0) &&
+              o.properties.hasOwnProperty("_apo_added_by")
+            ) {
+              let optionData = o.properties["_apo_added_by"];
+              let quantity = 0;
+
+              let cartItemsHasOptionBundle = t.filter(
+                (t) =>
+                  !(Object.keys(t.properties).length === 0)
+                  && t.properties.hasOwnProperty("_apo_variants") && t.properties["_apo_variants"].split(joinAddChargeApo).find(x => x.indexOf(optionData) > -1)
+              );
+
+              let addcharges = t.filter(x => x.id === o.id && o.properties["_apo_added_by"] === x.properties["_apo_added_by"]);
+              let totalAddcharge = addcharges.reduce((n, {quantity}) => n + quantity, 0);
+              let totalAddChargeInOrg = 0;
+              if (cartItemsHasOptionBundle.length > 0) {
+                for (let item of cartItemsHasOptionBundle) {
+                  let isCheckUseAddchage = o.discounts?.length && item?.discounts?.length && o.discounts.find(x => item?.discounts.find(y => y.title === x.title));
+                  if (!isCheckUseAddchage) isCheckUseAddchage = !o.discounts?.length && !item?.discounts?.length;
+                  if (isCheckUseAddchage)
+                  {
+                    let apoVariant = item.properties["_apo_variants"]
+                    .split(joinAddChargeApo)
+                    .find((x) => x.indexOf(optionData) > -1);
+                    if (apoVariant) {
+                      if (apoVariant.indexOf("*") > -1) {
+                        quantity +=
+                          item.quantity *
+                          parseInt(apoVariant.split("*")[apoVariant.split("*").length - 1]);
+                      } else {
+                        quantity += 1;
+                      }
+                    }
+                  }
+                  else
+                  {
+                    let apoVariant = item.properties["_apo_variants"]
+                    .split(joinAddChargeApo)
+                    .find((x) => x.indexOf(optionData) > -1);
+                    if (apoVariant) {
+                      if (apoVariant.indexOf("*") > -1) {
+                        totalAddChargeInOrg +=
+                          item.quantity *
+                          parseInt(apoVariant.split("*")[apoVariant.split("*").length - 1]);
+                      } else {
+                        totalAddChargeInOrg += 1;
+                      }
+                    }
+                  }
+                }
+              }
+              
+              if (o.quantity != quantity && listCartUpdate[o.key] !== quantity && ((totalAddChargeInOrg === 0 || totalAddChargeInOrg !== totalAddcharge))) {
+                let newQuantity = quantity;
+                if (totalAddChargeInOrg > 0)
+                {
+                  newQuantity = totalAddChargeInOrg - totalAddcharge + o.quantity;
+                }
+                listCartUpdate[o.key] = newQuantity;
+                e.updates[o.key] = newQuantity;
+              }
+            }
+          });
+          Object.keys(e.updates).length === 0 ||
+          updateCart(e);
+        }
+      })(cartItems);
+    }
+  }
+  
+  const handleLoadMiniCart = async () => {
+    setTimeout(async function(){
+      let isOk = false;
+      for (let miniCart of AvisOptionsConfig.mini_carts) {
+        let lineItemKey = miniCart.cart_item;
+        let lineItemElems = apoMiniCartSelector.querySelectorAll(lineItemKey.key);
+        if (lineItemElems && lineItemElems.length > 0) {
+          for (let lineItem of lineItemElems) {
+            let d = lineItemKey.quantity.input ? lineItem.querySelectorAll(
+              lineItemKey.quantity.input
+            ) : [],
+              c = lineItemKey.quantity.decrease ? lineItem.querySelectorAll(
+                lineItemKey.quantity.decrease
+              ) : [],
+              l = lineItemKey.quantity.increase ? lineItem.querySelectorAll(
+                lineItemKey.quantity.increase
+              ) : [],
+              g = lineItemKey.details ? lineItem.querySelectorAll(lineItemKey.details) : [],
+              remove = lineItemKey?.removeButton ? lineItem.querySelectorAll(lineItemKey.removeButton) : [];
+  
+            if (
+              (!lineItemKey.quantity.input || d.length > 0) &&
+              (!lineItemKey.quantity.decrease || c.length > 0) &&
+              (!lineItemKey.quantity.increase || l.length > 0) &&
+              (!lineItemKey.details || g.length > 0) &&
+              (!lineItemKey?.removeButton || remove.length > 0)
+            ) {
+              isOk = true;
+              await handleCartUpdate(lineItemKey);
+              break;
+            }
+  
+            if (isOk) break;
+          }
+        }
+        if (isOk) break;
+      }
+    }, 300);
+  }
+  if (apoMiniCartSelector) {
+    setTimeout(() => {handleLoadMiniCart();}, 300);
+    new MutationObserver(
+      handleLoadMiniCart
+    ).observe(apoMiniCartSelector, {
+      childList: !0,
+      subtree: !0,
+    });
+  }
+}
+apoMiniCart();
+
+if (shopIdApo === "55949590694" || shopIdApo === "52058915007")
+{
+  let intervalMiniCart = setInterval(function(){
+    apoMiniCart();
+    if (isSetIntevalMiniCart) clearInterval(intervalMiniCart);
+  }, 400);
+}
+
+function apiHandleCart(){
+ let priceMod =  AvisOptionsData?.priceMod;
+ let priceModCart = AvisOptionsData?.priceModCart;
+
+ const checkPosition = (t) => {
+  return t.offsetWidth > 0 || t.offsetHeight > 0;
+};
+
+function getElementByKeys(keyElements, type) {
+  let result = false;
+  if (!keyElements) return result;
+  if ("quickview" === type) {
+    let e = document.querySelectorAll(keyElements);
+    if (e.length)
+      if (e.length > 1) {
+        for (let t = 0; t < e.length; t++)
+          if (checkPosition(e[t])) {
+            result = e[t];
+            break;
+          }
+      } else result = e[0];
+
+    return result;
+  }
+
+  for (let e = 0; e < keyElements.length; e++) {
+    let elm = document.querySelector(keyElements[e]);
+    if (elm) {
+      result = elm;
+      break;
+    }
+  }
+
+  return result;
+}
+  // Cart page
+var cartPage = {
+  numberRepeatInterval: 0,
+  isApplyFormCart: false,
+  cartData: window.ap_front_settings.cart,
+  handleCartEditPopup: async function (cartItem, indexCartItem, e) {
+    e.preventDefault();
+
+    let avisCartOptionPopupClass = "avis-cartOptionsPopup";
+    let avisCartOptionBackdropClass = "avis-cartOptionsBackdrop";
+
+    const o = e.target;
+    priceMod.addLoadingAddCart(o);
+    const i = () => {
+      let t = document.querySelector(`.${avisCartOptionPopupClass}`),
+        e = document.querySelector(`.${avisCartOptionBackdropClass}`);
+      t && t.remove(), e && e.remove();
+    };
+    i();
+    const a = () => {
+      const e = window.ap_front_settings.config.config_app[
+        "text_cancel_edit_options_cart"
+      ]
+        ? window.ap_front_settings.config.config_app[
+        "text_cancel_edit_options_cart"
+        ]
+        : "Cancel",
+        o = window.ap_front_settings.config.config_app[
+          "text_save_changes_edit_options_cart"
+        ]
+          ? window.ap_front_settings.config.config_app[
+          "text_save_changes_edit_options_cart"
+          ]
+          : "Save Changes";
+      let n = document.createElement("div");
+      return (
+        n.classList.add(avisCartOptionPopupClass),
+        n.setAttribute("style", "display:none!important"),
+        (n.innerHTML = `<div class="avis-popupBox">\n        <form method="post" data-action="/cart/add" enctype="multipart/form-data" class="avis-cart-popup-form" data-avis-cart-popup-form>\n          <div class="avis-popupHeader">\n            <span class="avis-popupHeader-title">${cartItem.title}</span>\n            <span class="avis-popupHeader-close">&times;</span>\n          </div>\n          <div class="avis-popupBody">\n            <input type="hidden" name="id" value="${cartItem.id}">\n            <div class="avis-product-variants"></div>\n          </div>\n          <div class="avis-popupFooter">\n            <button class="avis-popupFooter-cancel">\n              <span>${e}</span>\n            </button>\n            <button class="avis-popupFooter-submit" data-avis-product-atc>\n              <span>${o}</span>\n            </button>\n          </div>\n        </form>\n      </div>`),
+        n
+      );
+    },
+      p = () => {
+        let t = document.createElement("div");
+        return (
+          t.classList.add(avisCartOptionBackdropClass),
+          t.setAttribute("style", "display:none!important"),
+          t.addEventListener("click", i.bind(this)),
+          t
+        );
+      };
+    let productInfo = await AvisOptionsData.pluginAction.getProduct(cartItem.handle);
+    if (productInfo) {
+      let e = a(),
+        r = p();
+      document.body.appendChild(e),
+        document.body.appendChild(r),
+        e
+          .querySelectorAll(
+            ".avis-popupHeader-close, .avis-popupFooter-cancel"
+          )
+          .forEach((t) => t.addEventListener("click", i.bind(this)));
+      priceMod.isEditOptionCart = true;
+      e.querySelector(".avis-popupFooter-submit").addEventListener(
+        "click",
+        AvisOptionsData.submitEditOption
+      );
+      let s = getElementByKeys("[data-avis-cart-popup-form]", "quickview");
+      if (s) {
+        console.log("RenderOption");
+        priceMod.cartItemEdit = cartItem;
+        priceMod.cartItemLineEdit = indexCartItem;
+        AvisOptionsData.mainCheckAllRules(productInfo, apoProductDefault, true);
+        priceMod.removeLoadingAddCart(o);
+        e.setAttribute("style", "display:flex!important");
+        r.setAttribute("style", "display:block!important");
+      }
+    }
+  },
+  handleChangeQuantity: function (t) {
+    let e = t.value,
+      o = t.getAttribute("apo-product-group"),
+      n = document.querySelectorAll(
+        '[apo-parent-product-group="' + o + '"]'
+      );
+    n.length &&
+      n.forEach((t) => {
+        let quantity = t.getAttribute("apo-quantity-product-group");
+        if (!quantity) quantity = 1;
+        t.value = parseInt(quantity) * parseInt(e);
+      });
+  },
+  handleCartUpdate: async function (lineItemKey) {
+    let customizeryConfig = window.ap_front_settings?.config?.config_app ?? {};
+    let cartInit = this;
+    let cart = shopIdApo === "49716494499" ? await getCartJs() : await priceModCart.getCartV2();
+    this.cartData = cart;
+    priceMod.cartCurrent = cart;
+    let editOptions =
+      customizeryConfig.cart_page &&
+      customizeryConfig.cart_page.edit_options;
+    let txtEditOptions = window.ap_front_settings.config.config_app[
+      "text_edit_options_cart"
+    ]
+      ? window.ap_front_settings.config.config_app["text_edit_options_cart"]
+      : "Edit Options";
+    let classEditOption = "avis-edit-options";
+    const disable_quantity_and_remove = true;
+
+    let cartItems = this.cartData && this.cartData.items;
+    let lineItemElems = document.querySelectorAll(lineItemKey.key);
+
+    const addHandleEditCart = (o, r, indexCartItem) => {
+      setTimeout(function () {
+        if (
+          r.properties &&
+          r.properties.hasOwnProperty("_has_apo") &&
+          !o.querySelector(`.${classEditOption}`)
+        ) {
+          let i = document.createElement("button");
+          i.classList.add(classEditOption),
+            (i.innerHTML = `<span>${txtEditOptions}</span>`),
+            i &&
+            i.addEventListener(
+              "click",
+              cartInit.handleCartEditPopup.bind(this, r, indexCartItem)
+            );
+          let a = o.querySelector(lineItemKey.details);
+          if (a) a.appendChild(i);
+        }
+      }, 500);
+    };
+
+    if (cartItems.length > 0 && lineItemElems.length > 0) {
+      lineItemElems.forEach((n, r) => {
+        let p = cartItems[r];
+
+        p &&
+          (disable_quantity_and_remove &&
+            ((o, n) => {
+              let r = !1,
+                a = !1;
+              if (Object.keys(n.properties).length > 0) {
+                if (n.properties.hasOwnProperty("_apo_variants")) {
+                  r = !0;
+                } else if (n.properties.hasOwnProperty("_apo_added_by")) {
+                  a = !0;
+                }
+              }
+              let s = lineItemKey.quantity.wrapper ? o.querySelectorAll(lineItemKey.quantity.wrapper) : [],
+                d = lineItemKey.quantity.input
+                  ? o.querySelectorAll(lineItemKey.quantity.input)
+                  : [],
+                c = lineItemKey.quantity.decrease
+                  ? o.querySelectorAll(lineItemKey.quantity.decrease)
+                  : [],
+                l = lineItemKey.quantity.increase
+                  ? o.querySelectorAll(lineItemKey.quantity.increase)
+                  : [],
+                u = lineItemKey.removeButton
+                  ? o.querySelectorAll(lineItemKey.removeButton)
+                  : [],
+                editCartSelector = lineItemKey.editButton
+                  ? o.querySelectorAll(lineItemKey.editButton)
+                  : false;
+              let isHideQuantityInput = shopIdApo === "79163588941";
+              if (a) {
+                s.length &&
+                  s.forEach((t) => t.classList.add("apo-opacity-05")),
+                  d.length &&
+                  d.forEach((t) =>
+                  isHideQuantityInput ? t.classList.add("apo-hidden") : t.readOnly = true
+                  ),
+                  c.length &&
+                  c.forEach((t) => t.classList.add("apo-hidden")),
+                  l.length &&
+                  l.forEach((t) => t.classList.add("apo-hidden")),
+                  u.length &&
+                  u.forEach((t) => t.classList.add("apo-hidden")),
+                  editCartSelector &&
+                  editCartSelector.length > 0 &&
+                  editCartSelector.forEach((t) =>
+                    t.classList.add("apo-hidden")
+                  );
+                  o.classList.add("apo-cart-item");
+              }
+            })(n, p),
+            p && r.properties && r.properties.hasOwnProperty("_has_apo"),
+            p && editOptions && addHandleEditCart(n, p, r));
+      });
+      disable_quantity_and_remove &&
+        ((t) => {
+          let e = t.map((t) => t.variant_id);
+          if (e.length > 0) {
+            let e = { updates: {} };
+            t.forEach((o, n) => {
+              if (
+                !(Object.keys(o.properties).length === 0) &&
+                o.properties.hasOwnProperty("_apo_added_by")
+              ) {
+                let optionData = o.properties["_apo_added_by"];
+                let quantity = 0;
+
+                let cartItemsHasOptionBundle = t.filter(
+                  (t) =>
+                    !(Object.keys(t.properties).length === 0) &&
+                    t.properties.hasOwnProperty("_apo_variants") &&
+                    t.properties["_apo_variants"]
+                      .split(joinAddChargeApo)
+                      .find((x) => x.indexOf(optionData) > -1)
+                );
+
+                let addcharges = t.filter(x => x.id === o.id && o.properties["_apo_added_by"] === x.properties["_apo_added_by"]);
+                let totalAddcharge = addcharges.reduce((n, {quantity}) => n + quantity, 0);
+                let totalAddChargeInOrg = 0;
+                if (cartItemsHasOptionBundle.length > 0) {
+                  for (let item of cartItemsHasOptionBundle) {
+                    // org and addcharge has discount
+                    let isCheckUseAddchage = o.discounts?.length && item?.discounts?.length && o.discounts.find(x => item?.discounts.find(y => y.title === x.title));
+                    // org and addcharge no discount
+                    if (!isCheckUseAddchage) isCheckUseAddchage = !o.discounts?.length && !item?.discounts?.length;
+                    if (isCheckUseAddchage)
+                    {
+                      let apoVariant = item.properties["_apo_variants"]
+                      .split(joinAddChargeApo)
+                      .find((x) => x.indexOf(optionData) > -1);
+                      if (apoVariant) {
+                        if (apoVariant.indexOf("*") > -1) {
+                          quantity +=
+                            item.quantity *
+                            parseInt(apoVariant.split("*")[apoVariant.split("*").length - 1]);
+                        } else {
+                          quantity += 1;
+                        }
+                      }
+                    }
+                    else
+                    {
+                      let apoVariant = item.properties["_apo_variants"]
+                      .split(joinAddChargeApo)
+                      .find((x) => x.indexOf(optionData) > -1);
+                      if (apoVariant) {
+                        if (apoVariant.indexOf("*") > -1) {
+                          totalAddChargeInOrg +=
+                            item.quantity *
+                            parseInt(apoVariant.split("*")[apoVariant.split("*").length - 1]);
+                        } else {
+                          totalAddChargeInOrg += 1;
+                        }
+                      }
+                    }
+                  }
+                }
+               
+                if (
+                  o.quantity != quantity && ((totalAddChargeInOrg === 0 || totalAddChargeInOrg !== totalAddcharge))
+                  && priceModCart.listCartUpdate[o.key] !== quantity
+                ) {
+                  let newQuantity = quantity;
+                  if (totalAddChargeInOrg > 0)
+                  {
+                    newQuantity = totalAddChargeInOrg - totalAddcharge + o.quantity;
+                  }
+                  priceModCart.listCartUpdate[o.key] = newQuantity;
+                  e.updates[o.key] = newQuantity;
+                }
+              }
+            }),
+              Object.keys(e.updates).length === 0 ||
+              priceModCart.updateCart(e, (res) => {
+                if (!res?.status)
+                  window.location.reload();
+              });
+          } else {
+            let e = {
+              updates: {},
+            };
+            t.forEach((o, n) => {
+              if (
+                o.properties &&
+                o.properties.hasOwnProperty("_apo_added_by")
+              ) {
+                let optionData = o.properties["_apo_added_by"];
+                let quantity = 0;
+
+                let cartItemsHasOptionBundle = t.filter(
+                  (t) =>
+                    !(Object.keys(t.properties).length === 0) &&
+                    t.properties.hasOwnProperty("_apo_variants") &&
+                    t.properties["_apo_variants"]
+                      .split(joinAddChargeApo)
+                      .find((x) => x.indexOf(optionData) > -1)
+                );
+
+                if (cartItemsHasOptionBundle.length > 0) {
+                  for (let item of cartItemsHasOptionBundle) {
+                    let isCheckUseAddchage = o.discounts?.length && item?.discounts?.length && o.discounts.find(x => item?.discounts.find(y => y.title === x.title));
+                    if (!isCheckUseAddchage) isCheckUseAddchage = !o.discounts?.length && !item?.discounts?.length;
+                    if (isCheckUseAddchage)
+                    {
+                      let apoVariant = item.properties["_apo_variants"]
+                      .split(joinAddChargeApo)
+                      .find((x) => x.indexOf(optionData) > -1);
+                      if (apoVariant) {
+                        if (apoVariant.indexOf("*") > -1) {
+                          quantity +=
+                            item.quantity *
+                            parseInt(apoVariant.split("*")[apoVariant.split("*").length - 1]);
+                        } else {
+                          quantity += 1;
+                        }
+                      }
+                    }
+                  }
+                }
+                if (o.quantity != quantity) {
+                  e.updates[o.key] = quantity;
+                }
+              }
+            }),
+              Object.keys(e.updates).length === 0 ||
+              priceModCart.updateCart(e, () => {
+                window.location.reload();
+              });
+          }
+        })(cartItems);
+    }
+  },
+  onCartPageUpdated: function (lineItemKeys) {
+    let isOk = false;
+    for (let lineItemInfo of lineItemKeys) {
+      let lineItemKey = lineItemInfo.key;
+      if (!lineItemKey.details) lineItemKey = lineItemInfo;
+      let lineItemElems = document.querySelectorAll(lineItemKey.key);
+      if (lineItemElems && lineItemElems.length > 0) {
+        for (let lineItem of lineItemElems) {
+          let d = lineItemKey.quantity.input
+            ? lineItem.querySelectorAll(lineItemKey.quantity.input)
+            : [],
+            c = lineItemKey.quantity.decrease
+              ? lineItem.querySelectorAll(lineItemKey.quantity.decrease)
+              : [],
+            l = lineItemKey.quantity.increase
+              ? lineItem.querySelectorAll(lineItemKey.quantity.increase)
+              : [],
+            g = lineItem.querySelectorAll(lineItemKey.details);
+
+          if (
+            (!lineItemKey.quantity.input || d.length > 0) &&
+            (!lineItemKey.quantity.decrease || c.length > 0) &&
+            (!lineItemKey.quantity.increase || l.length > 0) &&
+            g.length > 0
+          ) {
+            isOk = true;
+            cartPage.handleCartUpdate(lineItemKey);
+            break;
+          }
+
+          if (isOk) break;
+        }
+        if (isOk) break;
+      }
+    }
+
+    if (!isOk && cartPage.numberRepeatInterval > 19) {
+      console.log("APO Not Found Key Item Cart List");
+    }
+  },
+  initCartPage: function () {
+    priceMod =  AvisOptionsData?.priceMod;
+    priceModCart = AvisOptionsData?.priceModCart;
+    if (!priceMod)
+    {
+      return;
+    }
+
+    cartPage.numberRepeatInterval += 1;
+    if (!AvisOptionsConfig.them_key)
+      AvisOptionsConfig.them_key = {
+        cart: {
+          page: {
+            form: false,
+            lineitem: false,
+          },
+        },
+      };
+
+    let cartForm = getElementByKeys(
+      AvisOptionsConfig.them_key.cart.page.form
+    );
+    if (!cartForm) {
+      if (window?.ap_front_settings?.page_type === "cart") {
+        console.log(
+          "APO Not Found Form Of Cart Page Repeat: ",
+          cartPage.numberRepeatInterval
+        );
+      }
+      return;
+    }
+
+    cartPage.isApplyFormCart = true;
+    if ((Shopify.theme && Shopify.theme.name) || window.BOOMR?.themeName) {
+      let filterData = AvisOptionsConfig.them_key.cart.page.lineitem.filter(
+        (e) =>
+          !e.theme_name ||
+          (Shopify?.theme?.name &&
+            Shopify.theme.name.indexOf(e.theme_name) > -1) ||
+          (window.BOOMR?.themeName &&
+            e.theme_name.indexOf(window.BOOMR?.themeName) > -1)
+      );
+      if (filterData.length > 0)
+        AvisOptionsConfig.them_key.cart.page.lineitem = filterData;
+    }
+    this.onCartPageUpdated(AvisOptionsConfig.them_key.cart.page.lineitem);
+    new MutationObserver(
+      this.onCartPageUpdated.bind(
+        this,
+        AvisOptionsConfig.them_key.cart.page.lineitem
+      )
+    ).observe(cartForm, {
+      childList: !0,
+      subtree: !0,
+    });
+  },
+};
+
+setTimeout(cartPage.initCartPage(), 300);
+  let intervalCheckCart = setInterval(function () {
+    if (cartPage.isApplyFormCart) {
+      clearInterval(intervalCheckCart);
+    } else {
+      if (cartPage.numberRepeatInterval > 10) {
+        clearInterval(intervalCheckCart);
+      } else cartPage.initCartPage();
+    }
+  }, 500);
+}
+
+apiHandleCart();
+
+function apoRemoveHrefAddChargeProduct() {
+  let intervalRemoveHref = setInterval(function () {
+    let apElementsCartPage = document.querySelector('.apo-cart-item');
+    if (apElementsCartPage){
+      var links = document.querySelectorAll('.apo-cart-item a');
+      links.forEach(function(link) {
+      if (link.getAttribute('href').includes('products/')) {
+          link.removeAttribute('href');
+      }});
+      clearInterval(intervalRemoveHref);
+    }
+    let apElementsMiniCart = document.querySelector('.apo-cart-item-mini');
+    if (apElementsMiniCart){
+      var links = document.querySelectorAll('.apo-cart-item-mini a');
+      links.forEach(function(link) {
+      if (link.getAttribute('href').includes('products/')) {
+          link.removeAttribute('href');
+      }});
+      clearInterval(intervalRemoveHref);
+    }
+  }, 100);
+}
+apoRemoveHrefAddChargeProduct()
+}
+if (!window.apo_js_loaded.minicart)
+{
+  apo_MiniCart();
+}

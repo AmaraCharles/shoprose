@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.hertunba.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.hertunba.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.hertunba.com/collections/festival-of-lights.atom"/>
+  <title>Hertunba</title>
+  <updated>2021-12-15T17:08:42+01:00</updated>
+  <author>
+    <name>Hertunba</name>
+  </author>
+  <entry>
+    <id>https://www.hertunba.com/products/6672542203994</id>
+    <published>2021-12-15T17:08:42+01:00</published>
+    <updated>2021-12-15T17:08:42+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/uyai-dress"/>
+    <title>Uyai dress</title>
+    <s:type>Clothing</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/uyai-dress-210380.jpg?v=1705327751"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Clothing<br>
+        <strong>Price: </strong>
+            50.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">The Uyai Dress, made from taffeta print fabric, is an emerald green, double-breasted halter neck dress designed to make you feel exquisitely beautiful and gracefully poised.</span><br><br><strong>Highlights:</strong><br>Mesh gloves<br>Button fastening<br><br>The model wears a small size.</p>
+<p> <a title="Hertunba Size Chart" href="https://hertunba.com/pages/size-chart" target="_blank">Size Chart </a></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>FOL</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672542203994</id>
+      <title>S / ng</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672542203994</id>
+      <title>S / intl</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672542203994</id>
+      <title>M / ng</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>11</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672542203994</id>
+      <title>M / intl</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>11</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672542203994</id>
+      <title>L / ng</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>12</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672542203994</id>
+      <title>L / intl</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>12</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672542203994</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>13</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672542203994</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>13</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6672506323034</id>
+    <published>2021-12-15T17:07:39+01:00</published>
+    <updated>2021-12-15T17:07:39+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/tama-robe"/>
+    <title>Tamar Robe</title>
+    <s:type>Clothing</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/tamar-robe-440844.jpg?v=1700847959"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Clothing<br>
+        <strong>Price: </strong>
+            75.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">Made from silk finish damask fabric, the Tamar Robe flaunts a luxurious rose print, bringing an air of opulence to your leisure time. Whether you're attending Zoom meetings, going on a date, or savouring a day on vacation, this versatile robe ensures you are dressed in the exact look you desire.</span></p>
+<p><br><br><strong>Highlights:</strong><br>Silk damask<br>35 inches long<br>Belt fastening<br><br>The model wears a medium size.</p>
+<p> </p>
+<p><span><a href="https://hertunba.com/pages/size-chart" title="Hertunba Size Chart" target="_blank">Size Chart </a></span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>FOL</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672506323034</id>
+      <title>S / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672506323034</id>
+      <title>S / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672506323034</id>
+      <title>M / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>11</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672506323034</id>
+      <title>M / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>11</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672506323034</id>
+      <title>L / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>12</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672506323034</id>
+      <title>L / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>12</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672506323034</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>13</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672506323034</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>13</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6672401563738</id>
+    <published>2021-12-15T17:06:38+01:00</published>
+    <updated>2021-12-15T17:06:38+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/lolita-suit"/>
+    <title>Lolita Suit</title>
+    <s:type>Clothing</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/lolita-suit-101240.jpg?v=1700847784"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Clothing<br>
+        <strong>Price: </strong>
+            175.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span></span><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">The Lolita Suit is a three-piece ensemble comprising a slim-fit blazer, leg-lengthening boot-cut pants, and a unique upcycled Ankara breastplate that elevates the entire look. Inspired by Nigerian women in the diaspora, who effortlessly balance fitting in with standing out, the printed breastplate serves as a constant reminder of home.</span><br><br><span>Model wears a small</span></p>
+<p><span><a title="Hertunba Size Chart" href="https://hertunba.com/pages/size-chart" target="_blank">Size Chart </a></span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>FOL</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672401563738</id>
+      <title>S / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672401563738</id>
+      <title>S / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672401563738</id>
+      <title>M / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>11</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672401563738</id>
+      <title>M / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>11</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672401563738</id>
+      <title>L / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>12</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672401563738</id>
+      <title>L / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>12</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672401563738</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>13</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672401563738</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">175.00</s:price>
+      <s:sku>13</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.hertunba.com/products/6672537223258</id>
+    <published>2021-12-15T17:06:14+01:00</published>
+    <updated>2021-12-15T17:06:14+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.hertunba.com/products/tyra-mirror-set"/>
+    <title>Tyra Mirror Set</title>
+    <s:type>Clothing</s:type>
+    <s:vendor>Hertunba</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0266/5929/1226/products/tyra-mirror-set-693268.jpg?v=1705327694"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hertunba<br>
+        <strong>Type: </strong>Clothing<br>
+        <strong>Price: </strong>
+            115.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">The Tyra Mirror Set, made from luxurious mercury silk fabric in an electrifying shade of grey, features a cowl neck top and boot-cut pants. This set not only gives off an elegant aura but a touch of futuristic charm guaranteed to leave a lasting impression.</span><br><br><strong>Highlights:</strong><br>Top 34 inches long<br>Pants 46 inches long<br>Zip fastening on high waist pants<br>Mercury silk fabric<br><br>The model wears a size small size.</p>
+<p> </p>
+<p><span><a title="Hertunba Size Chart" href="https://hertunba.com/pages/size-chart" target="_blank">Size Chart </a></span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>FOL</s:tag>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672537223258</id>
+      <title>S / ng</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672537223258</id>
+      <title>S / intl</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>10</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672537223258</id>
+      <title>M / ng</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>11</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672537223258</id>
+      <title>M / intl</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>11</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672537223258</id>
+      <title>L / ng</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>12</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672537223258</id>
+      <title>L / intl</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>12</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672537223258</id>
+      <title>XL / ng</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>13</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.hertunba.com/products/6672537223258</id>
+      <title>XL / intl</title>
+      <s:price currency="USD">115.00</s:price>
+      <s:sku>13</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>
