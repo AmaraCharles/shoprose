@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
 </head>
+<div id="my-component"></div>
 
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Rubik:wght@400;500;700&display=swap");
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Rubik:wght@400;500;700&display=swap");
 
+</style>
+<script>
+    const container = document.querySelector('#my-component');
+    const shadowRoot = container.attachShadow({ mode: 'open' });
+
+    shadowRoot.innerHTML = `
+        <style>
+      
 :root {
   --light: #ffffff;
   --dark: #000;
 }
-body {
+.body {
   font-family: "Rubik", sans-serif;
   margin: 0;
   padding: 0;
@@ -136,7 +147,7 @@ svg {
 }
 
     </style>
-<body>	
+<div ="body">	
 
     <footer class="footer">
         <video class="footer_video" muted="" loop="" autoplay src="//cdn.shopify.com/s/files/1/0526/6905/5172/t/5/assets/footer.mp4?v=29581141968431347981633714450" type="video/mp4">
@@ -296,5 +307,10 @@ svg {
           </div>
         </div>
       </footer>
+      </div>
+    `;
+</script>
+
+  
 </body>
 </html>
