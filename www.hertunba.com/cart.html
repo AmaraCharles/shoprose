@@ -1768,16 +1768,39 @@
           </a>
 
         </div>
+<style>
 
+.cart-container {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-counter {
+    position: absolute;
+    top: -10px;  /* Adjust to position vertically */
+    right: -10px; /* Adjust to position horizontally */
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.cart-container .fa-shopping-cart {
+    position: relative;
+}
+
+</style>
 
         <div class="main-header-item main-header-cart-item">
-          <a class="main-header-link cart-has-contents" href="https://www.shoprosecc.com/cart" title="Cart">
-            <svg class="icon-cart" width="28" height="24" viewBox="0 0 28 24">
-              <path color="#7b3700"
-                d="M0.00549316406,0.00341796875 L0,1.31665527 L3.86992452,1.31665527 C5.19152452,6.73894861 7.85501467,17.2152259 7.85501467,17.2152259 C7.92254938,17.481112 8.20782148,17.6966553 8.48322255,17.6966553 L23.7786204,17.6966553 C24.0580354,17.6966553 24.3451532,17.4846551 24.4218708,17.2163022 L28.0056873,4.68035384 C28.0815297,4.41506216 27.923855,4.20000076 27.6389203,4.20000076 L6,4.20000076 C5.63264,2.72049527 4.93469238,0 4.93469238,0 L0.00549316406,0.00341796875 Z M6.38000488,5.60000038 L26.4599915,5.60000038 L23.4200134,16.3766479 L8.98999023,16.3766479 L6.38000488,5.60000038 Z M9,21.68 C9,22.60736 9.75264,23.36 10.68,23.36 C11.60736,23.36 12.36,22.60736 12.36,21.68 C12.36,20.75264 11.60736,20 10.68,20 C9.75264,20 9,20.75264 9,21.68 Z M19,21.68 C19,22.60736 19.75264,23.36 20.68,23.36 C21.60736,23.36 22.36,22.60736 22.36,21.68 C22.36,20.75264 21.60736,20 20.68,20 C19.75264,20 19,20.75264 19,21.68 Z">
-              </path>
-            </svg>
-            <span class="cart-counter">3</span> <!-- Example counter value -->
+          <a class="main-header-link" href="https://www.shoprosecc.com/cart" title="Cart">
+            <div class="cart-container" >
+              <i class="fas fa-shopping-cart fa-2x" style="color:#7b3700"></i>
+              <span class="cart-counter" id="cart-counter" ></span>
+          </div>
+          
           </a>
         </div>
 
@@ -1972,25 +1995,7 @@
 
 
 
-            <div class="main-navigation-footer__payments-cross-border">
-
-              <div class="main-navigation-footer__cross-border">
-
-                <form method="post" action="https://www.shoprosecc.com/localization" id="localization_form"
-                  accept-charset="UTF-8" class="shopify-localization-form" enctype="multipart/form-data"><input
-                    type="hidden" name="form_type" value="localization"><input type="hidden" name="utf8"
-                    value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="return_to"
-                    value="/cart">
-
-
-
-                </form>
-              </div>
-
-
-
-            </div>
-
+           
 
 
 
@@ -2588,6 +2593,13 @@ svg {
         console.log(cartItems);
 
         const cartContainer = document.getElementById('cartContainer');
+        var cartCounter=document.getElementById('cart-counter');
+        
+        
+        cartCounter.innerHTML=cartItems.length
+        var cartContainer=document.getElementById("cart-container")
+       
+        
         cartContainer.innerHTML = ''; // Clear the container
         var totalfee = 0
         console.log(cartItems);
@@ -2728,11 +2740,7 @@ svg {
     // Initial render
     renderCart();
   </script>
-  <script>
-    //console.log("here");
-    var mlvedaCallUrl = "//www.mlveda.com/ShopifyApps/ShopifyMultiPricing/getLocation?shop=hertunba.myshopify.com&rnd=" + Math.floor((Math.random() * 10000000000) + 1);
-
-    var syncWithThemePageFlag = false;
+  
 
 
 
@@ -2740,9 +2748,7 @@ svg {
 
 
 
-
-    <script src="./cart_files/vogue.js.download" data-scripts="" data-shopify-api-url="//www.hertunba.com/cdn/shopifycloud/shopify/assets/themes_support/api.jquery-b0af070cfe3f5cf7c92f9e2a5da2665ee07ed2aad63bb408f8d6672f894a5996.js" data-placeholder-ie9="//www.hertunba.com/cdn/shop/t/16/assets/jquery.placeholder.min.js?v=75121191588686154271716880827" data-shopify-currencies="//cdn.shopify.com/s/javascripts/currencies.js" data-shopify-countries="/services/javascripts/countries.js" data-shopify-common="//www.hertunba.com/cdn/shopifycloud/shopify/assets/themes_support/shopify_common-33bb9d312118840468a53f36b59c62c1e8f2b7d1a0a77250db9e300441827470.js" data-shopify-cart="//www.hertunba.com/cdn/shop/t/16/assets/jquery.cart.min.js?v=30020690315333423871716880827"></script>
-
+    
   <script>
   (function () {
     function handleFirstTab(e) {
@@ -4766,16 +4772,6 @@ svg {
   </div>
   <div id="shopify-block-11254466806377166470" class="shopify-block shopify-app-block">
 
-    <script>
-      var sizeChartsRelentless = window.sizeChartsRelentless || {};
-
-      sizeChartsRelentless.metafield = { "charts": [{ "id": "0", "values": [["SIZE", "UK SIZES", "BUST", "WAIST", "HIP"], ["S", "6 - 8", "34", "26", "38"], ["M", "10 -12", "39", "30", "42"], ["L", "14 - 16", "44", "36", "46"], ["XL", "18 - 22", "48", "40", "52"]], "title": "SIZE CHART", "descriptionTop": "", "conditions": [{ "type": "product", "title": "Ada Akwete Dress", "id": "7202851455066" }, { "type": "product", "title": "Ada Black Set", "id": "6930178080858" }, { "type": "product", "title": "Ada Two Piece", "id": "6873916735578" }, { "type": "product", "title": "Adisa Silver Silk Set", "id": "6800641949786" }, { "type": "product", "title": "Aima Dress", "id": "6873918341210" }, { "type": "product", "title": "Aima Robe dress", "id": "6730910072922" }, { "type": "product", "title": "Akweke Dress", "id": "6582339207258" }, { "type": "product", "title": "Akweke Kaftan", "id": "6873915555930" }, { "type": "product", "title": "Akweke Kaftan in Chalk", "id": "6878521393242" }, { "type": "product", "title": "Akweke Kaftan in Uli", "id": "6878517559386" }, { "type": "product", "title": "Akwete Dress", "id": "6873919160410" }, { "type": "product", "title": "Ami Art Dress", "id": "6582338191450" }, { "type": "product", "title": "AMIE DRESS", "id": "6873919029338" }, { "type": "product", "title": "Bianca Dress", "id": "6730910924890" }, { "type": "product", "title": "Biola Cobalt", "id": "6873919455322" }, { "type": "product", "title": "Black Tamarind Suit", "id": "6843973501018" }, { "type": "product", "title": "Blue Marigold Suit", "id": "6843974090842" }, { "type": "product", "title": "Calla Kaftan", "id": "6843974189146" }, { "type": "product", "title": "Chi suit in nude", "id": "6929907941466" }, { "type": "product", "title": "Coat of Many Colors", "id": "4807593951322" }, { "type": "product", "title": "Coat of Many Colors Kaftan", "id": "7191408443482" }, { "type": "product", "title": "Coco Pant Suit", "id": "4807620296794" }, { "type": "collection", "title": "Action Lady collection", "id": "173985431642" }, { "type": "collection", "title": "DEAR EVE", "id": "268831621210" }, { "type": "collection", "title": "Festival of Lights collection", "id": "263374798938" }, { "type": "collection", "title": "Hertunba Sound Wave Collection", "id": "271210545242" }, { "type": "collection", "title": "HERTUNBA X KIM", "id": "265876144218" }, { "type": "collection", "title": "ILOUWA COLLECTION", "id": "274503696474" }, { "type": "collection", "title": "LULA LAND", "id": "277569634394" }, { "type": "collection", "title": "Shop", "id": "274646892634" }, { "type": "collection", "title": "Sunday Culture", "id": "272731471962" }, { "type": "collection", "title": "The Eden Collection", "id": "270478082138" }, { "type": "collection", "title": "The Future of Color  collection", "id": "261957320794" }, { "type": "collection", "title": "The Gift Collection", "id": "176164536410" }, { "type": "collection", "title": "The Most Wanted Collection", "id": "270978973786" }, { "type": "collection", "title": "Top Sellers", "id": "272769941594" }], "conditionsOperator": "all-products" }], "buttonIcon": "ruler3", "buttonText": "Size Chart" };
-
-
-
-      sizeChartsRelentless.blocks = sizeChartsRelentless.blocks || {};
-      sizeChartsRelentless.blocks['11254466806377166470'] = null;
-    </script>
     <script defer="defer" src="./cart_files/size-charts-relentless.js.download"></script>
 
 
