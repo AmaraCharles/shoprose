@@ -27,7 +27,8 @@
 <!-- MLveda code ends -->
 
   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="facebook-domain-verification" content="2a3z02vx4243634hzzcuf7pkz0pvpt" />
   <meta name="facebook-domain-verification" content="0yaac378km0ndv7q6uilcc41cwdaa6" />
   <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
@@ -2088,18 +2089,39 @@ template-product  product-sidebar-visible
 
   
     <div class="main-header-item main-header-cart-item">
-      <a
-        class="main-header-link "
-        href="../cart.html"
-        title="Cart"><svg
-  class="icon-cart"
-  width="28"
-  height="24"
-  viewBox="0 0 28 24">
-  <path color="#7b3700" d="M0.00549316406,0.00341796875 L0,1.31665527 L3.86992452,1.31665527 C5.19152452,6.73894861 7.85501467,17.2152259 7.85501467,17.2152259 C7.92254938,17.481112 8.20782148,17.6966553 8.48322255,17.6966553 L23.7786204,17.6966553 C24.0580354,17.6966553 24.3451532,17.4846551 24.4218708,17.2163022 L28.0056873,4.68035384 C28.0815297,4.41506216 27.923855,4.20000076 27.6389203,4.20000076 L6,4.20000076 C5.63264,2.72049527 4.93469238,0 4.93469238,0 L0.00549316406,0.00341796875 Z M6.38000488,5.60000038 L26.4599915,5.60000038 L23.4200134,16.3766479 L8.98999023,16.3766479 L6.38000488,5.60000038 Z M9,21.68 C9,22.60736 9.75264,23.36 10.68,23.36 C11.60736,23.36 12.36,22.60736 12.36,21.68 C12.36,20.75264 11.60736,20 10.68,20 C9.75264,20 9,20.75264 9,21.68 Z M19,21.68 C19,22.60736 19.75264,23.36 20.68,23.36 C21.60736,23.36 22.36,22.60736 22.36,21.68 C22.36,20.75264 21.60736,20 20.68,20 C19.75264,20 19,20.75264 19,21.68 Z"></path>
-</svg>
-<span>4</span>
-</a>
+      <a class="main-header-link " href="../cart.html" title="Cart">
+        <style>
+
+.cart-container {
+position: relative;
+display: inline-block;
+}
+
+.cart-counter {
+position: absolute;
+top: -10px;  /* Adjust to position vertically */
+right: -10px; /* Adjust to position horizontally */
+background-color: red;
+color: white;
+padding: 2px 6px;
+border-radius: 50%;
+font-size: 12px;
+font-weight: bold;
+line-height: 1;
+}
+
+.cart-container .fa-shopping-cart {
+position: relative;
+}
+
+</style>
+<div class="cart-container" >
+<i class="fas fa-shopping-cart fa-2x" style="color:#7b3700"></i>
+<span class="cart-counter" id="cart-counter" ></span>
+</div>
+
+
+      </a>
     </div>
   
 </div>
