@@ -2582,103 +2582,79 @@ svg {
     }
 
     const encodedArray = localStorage.getItem("exp");
+let decodedArray
 
+    // const decodedArray = JSON.parse(encodedArray).map(decodeURIComponent);
+    try{
+       var ddecodedArray = JSON.parse(encodedArray).map(decodeURIComponent);
+        decodedArray= ddecodedArray.map(jsonString => JSON.parse(jsonString));
+      
+      }
+      catch (error) {
+        console.error("Decoding failed, trying alternative approach:", error);
+      }
+      try{
+        const decodedArrayUri = decodeURIComponent(encodedArray)
+        const parseDecodedArrayUri= JSON.parse(decodedArrayUri)
+        console.log(parseDecodedArrayUri);
+        
+          decodedArray=parseDecodedArrayUri
 
-    const decodedArray = JSON.parse(encodedArray).map(decodeURIComponent);
+      }
+      catch(error){
+        console.error("Decoding failed again:", error);
 
-    const cartItems = decodedArray.map(jsonString => JSON.parse(jsonString));
+      }
+
+    const cartItems = decodedArray
     console.log(cartItems);
 
-
+   
     function renderCart() {
 
       // Fetch the URI-encoded array from local storage
       const encodedArray = localStorage.getItem("exp");
 
       // Decode the URI-encoded array
-      const decodedArray = JSON.parse(encodedArray).map(decodeURIComponent);
+      try{
+      const firstDecodeMethod = JSON.parse(encodedArray).map(decodeURIComponent);
+      const decodedArray=firstDecodeMethod.map(jsonString => JSON.parse(jsonString));
+      
+      }
+      catch (error) {
+        console.error("Decoding failed, trying alternative approach:", error);
+      }
+      try{
+        const decodedArrayUri = decodeURIComponent(encodedArray)
+        const parseDecodedArrayUri= JSON.parse(decodedArrayUri)
+        const mappedArray=parseDecodedArrayUri.map(decodeURIComponent)
+        const decodedArray=mappedArray
 
+      }
+      catch (error){
+        console.error("Decoding failed, trying alternative approach:", error);
+
+      }
       // Parse each decoded JSON string into a JavaScript object
       try {
-        const cartItems = decodedArray.map(jsonString => JSON.parse(jsonString));
+        const cartItems = decodedArray
         console.log(cartItems);
 
         const cartContainer = document.getElementById('cartContainer');
         var cartCounter=document.getElementById('cart-counter');
         
-        
+     
         cartCounter.innerHTML=cartItems.length
        
         
         cartContainer.innerHTML = ''; // Clear the container
         var totalfee = 0
         console.log(cartItems);
-        function increaseQuantity(button, itemId) {
-    // Find the item in the cartItems array by itemId
-    const item = cartItems.find(i => i._id === itemId);
-
-    // Increment the item quantity
-    item.qty = Number(item.qty) + 1;
-
-    // Update the input field value
-    const inputElement = button.parentNode.querySelector('input[type=number]');
-    inputElement.value = item.qty;
-
-    // Optionally, update the price display or re-render the cart
-    renderCart();
-}
-
-// Function to decrease quantity
-function decreaseQuantity(button, itemId) {
-    // Find the item in the cartItems array by itemId
-    const item = cartItems.find(i => i._id === itemId);
-
-    // Decrement the item quantity (ensure it doesn't go below 1)
-    item.qty = Math.max(Number(item.qty) - 1, 1);
-
-    // Update the input field value
-    const inputElement = button.parentNode.querySelector('input[type=number]');
-    inputElement.value = item.qty;
-
-    // Optionally, update the price display or re-render the cart
-    renderCart();
-}
-
-        //  Assuming cartItems is your array of cart items
-cartItems.forEach(item => {
+        cartItems.forEach(item => {
     var pp = Number(item.qty) * Number(item.price);
 
     totalfee += Number(pp);
 
-    function increaseQuantity(button, itemId) {
-        // Find the item in the cartItems array by itemId
-        const item = cartItems.find(i => i._id === itemId);
-
-        // Increment the item quantity
-        item.qty = Number(item.qty) + 1;
-
-        // Update the input field value
-        const inputElement = button.parentNode.querySelector('input[type=number]');
-        inputElement.value = item.qty;
-
-        // Optionally, update the price display or re-render the cart
-        renderCart();
-    }
-
-    function decreaseQuantity(button, itemId) {
-        // Find the item in the cartItems array by itemId
-        const item = cartItems.find(i => i._id === itemId);
-
-        // Decrement the item quantity (ensure it doesn't go below 1)
-        item.qty = Math.max(Number(item.qty) - 1, 1);
-
-        // Update the input field value
-        const inputElement = button.parentNode.querySelector('input[type=number]');
-        inputElement.value = item.qty;
-
-        // Optionally, update the price display or re-render the cart
-        renderCart();
-    }
 
     const cartItem = document.createElement('div');
     cartItem.className = 'cart-item';
@@ -2731,15 +2707,63 @@ cartItems.forEach(item => {
         console.error("Failed to parse JSON:", error);
       }
 
-
       // $("#totalfee").text("#"+totalfee)
 
     }
+    function increaseQuantity(button, itemId) {
+    // Log the itemId for debugging
+    console.log(itemId);
+
+    // Fetch the cart from local storage
+   
+    // Find the item in the cartItems array by itemId
+    const item = cartItems.find(i => i._id === itemId);
+
+    if (item) {
+        // Increment the item quantity
+        item.qty = Number(item.qty) + 1;
+        console.log(item);
+          const inputElement = button.parentNode.querySelector('input[type=number]');
+      
+        console.log(item.qty);
+
+        // Update the input field value
+        inputElement.value = item.qty;
+
+        // Save the updated cart back to local storage
+
+
+        let exp=JSON.stringify(cartItems)
+        localStorage.setItem('exp', encodeURIComponent(exp));
+
+        // Optionally, update the price display or re-render the cart
+        renderCart();
+    } else {
+        console.log('Item not found in cart.');
+    }
+}
+
+
+    function decreaseQuantity(button, itemId) {
+        // Find the item in the cartItems array by itemId
+        const item = cartItems.find(i => i._id === itemId);
+
+        // Decrement the item quantity (ensure it doesn't go below 1)
+        item.qty = Math.max(Number(item.qty) - 1, 1);
+
+        // Update the input field value
+        const inputElement = button.parentNode.querySelector('input[type=number]');
+        inputElement.value = item.qty;
+
+        // Optionally, update the price display or re-render the cart
+        renderCart();
+    }
+  
     function updateQuantity(inputElement, itemId) {
     const item = cartItems.find(i => i._id === itemId);
     item.qty = Number(inputElement.value);
     renderCart(); // Re-render or update the cart UI if necessary
-}
+    }
 
     // function removeItem(itemId) {
     // // console.log(cartItems);
@@ -2751,50 +2775,51 @@ cartItems.forEach(item => {
     //   }
     // }
     function removeItem(itemId) {
-      // Find the index of the item with the specified itemId
-      const itemIndex = cartItems.findIndex(item => item._id === itemId);
+    // Find the index of the item with the specified itemId
+    const itemIndex = cartItems.findIndex(item => item._id === itemId);
 
-      // Check if the item exists in the cart
-      if (itemIndex !== -1) {
+    // Check if the item exists in the cart
+    if (itemIndex !== -1) {
         // Remove the item from the cart
         cartItems.splice(itemIndex, 1);
 
         // Update the local storage with the new cartItems array
         const encodedCartItems = cartItems.map(item => encodeURIComponent(JSON.stringify(item)));
         localStorage.setItem('exp', JSON.stringify(encodedCartItems));
+
         var ordersum = localStorage.getItem("finalOrder");
 
-
         if (ordersum) {
-          // Parse the existing "exp" array from JSON string to JavaScript array
-          var orderArray = JSON.parse(ordersum);
+            // Parse the existing "finalOrder" array from JSON string to JavaScript array
+            var orderArray = JSON.parse(ordersum);
 
-          // Add the new item to the array
-          orderArray.push(JSON.stringify(encodedCartItems));
+            // Ensure that orderArray is an array
+            if (Array.isArray(orderArray)) {
+                // Add the new item to the array
+                orderArray.push(encodedCartItems);
+            } else {
+                // If it's not an array, initialize it as one
+                orderArray = [encodedCartItems];
+            }
 
-          // Store the updated array back to localStorage as a JSON string
-          localStorage.setItem("finalOrder", JSON.stringify(orderArray));
+            // Store the updated array back to localStorage as a JSON string
+            localStorage.setItem("finalOrder", JSON.stringify(orderArray));
 
-          console.log("Stored to cart for order summary");
-
+            console.log("Stored to cart for order summary");
         } else {
-          // Initialize a new array with the new item if "exp" doesn't exist
-          var orderArray = JSON.stringify(encodedCartItems);
+            // Initialize a new array with the new item if "finalOrder" doesn't exist
+            var orderArray = [encodedCartItems];
 
-          // Store the new array in localStorage as a JSON string
-          localStorage.setItem("finalOrder", JSON.stringify(orderArray));
+            // Store the new array in localStorage as a JSON string
+            localStorage.setItem("finalOrder", JSON.stringify(orderArray));
 
-          console.log("No finalorder in localStorage but stored to ls now");
-
+            console.log("No finalOrder in localStorage but stored to ls now");
         }
 
-
-        // Re-render the cart to reflect changes
+        // Optionally, re-render the cart UI or perform other updates
         renderCart();
-      } else {
-        console.log('Item not found in cart');
-      }
     }
+}
 
 
     // Initial render

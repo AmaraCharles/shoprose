@@ -571,16 +571,16 @@
       
       
       
-      function storeImg(imgUrl, price,title,description,category,timeStamp,from,userId) {
-      console.log(imgUrl, price,title,description,category,timeStamp,userId,from);
-      const createdNft={ userId,from,price,title,category,description,timeStamp,imgUrl}
+      function storeImg(imgUrl, price,title,description,qty,category,timeStamp,from,userId) {
+      console.log(imgUrl, price,title,description,qty,category,timeStamp,userId,from);
+      const createdNft={ userId,from,price,title,qty,category,description,timeStamp,imgUrl}
       const created=JSON.stringify(createdNft)
       localStorage.setItem("created",created)
       $.ajax({
         type: 'POST',
         url: `https://rose-heroku-dc607cde99d9.herokuapp.com/transactions/${userId}/single`,
         dataType: 'json',
-        data: { imgUrl, price,title,description,category,timeStamp,from,userId},
+        data: { imgUrl, price,title,description,category,qty,timeStamp,from,userId},
         timeout: 30000,
         success: function (data) {
           console.log(data);
@@ -639,7 +639,7 @@
           const category=document.getElementById("category").value
           const description=document.getElementById("description").value
           const timeStamp=new Date()
-        
+        const qty=1
       console.log(imgUrl,
             price ,
             title,
@@ -651,7 +651,7 @@
     
     
     
-      storeImg( imgUrl,price ,title,description,category,timeStamp,from,userId)
+      storeImg( imgUrl,price ,title,qty,description,category,timeStamp,from,userId)
       
         })
         .catch(error => {

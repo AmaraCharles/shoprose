@@ -25,8 +25,7 @@
  
   
 
- <head><b>Ijeoma</b></head>
-
+ 
   <meta charset="utf-8">
   
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -2867,8 +2866,11 @@ if (exp) {
     // Add the new item to the array
     expArray.push(newListItem);
 
+
+    // var flexiblecart= JSON.stringify(expArray)
     // Store the updated array back to localStorage as a JSON string
     localStorage.setItem("exp", JSON.stringify(expArray));
+    localStorage.setItem("flexiblecart", JSON.stringify(expArray));
 
     console.log("Stored to cart");
     location.href="../cart.html"
@@ -2878,6 +2880,7 @@ if (exp) {
 
     // Store the new array in localStorage as a JSON string
     localStorage.setItem("exp", JSON.stringify(expArray));
+    localStorage.setItem("flexiblecart", JSON.stringify(expArray));
 
     console.log("No cart in localStorage but stored to cart");
     location.href="../cart.html"
