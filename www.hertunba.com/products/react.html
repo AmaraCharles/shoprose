@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div>
+    React has several useful built-in hooks that make it easy to manage state and side effects in your components. Here's a quick look at some of the most useful ones, plus how to create your own custom hook.
+
+### Useful Built-In React Hooks
+
+1. **`useState`**: 
+   - Purpose: Manage **state** in a functional component.
+   - Example:
+     ```jsx
+     const [count, setCount] = useState(0);
+     ```
+
+2. **`useEffect`**: 
+   - Purpose: Handle **side effects** like data fetching, subscriptions, or manually updating the DOM.
+   - Example:
+     ```jsx
+     useEffect(() => {
+       console.log('Component mounted or updated!');
+     }, [count]); // Only runs when `count` changes
+     ```
+
+3. **`useContext`**:
+   - Purpose: Access **context** values without having to pass props down multiple levels.
+   - Example:
+     ```jsx
+     const value = useContext(MyContext);
+     ```
+
+4. **`useReducer`**:
+   - Purpose: Manage more **complex state logic** than `useState`, useful for state transitions (like in a shopping cart or form).
+   - Example:
+     ```jsx
+     const [state, dispatch] = useReducer(reducer, initialState);
+     ```
+
+5. **`useRef`**:
+   - Purpose: Access and modify **DOM elements** directly or keep a value between renders without causing a re-render.
+   - Example:
+     ```jsx
+     const inputRef = useRef(null);
+     inputRef.current.focus(); // Focus on the input element
+     ```
+
+6. **`useMemo`**:
+   - Purpose: Optimize performance by **memoizing** expensive calculations so they aren’t re-run unnecessarily.
+   - Example:
+     ```jsx
+     const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
+     ```
+
+7. **`useCallback`**:
+   - Purpose: Optimize performance by **memoizing functions** so they aren’t re-created unnecessarily on every render.
+   - Example:
+     ```jsx
+     const memoizedCallback = useCallback(() => doSomething(a, b), [a, b]);
+     ```
+
+---
+
+### How to Create Your Own Custom Hook
+
+A custom hook is just a **regular function** that uses one or more React hooks. You can extract repeated logic into a custom hook to make your code cleaner and more reusable.
+
+#### Example: Creating a `useWindowSize` Custom Hook
+
+Let’s create a custom hook that tracks the window size. It will use `useState` to store the size and `useEffect` to update it when the window is resized.
+
+```jsx
+import { useState, useEffect } from 'react';
+
+// Custom hook to track window size
+function useWindowSize() {
+  const [windowSize, setWindowSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+
+  useEffect(() => {
+    // Function to update window size
+    const handleResize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    // Add event listener on mount
+    window.addEventListener('resize', handleResize);
+
+    // Remove event listener on cleanup
+    return () => window.removeEventListener('resize', handleResize);
+  }, []); // Empty array ensures this effect runs only on mount and unmount
+
+  return windowSize; // Return the window size object
+}
+
+export default useWindowSize;
+```
+
+### How to Use the Custom Hook:
+
+Now you can use the `useWindowSize` custom hook in any component to get the current window size.
+
+```jsx
+function App() {
+  const { width, height } = useWindowSize();
+
+  return (
+    <div>
+      <h1>Window Width: {width}px</h1>
+      <h2>Window Height: {height}px</h2>
+    </div>
+  );
+}
+```
+
+### Explanation of the Custom Hook:
+1. **State (`useState`)**: We keep track of the window’s width and height.
+2. **Side Effect (`useEffect`)**: We listen for the window `resize` event and update the state whenever the window is resized.
+3. **Cleanup**: We remove the `resize` event listener when the component unmounts to avoid memory leaks.
+
+---
+
+### Why Create a Custom Hook?
+- **Reusability**: You can reuse custom hooks across multiple components.
+- **Abstraction**: They help in abstracting complex logic out of your components, making them simpler.
+- **Cleaner Code**: Keeps components less cluttered by moving logic elsewhere.
+
+#### Example: `useLocalStorage` Custom Hook
+You could create a hook that easily reads and writes data to `localStorage`:
+
+```jsx
+function useLocalStorage(key, initialValue) {
+  const [storedValue, setStoredValue] = useState(() => {
+    const item = window.localStorage.getItem(key);
+    return item ? JSON.parse(item) : initialValue;
+  });
+
+  const setValue = (value) => {
+    setStoredValue(value);
+    window.localStorage.setItem(key, JSON.stringify(value));
+  };
+
+  return [storedValue, setValue];
+}
+
+// Usage
+const [name, setName] = useLocalStorage('name', 'John Doe');
+```
+
+In this example, `useLocalStorage` manages storing and retrieving data from `localStorage`, which you can now reuse across multiple components!
+
+---
+
+Custom hooks allow you to reuse logic easily, and they can use any other hook inside them. The key is to prefix your hook with "use" so React knows it behaves like a hook and follows its rules (like not calling hooks conditionally).
+   </div> 
+</body>
+</html>

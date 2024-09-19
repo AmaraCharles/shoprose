@@ -4,7 +4,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Checkout - Hertunba</title>
+  <title>Checkout - Shoprose</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, user-scalable=0">
   <meta name="referrer" content="origin">
   <link rel="preconnect" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/" crossorigin="">
@@ -15,6 +15,7 @@
   <script type="text/javascript" async="" src="./order-summary_files/js"></script>
   <script type="text/javascript" async="" src="./order-summary_files/destination"></script>
   <script type="text/javascript" async="" src="./order-summary_files/ec.js.download"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script async="" src="./order-summary_files/analytics.js.download"></script>
   <script type="text/javascript" async="" src="./order-summary_files/trekkie.storefront.min.js.download"></script>
   <script async="" src="./order-summary_files/card_fields.js.download" crossorigin="anonymous"></script>
@@ -915,7 +916,7 @@
         <div class="_1fragem2i _1fragemo1"><a
             href=""
             class="Xo_dq">Skip to content</a>
-          <h1 class="_1fragemvc">Hertunba Checkout</h1>
+          <h1 class="_1fragemvc">Shoprose Checkout</h1>
           <div class="f1jux fc8Jc kZBua mB_Id _1fragemps _1fragempo _1fragemw8">
             <header role="banner" class="JPw09 REIwn KVQTQ _1fragemw8 _1fragemps _1fragempo">
               <div class="k1Dlb">
@@ -943,18 +944,53 @@
                                 class="s2kwpi1 _1fragemo1 _1fragemvp _1fragemvy _1fragemvk s2kwpi3 _1fragemvg"><img
                                   alt="" src="./order-summary_files/Hertunba_logo_iconAsset_6_4x-8_x320.png" width="63"
                                   height="80.14285714285714" class="iN5nW"></a></span></div>
-                        </div><span><a id="cart-link" aria-label="Cart" href="https://www.shoprosecc.com/cart"
-                            class="s2kwpi1 _1fragemo1 _1fragemvp _1fragemvy _1fragemvk s2kwpi2 _1fragemvh"><span
-                              class="_1fragemqz _1fragem2d _1fragemn2 _1fragemmx a8x1wug _1fragem2i a8x1wup a8x1wul a8x1wuy"><svg
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" focusable="false"
-                                aria-hidden="true"
-                                class="a8x1wu10 _1fragem2i _1fragemqz _1fragemn2 _1fragemmx _1fragemq4">
-                                <path
-                                  d="M2.675 10.037 3.072 4.2h7.856l.397 5.837A2.4 2.4 0 0 1 8.932 12.6H5.069a2.4 2.4 0 0 1-2.394-2.563">
-                                </path>
-                                <path d="M4.9 3.5a2.1 2.1 0 1 1 4.2 0v1.4a2.1 2.1 0 0 1-4.2 0z"></path>
-                              </svg></span></a></span>
+                        </div><span>
+                          <a class="main-header-link" href="https://www.shoprosecc.com/cart" title="Cart">
+                            <style>
+                    
+                              .cart-container {
+                                  position: relative;
+                                  display: inline-block;
+                              }
+                              
+                              .cart-counter {
+                                  position: absolute;
+                                  top: -10px;  /* Adjust to position vertically */
+                                  right: -10px; /* Adjust to position horizontally */
+                                  background-color: red;
+                                  color: white;
+                                  padding: 2px 6px;
+                                  border-radius: 50%;
+                                  font-size: 12px;
+                                  font-weight: bold;
+                                  line-height: 1;
+                              }
+                              
+                              .cart-container .fa-shopping-cart {
+                                  position: relative;
+                              }
+                              
+                              </style>
+                              
+                            <div class="cart-container" sty >
+                              <i class="fas fa-shopping-cart fa-2x" style="color:#7b3700"></i>
+                              <span class="cart-counter" id="cart-counter" style="display: none;"></span>
+                          </div>
+                          
+                          
+                        </a></span>
                       </header>
+                      <script>
+                        var cartCounter=document.getElementById('cart-counter');
+                      
+                             
+                             var cartRecord=localStorage.getItem("cartRecord")
+                             if(cartRecord){
+                          cartCounter.style.display="block"
+                             cartCounter.innerHTML=cartRecord}
+                            
+                      </script>
+                      
                     </div>
                   </div>
                 </div>
@@ -1003,11 +1039,10 @@
                                       <div class="_1ip0g651 _1fragemo1 _1fragem4g _1fragem6t _1fragem3c">
                                         <div
                                           class="_7ozb2u2 _1fragem3w _1fragem69 _1fragemo1 _1fragem3c _10vrn9p1 _10vrn9p0 _10vrn9p3">
-                                          <div class="_1fragemo1"><label id="email-label" for="email"
+                                          <div class="_1fragemo1"><label id="email-label" for=""
                                               class="cektnc3 _1fragemnr _1fragemvb _1fragemuu _1fragemw2 _1fragemvp _1fragemvk _1fragemvy _1fragemvz cektnc6 _1fragemv6"><span
                                                 class="cektnc9"><span
-                                                  class="rermvf1 _1fragemuo _1fragemuq _1fragem2i">Email or mobile phone
-                                                  number</span></span></label>
+                                                  class="rermvf1 _1fragemuo _1fragemuq _1fragem2i">Email </span></span></label>
                                             <div
                                               class="_7ozb2u6 _1fragemo1 _1fragem3c _1fragemq3 _1fragemvp _1fragemvk _1fragemvy _1fragemw1 _1fragemwg _7ozb2ul _7ozb2uh">
                                               <input id="email"  placeholder="" type="text" inputmode="text"
@@ -2000,7 +2035,7 @@
                                                   <div
                                                     class="_5uqybw2 _1fragem2s _1fragemn7 _1fragem46 _1fragem6j _1fragemot _1fragemr4">
                                                     <abbr translate="yes"
-                                                      class="_19gi7yt0 _19gi7ytq _1fragemqb _19gi7yti notranslate _19gi7yt14 _1fragemvg">USD</abbr><strong
+                                                      class="_19gi7yt0 _19gi7ytq _1fragemqb _19gi7yti notranslate _19gi7yt14 _1fragemvg"></abbr><strong
                                                       translate="yes"
                                                       class="_19gi7yt0 _19gi7yty _1fragemqf _19gi7yt2 notranslate" id="finalprice"></strong>
                                                   </div>
@@ -2010,7 +2045,7 @@
                                             <div role="row" class="_1x41w3p1 _1fragem3c _1fragemou _1x41w3p5">
                                               <div role="rowheader" class="_1x41w3p7">
                                                 <p class="_1x52f9s1 _1fragemo1 _1x52f9sv _1fragemqc _1x52f9sp"><span
-                                                    class="go06b0"><span>Including $13.95 in taxes</span></span></p>
+                                                    class="go06b0"><span>Including taxes</span></span></p>
                                               </div>
                                               <div role="cell" class="_1x41w3p8"></div>
                                             </div>
@@ -2484,7 +2519,7 @@ var lastName=document.getElementById("lastName").value
 var state=document.getElementById("state").value
 var timestamp=new Date()
 var status="Paid"
-var email="he"
+var email=document.getElementById("email").value
 const address={
 country,
 city,
@@ -2494,7 +2529,9 @@ phone,
 }
 
 var connectLS=localStorage.getItem("finalOrder")
-        var item=JSON.parse(connectLS)
+var decoder=decodeURIComponent(connectLS)
+        var item=JSON.parse(decoder)
+console.log(item);
 
         console.log(city+" "+home+" "+country+" "+firstName+" "+lastName+" "+phone+" "+address+" "+" "+item);
 
@@ -2554,6 +2591,8 @@ function renderSummary(){
 // Decode the URI-encoded array
 // const decodedArray = JSON.parse(encodedArray)
 const double=JSON.parse(encodedArray).map(decodeURIComponent);
+
+
 localStorage.setItem("double",JSON.stringify(double))
 
 console.log(typeof double);
@@ -2578,7 +2617,9 @@ try {
           totalfee +=Number(pp);
        
           const summary = document.createElement('div');
-         
+          var hold=JSON.parse(order.imgUrl)
+console.log(hold[0]);
+
        
        summary.innerHTML=`                        <section class="_1fragem2i _1fragemo1">
                                       <div class="_1ip0g651 _1fragemo1 _1fragem4q _1fragem73 _1fragem3c">
@@ -2612,7 +2653,7 @@ try {
                                                     <div class="_1h3po421 _1h3po423 _1fragemo1" style="--_1h3po420: 1;">
                                                       <picture>
                                                         <source media="(min-width: 0px)">
-                                                         <img src="${order.imgUrl}"
+                                                         <img src="${hold[0]}"
                                                           alt="Ada Akwete Dress - Hertunba"
                                                           class="_1h3po424 _1fragem2i _1fragemn2 _1fragemrl _1fragemrq _1fragems0 _1fragemrv _1fragem9q _1fragem96 _1fragemaa _1fragem8m _1fragemc3 _1fragembe _1fragemcs _1fragemap _1fragemnh">
                                                       </picture>
@@ -2630,7 +2671,7 @@ try {
                                                   <div class="_1fragem2i _1fragemo1 iZ894">
                                                     <p class="_1x52f9s1 _1fragemo1 _1x52f9sv _1fragemqc">${order.title}</p>
                                                     <div class="_1ip0g651 _1fragemo1 _1fragem5z _1fragem8c _1fragem3c">
-                                                      <p class="_1x52f9s1 _1fragemo1 _1x52f9st _1fragemqb _1x52f9sp">S /
+                                                      <p class="_1x52f9s1 _1fragemo1 _1x52f9st _1fragemqb _1x52f9sp">${order.size} /
                                                         ng</p>
                                                     </div>
                                                   </div>

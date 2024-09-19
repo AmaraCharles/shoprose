@@ -1750,12 +1750,17 @@ template-list-collections
             </li>
 
             <li class="main-sidebar-tool-item main-sidebar-tool-item-cart">
-              <a href="cart.html">Cart (<span class="main-sidebar-cart-count" data-cart-count>0</span>)
+              <a href="cart.html">Cart (<span class="main-sidebar-cart-count"  id="cart-record">0</span>)
 </a>
             </li>
           </ul>
         </div>
       </header>
+      <script>
+  var cartRecord=document.getElementById("cart-record")
+  var storageCartRecord=localStorage.getItem("cartRecord")
+  cartRecord.innerHTML=storageCartRecord
+</script>
 
       
 
@@ -1891,7 +1896,7 @@ template-list-collections
   <span>
     Copyright &copy; 
   2024
- Hertunba.
+ Shoprose.
   </span>
   <span class="footer-copyright-attribution">
     <span><a target="_blank" rel="nofollow" href="#">Powered by Shopify</a></span>
@@ -1997,22 +2002,55 @@ template-list-collections
 
   
     <div class="main-header-item main-header-cart-item">
-      <a
-        class="main-header-link "
-        href="cart.html"
-        title="Cart"><svg
-  class="icon-cart"
-  width="28"
-  height="24"
-  viewBox="0 0 28 24">
-  <path color="#7b3700" d="M0.00549316406,0.00341796875 L0,1.31665527 L3.86992452,1.31665527 C5.19152452,6.73894861 7.85501467,17.2152259 7.85501467,17.2152259 C7.92254938,17.481112 8.20782148,17.6966553 8.48322255,17.6966553 L23.7786204,17.6966553 C24.0580354,17.6966553 24.3451532,17.4846551 24.4218708,17.2163022 L28.0056873,4.68035384 C28.0815297,4.41506216 27.923855,4.20000076 27.6389203,4.20000076 L6,4.20000076 C5.63264,2.72049527 4.93469238,0 4.93469238,0 L0.00549316406,0.00341796875 Z M6.38000488,5.60000038 L26.4599915,5.60000038 L23.4200134,16.3766479 L8.98999023,16.3766479 L6.38000488,5.60000038 Z M9,21.68 C9,22.60736 9.75264,23.36 10.68,23.36 C11.60736,23.36 12.36,22.60736 12.36,21.68 C12.36,20.75264 11.60736,20 10.68,20 C9.75264,20 9,20.75264 9,21.68 Z M19,21.68 C19,22.60736 19.75264,23.36 20.68,23.36 C21.60736,23.36 22.36,22.60736 22.36,21.68 C22.36,20.75264 21.60736,20 20.68,20 C19.75264,20 19,20.75264 19,21.68 Z"></path>
-</svg>
-</a>
+      <a class="main-header-link" href="https://www.shoprosecc.com/cart" title="Cart">
+        <style>
+
+          .cart-container {
+              position: relative;
+              display: inline-block;
+          }
+          
+          .cart-counter {
+              position: absolute;
+              top: -10px;  /* Adjust to position vertically */
+              right: -10px; /* Adjust to position horizontally */
+              background-color: red;
+              color: white;
+              padding: 2px 6px;
+              border-radius: 50%;
+              font-size: 12px;
+              font-weight: bold;
+              line-height: 1;
+          }
+          
+          .cart-container .fa-shopping-cart {
+              position: relative;
+          }
+          
+          </style>
+          
+        <div class="cart-container" sty >
+          <i class="fas fa-shopping-cart fa-2x" style="color:#7b3700"></i>
+          <span class="cart-counter" id="cart-counter" style="display: none;"></span>
+      </div>
+      
+      
+    </a>
     </div>
   
 </div>
 
 
+<script>
+  var cartCounter=document.getElementById('cart-counter');
+
+       
+       var cartRecord=localStorage.getItem("cartRecord")
+       if(cartRecord){
+    cartCounter.style.display="block"
+       cartCounter.innerHTML=cartRecord}
+      
+</script>
 
 
   <div class="overnav" data-overnav id="overnav">
@@ -2167,7 +2205,7 @@ template-list-collections
   <span>
     Copyright &copy; 
   2024
- Hertunba.
+ Shoprose.
   </span>
   <span class="footer-copyright-attribution">
     <span><a target="_blank" rel="nofollow" href="#">Powered by Shopify</a></span>
@@ -2539,9 +2577,10 @@ svg {
 
 
             function hail2(collectionJson){ 
-                const artwork = decodeURIComponent(collectionJson);
-                    localStorage.setItem("pricing",artwork)
-                    location.href="view-collection.html"
+                const decodedCollection = decodeURIComponent(collectionJson);
+                const collection=JSON.parse(decodedCollection)
+                    localStorage.setItem("viewCollection",collection.title)
+                    location.href="./collections/view-collection.html"
                     }
 
                     $(document).ready(async function () {
@@ -2561,6 +2600,8 @@ svg {
                 
                 // Check if the imageLink is defined
                 if (imageLink) {
+
+                  const collectionJson =encodeURIComponent(JSON.stringify(collection));
                     // Create the HTML structure
                     var paragraph = `
                         <article class="collection-item collection-colored-default two-column-layout">
@@ -2575,7 +2616,7 @@ svg {
                                                 ${collection.description}
                                             </span>
                                         </div>
-                                        <a class="home-section-link" href="collections/all.html">
+                                        <a class="home-section-link" onclick='hail2("${collectionJson}")'>
                                             Shop collection
                                             <svg class="icon-arrow-right" xmlns="http://www.w3.org/2000/svg" width="19" height="12" viewBox="0 0 19 12">
                                                 <path fill-rule="evenodd" d="M.98 5.574h15.944L12.8 1.34a.498.498 0 0 1-.14-.347c0-.126.046-.252.14-.35a.472.472 0 0 1 .68 0l4.88 5.008a.502.502 0 0 1 0 .698l-4.88 5.008a.472.472 0 0 1-.68 0 .502.502 0 0 1 0-.697l3.994-4.1H.98a.487.487 0 0 1-.48-.493c0-.272.215-.493.48-.493z"/>

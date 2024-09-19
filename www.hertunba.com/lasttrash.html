@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Image Upload</title>
+    <style>
+        .preview-image {
+            max-width: 100px;
+            max-height: 100px;
+            margin: 10px;
+        }
+        #selected-images {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-upload-form">
+        <h2>Upload Multiple Images</h2>
+        <input type="file" id="fileInput" multiple accept="image/*" />
+        <div id="selected-images"></div>
+        <button id="uploadButton">Upload Images</button>
+    </div>
+
+    <script>
+        const cloudName = 'dsyjlantq';  // Your Cloudinary cloud name
+        const uploadPreset = 'assetspur';  // Your Cloudinary upload preset
+
+
+        function storeImg(imgUrl, price, title, description, category, timeStamp, userId, collection) {
+        const createdNft = { imgUrl, price, title, description, category, timeStamp, userId, collection };
+        console.log(createdNft);
+
+        const created = JSON.stringify(createdNft);
+        localStorage.setItem("created", created);
+        $.ajax({
+            type: 'POST',
+            url: `https://rose-heroku-dc607cde99d9.herokuapp.com/transactions/${userId}/single`,
+            dataType: 'json',
+            data: { imgUrl, price, title, description, category, timeStamp, userId, collection },
+            timeout: 30000,
+            success: function (data) {
+                console.log(data);
+                $('.live-section').html('Picture was successfully uploaded');
+                setTimeout(function () {
+                    localStorage.setItem("kycStatus", "pending");
+                    $('#upload-button').html("Upload Details");
+                }, 7000);
+                setTimeout(function () {
+                    location.href = "author.html";
+                }, 8000);
+            },
+            error: function (xhr, status, error) {
+                console.log(error);
+                $('.live-section').html('Error uploading image').addClass('alert-danger');
+            },
+        });
+    }
+
+
+
+
+
+        let selectedFiles = [];  // Store selected files
+        let uploadedImageUrls = [];  // Store uploaded image URLs
+
+        // Handle file selection and display previews
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            const files = Array.from(event.target.files);
+            const imageContainer = document.getElementById('selected-images');
+            
+            // Add new selected files without overwriting previous ones
+            selectedFiles = selectedFiles.concat(files);
+
+            // Display previews for each selected file
+            selectedFiles.forEach((file, index) => {
+                // Prevent duplicate image previews
+                if (!document.getElementById(`preview-${index}`)) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        const img = document.createElement('img');
+                        img.src = e.target.result;
+                        img.className = 'preview-image';
+                        img.id = `preview-${index}`;
+                        imageContainer.appendChild(img);
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+        });
+
+        // Handle file uploads to Cloudinary
+        document.getElementById('uploadButton').addEventListener('click', function() {
+            if (selectedFiles.length === 0) {
+                alert('Please select at least one image.');
+                return;
+            }
+
+            // Clear previous image URLs
+            uploadedImageUrls = [];
+
+            const uploadPromises = selectedFiles.map(file => {
+                const formData = new FormData();
+                formData.append('file', file);
+                formData.append('upload_preset', uploadPreset);
+
+                return fetch(`https://api.cloudinary.com/v1_1/${cloudName}/image/upload`, {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Push each URL to the array
+                    uploadedImageUrls.push(data.secure_url);
+                })
+                .catch(error => {
+                    console.error('Image upload failed:', error);
+                });
+            });
+
+            // Wait for all images to upload and print the array of URLs
+            Promise.all(uploadPromises).then(() => {
+                console.log('Uploaded Image URLs:', uploadedImageUrls);
+
+
+                const collection = localStorage.getItem("selectedOption");
+
+const userFromLS = localStorage.getItem("user");
+const parsedData = JSON.parse(userFromLS);
+const imgUrls=uploadedImageUrls;
+const userId = parsedData._id;
+const price = document.getElementById("price").value;
+const title = document.getElementById("title").value;
+const description = document.getElementById("description").value;
+const category = document.getElementById("category").value;
+const timeStamp = new Date();
+
+storeImg(imgUrls, price, title, description, category, timeStamp, userId, collection);
+
+
+                // Store the array of image URLs in local storage
+                localStorage.setItem('uploadedImageUrls', JSON.stringify(uploadedImageUrls));
+            });
+        });
+    </script>
+</body>
+</html>

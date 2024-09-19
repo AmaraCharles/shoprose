@@ -1531,13 +1531,18 @@ template-collection
               </li>
 
               <li class="main-sidebar-tool-item main-sidebar-tool-item-cart">
-                <a href="../cart.html">Cart (<span class="main-sidebar-cart-count" data-cart-count>0</span>)
+                <a href="../cart.html">Cart (<span class="main-sidebar-cart-count"  id="cart-record">0</span>)
                 </a>
               </li>
             </ul>
           </div>
         </header>
-
+        <script>
+          var cartRecord=document.getElementById("cart-record")
+          var storageCartRecord=localStorage.getItem("cartRecord")
+          cartRecord.innerHTML=storageCartRecord
+        </script>
+        
 
 
         <div class="main-navigation" role="banner">
@@ -1942,7 +1947,17 @@ template-collection
 
 
 
-
+          <script>
+            var cartCounter=document.getElementById('cart-counter');
+         
+                 
+                 var cartRecord=localStorage.getItem("cartRecord")
+                 if(cartRecord){
+              cartCounter.style.display="block"
+                 cartCounter.innerHTML=cartRecord}
+                
+         </script>
+         
 
 
 
@@ -2781,6 +2796,8 @@ template-collection
           if (artwork) {
             const artworkJson = encodeURIComponent(JSON.stringify(artwork));
             const smart = artwork
+var hold=JSON.parse(artwork.imgUrl)
+console.log(hold[0]);
 
             const artworkHtml = `
             
@@ -2788,7 +2805,7 @@ template-collection
   <a  onclick='hail("${artworkJson}")'>
         <div class="wsk-cp-product body">
           <div class="wsk-cp-img">
-            <img src="${artwork.imgUrl}" alt="Product" class="img-responsive" />
+            <img src="${hold[0]}" alt="Product" class="img-responsive" />
           </div>
           <div class="wsk-cp-text">
             <div class="category">

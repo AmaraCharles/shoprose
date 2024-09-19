@@ -30,6 +30,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
     integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
     integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
@@ -1173,13 +1174,17 @@ template-index
               </li>
 
               <li class="main-sidebar-tool-item main-sidebar-tool-item-cart">
-                <a href="cart.html">Cart (<span class="main-sidebar-cart-count" data-cart-count>0</span>)
+                <a href="cart.html">Cart (<span class="main-sidebar-cart-count" id="cart-record">0</span>)
                 </a>
               </li>
             </ul>
           </div>
         </header>
-
+<script>
+  var cartRecord=document.getElementById("cart-record")
+  var storageCartRecord=localStorage.getItem("cartRecord")
+  cartRecord.innerHTML=storageCartRecord
+</script>
 
 
         <div class="main-navigation" role="banner">
@@ -1410,12 +1415,40 @@ template-index
 
 
         <div class="main-header-item main-header-cart-item">
-          <a class="main-header-link " href="cart.html" title="Cart"><svg class="icon-cart" width="28" height="24"
-              viewBox="0 0 28 24">
-              <path color="#7b3700"
-                d="M0.00549316406,0.00341796875 L0,1.31665527 L3.86992452,1.31665527 C5.19152452,6.73894861 7.85501467,17.2152259 7.85501467,17.2152259 C7.92254938,17.481112 8.20782148,17.6966553 8.48322255,17.6966553 L23.7786204,17.6966553 C24.0580354,17.6966553 24.3451532,17.4846551 24.4218708,17.2163022 L28.0056873,4.68035384 C28.0815297,4.41506216 27.923855,4.20000076 27.6389203,4.20000076 L6,4.20000076 C5.63264,2.72049527 4.93469238,0 4.93469238,0 L0.00549316406,0.00341796875 Z M6.38000488,5.60000038 L26.4599915,5.60000038 L23.4200134,16.3766479 L8.98999023,16.3766479 L6.38000488,5.60000038 Z M9,21.68 C9,22.60736 9.75264,23.36 10.68,23.36 C11.60736,23.36 12.36,22.60736 12.36,21.68 C12.36,20.75264 11.60736,20 10.68,20 C9.75264,20 9,20.75264 9,21.68 Z M19,21.68 C19,22.60736 19.75264,23.36 20.68,23.36 C21.60736,23.36 22.36,22.60736 22.36,21.68 C22.36,20.75264 21.60736,20 20.68,20 C19.75264,20 19,20.75264 19,21.68 Z">
-              </path>
-            </svg>
+          
+            <a class="main-header-link" href="https://www.shoprosecc.com/cart" title="Cart">
+              <style>
+  
+                .cart-container {
+                    position: relative;
+                    display: inline-block;
+                }
+                
+                .cart-counter {
+                    position: absolute;
+                    top: -10px;  /* Adjust to position vertically */
+                    right: -10px; /* Adjust to position horizontally */
+                    background-color: red;
+                    color: white;
+                    padding: 2px 6px;
+                    border-radius: 50%;
+                    font-size: 12px;
+                    font-weight: bold;
+                    line-height: 1;
+                }
+                
+                .cart-container .fa-shopping-cart {
+                    position: relative;
+                }
+                
+                </style>
+                
+              <div class="cart-container" sty >
+                <i class="fas fa-shopping-cart fa-2x" style="color:#7b3700"></i>
+                <span class="cart-counter" id="cart-counter" style="display: none;"></span>
+            </div>
+            
+            
           </a>
         </div>
 
@@ -1554,10 +1587,6 @@ template-index
                   </svg> </a> </li>
             </ul>
           </div>
-
-
-
-
 
 
 
@@ -1776,12 +1805,176 @@ border-radius: 1px;
   </div>
   
             </article>
+<section>
+  <!-- append all top sellers here -->
 
+<style>
+  .containerr {
+  display: flex;
+  justify-content: space-between; /* Evenly space the boxes */
+  padding: 10px; /* Add padding around the container */
+  height: 100px;
+}
+
+.box {
+  background-color: #f0f0f0;
+  width: 30%; /* Adjust width to take up 30% of the row */
+  padding: 5px;
+  text-align: center;
+  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.box2 {
+  background-color: #f0f0f0;
+  padding: 5px;
+  text-align: center;
+  height: 130px;
+  border: 1px solid #ccc; /* Border for visibility */
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+</style>
+<div style="margin-top: 20px;">
+  <h5 style="font-family: PlayfairDisplay-Regular; color:#7b3700;">Top Sellers <a href="collections/top-sellers.html"><i class="fa fa-arrow-right" style=" color:#7b3700; margin-left: 10px;"> </i></a></h5>
+  <div style="background-color: rgb(252, 248, 248); width: 100%;height: 100px;margin-bottom: 20px" id="top-sellers">
+    <div class="containerr" id="containerr">
+    
+
+      
+    </div>
+    
+  </div>
+  
+  </div>
+  <div style="margin-top: 20px;">
+    <a href="collections/all.html" style="color:#000;"><h5 style="font-family: PlayfairDisplay-Regular; color:#7b3700; display: flex;align-items: center; justify-content: center; margin-bottom: 20px;">Catalogue <img src="catalogue.png" alt=""  style="margin-left: 10px; height: 20px;width: 20px;" ></h5></a>
+    <div style="background-color: rgb(252, 248, 248); width: 100%;margin-bottom: 30px" id="top-sellers">
+      <div class="col-12">
+        <!-- Box content -->
+        <div class="row" id="containerrr">
+  
+        </div>
+      </div>
+      
+      </div>
+      <div class="text-center"><a href="collections/all.html" style="color: #7b3700; text-decoration: underline">view all items <i class="fa fa-arrow-right"></i></a></div>
+      
+    </div>
+    
+    </div>
+
+
+</section>
+
+<!-- append rest of collections here -->
 
 <section>
   <div id="my-component"></div>
 
 </section>
+
+<script>
+
+
+  async function fetchUserInfo() {
+    const response = await $.ajax({
+      type: "GET",
+      url: 'https://rose-heroku-dc607cde99d9.herokuapp.com/users',
+      dataType: "json",
+      timeout: 30000,
+    });
+
+    console.log(response.data);
+    localStorage.setItem("users", response.data)
+    return response.data
+  }
+  function hail(artworkJson) {
+    const artwork = decodeURIComponent(artworkJson);
+    localStorage.setItem("pricing", artwork)
+    location.href = "./products/product.html"
+  }
+  function hail2(collectionJson) {
+    const artwork = decodeURIComponent(collectionJson);
+    localStorage.setItem("pricing", artwork)
+    location.href = "buy.html"
+  }
+
+let counter=0;
+let allItemsCounter=0;
+  $(document).ready(async function () {
+
+    // Assuming fetchUserInfo() is a defined function that fetches user information
+    // const userLis =localStorage.getItem("users")
+    const userList = await fetchUserInfo()
+
+    userList.forEach(user => {
+
+      console.log("all users artworks can be seen below" + user.artWorks);
+      user.artWorks.forEach(artwork => {
+        counter++;
+if (counter>=4){ console.log("list ends here");
+}
+else{
+        if (artwork) {
+          const artworkJson = encodeURIComponent(JSON.stringify(artwork));
+          const smart = artwork
+
+          const artworkHtml = `
+
+ <a class="box" onclick='hail("${artworkJson}")'>
+            <img src="${artwork.imgUrl}" alt="Product" class="img-responsive" style="width:100%; height:100%;" />
+     </a>
+
+     
+   
+             `;
+          $('#containerr').append(artworkHtml);
+        }
+      }
+      });
+    
+
+      user.artWorks.forEach(artwork => {
+        allItemsCounter++;
+        if (allItemsCounter>=16){ console.log("list ends here");
+}
+else{
+        if (artwork) {
+          const artworkJson = encodeURIComponent(JSON.stringify(artwork));
+          const smart = artwork
+
+          const artworkHtml = `
+        
+        <a class="col-6 col-lg-3" onclick='hail("${artworkJson}")'>
+          <div class="box2">
+             <img src="${artwork.imgUrl}" alt="Product" class="img-responsive" style="width:100%; height:100%;" />
+            
+            </div>
+            <div class="info mb-2" id="info" >
+            <div style="color:#7b3700">${artwork.title}</div>
+            <div>₦${artwork.price}</div>
+            </div>
+        </div>
+       
+   
+             `;
+          $('#containerrr').append(artworkHtml);
+        }
+      }
+      })
+
+
+    });
+  
+
+  });
+
+</script>
+
 
 
 
@@ -2086,6 +2279,16 @@ svg {
       </footer>
       </div>
     `;
+</script>
+<script>
+   var cartCounter=document.getElementById('cart-counter');
+
+        
+        var cartRecord=localStorage.getItem("cartRecord")
+        if(cartRecord){
+     cartCounter.style.display="block"
+        cartCounter.innerHTML=cartRecord}
+       
 </script>
 
             <!-- MLveda code ends -->

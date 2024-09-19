@@ -1460,12 +1460,17 @@ template-404
             </li>
 
             <li class="main-sidebar-tool-item main-sidebar-tool-item-cart">
-              <a href="/cart">Cart (<span class="main-sidebar-cart-count" data-cart-count>0</span>)
+              <a href="/cart">Cart (<span class="main-sidebar-cart-count"  id="cart-record"></span>)
 </a>
             </li>
           </ul>
         </div>
       </header>
+      <script>
+  var cartRecord=document.getElementById("cart-record")
+  var storageCartRecord=localStorage.getItem("cartRecord")
+  cartRecord.innerHTML=storageCartRecord
+</script>
 
       
 
@@ -1605,7 +1610,7 @@ template-404
   <span>
     Copyright &copy; 
   2024
- Hertunba.
+ Shoprose.
   </span>
   <span class="footer-copyright-attribution">
     <span><a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore">Powered by Shopify</a></span>
@@ -1885,7 +1890,7 @@ template-404
   <span>
     Copyright &copy; 
   2024
- Hertunba.
+ Shoprose.
   </span>
   <span class="footer-copyright-attribution">
     <span><a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore">Powered by Shopify</a></span>
