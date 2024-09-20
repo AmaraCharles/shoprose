@@ -101,44 +101,26 @@
 
             <!-- Main Dashboard -->
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
-                    <h1 class="h2">Dashboard</h1>
-                </div>
-
-                <div class="row">
-                    <div class="col-6 col-md-3">
-                        <div class="card text-white bg-primary mb-3">
-                            <div class="card-body">
-                                <h5 class="card-title">Pending Orders</h5>
-                                <p class="card-text display-4" id="pendingOrders">...</p>
-                            </div>
-                        </div>
+                <div class="container my-4">
+                    <div class="table-responsive">
+                      <table class="table table-striped table-hover table-bordered">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>
+                             View Order
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody class="table-body">
+                          <!-- Rows will be appended here dynamically -->
+                        </tbody>
+                      </table>
                     </div>
-                    <div class="col-6 col-md-3">
-                        <div class="card text-white bg-info mb-3">
-                            <div class="card-body">
-                                <h5 class="card-title">Confirmed Orders</h5>
-                                <p class="card-text display-4" id="confirmedOrders">...</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <div class="card text-white bg-success mb-3">
-                            <div class="card-body">
-                                <h5 class="card-title">Completed Orders</h5>
-                                <p class="card-text display-4" id="completedOrders">...</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <div class="card text-white bg-secondary mb-3">
-                            <div class="card-body">
-                                <h5 class="card-title">Total Orders</h5>
-                                <p class="card-text display-4" id="totalOrders">...</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                  </div>
+                  
             </main>
         </div>
     </div>
@@ -149,7 +131,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
-
 
     <script>
     async function fetchOrders() {
@@ -163,29 +144,40 @@
       console.log(response.data);
       return response.data
     }
+
+    function sendUserDetail(userId){
+      
+
+      localStorage.setItem("userId",userId)
+      console.log(userId);
+      
+      location.href="userorder.html" 
+ 
+ 
+ }
     $(document).ready(async function () {
  var orders= await fetchOrders()
  
-  const filteredOrders = orders.filter(order => order.email !== 'roseadmin@gmail.com');
-const pendingOrders=orders.filter(order => order.status == 'Paid');
-const completedOrders=orders.filter(order => order.status == 'completed');
-const confirmedOrders=orders.filter(order => order.status == 'confirmed');
-const countOrders=filteredOrders.length
+       
 
-console.log(countOrders)
-
-
-
-$("#totalOrders").text(countOrders)
-$("#pendingOrders").text(pendingOrders.length)
-$("#completedOrders").text(completedOrders.length)
-$("#confirmedOrders").text(confirmedOrders.length)
-
-
-
-
+       var tbl = $('.table-body');
+ var td=$('<td>');
+      orders.forEach(function (order) {
+      
+         var row = $('<tr>').appendTo(tbl);
+         $('<td>').text(`${order.firstName}`).appendTo(row);
+         $('<td>').text(`${order.lastName}`).appendTo(row);
+           $('<td>').text(`${order.email}`).appendTo(row);
+        
+            $('<td><a  class="btn-primary btn-sm  mr-3 m-5" onclick="sendUserDetail(\''+order._id+'\')"  > view</a> </td>').appendTo (row);
+            tbl.appendTo($(".table"));
+ 
+        
+       
+ 
+       })
+ 
     })
-
 
 
 </script>
