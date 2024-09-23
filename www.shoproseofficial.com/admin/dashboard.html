@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light grey background */
+            font-size: 0.5rem; /* Reduce the base font size to half */
+        }
+        .sidebar {
+            height: 100vh;
+            background-color: #007bff; /* Bootstrap blue */
+            color: white;
+            padding-top: 20px;
+            font-size: 1rem; /* Maintain sidebar font size readability */
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            color: #d1e7fd; /* Light blue */
+        }
+        .card {
+            margin: 10px 0;
+            height: 100px;
+        }
+        .card-title {
+            font-size: 0.75rem; /* Reduce card title font size */
+        }
+        .card-text {
+            font-size: 1.5rem; /* Reduce card text font size */
+        }
+        h1, h2 {
+            font-size: 1rem; /* Reduce heading sizes */
+        }
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <style>
+        /* Navigation Variables */
+      .navigation {
+        height: 70px;
+        background: #7b3700;
+      }
+      
+      /* Logo and branding */
+      .brand {
+        position: absolute;
+        padding-left: 20px;
+        float: left;
+        line-height: 70px;
+        text-transform: uppercase;
+        font-size: 1.4em;
+      }
+      
+      .brand a,
+      .brand a:visited {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      
+      /* Container with no padding for navbar */
+      .nav-container {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      
+      /* Navigation */
+      nav {
+        float: right;
+      }
+      
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav ul li {
+        float: left;
+        position: relative;
+      }
+      
+      nav ul li a,
+      nav ul li a:visited {
+        display: block;
+        padding: 0 20px;
+        line-height: 70px;
+        background: #7b3700;
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      nav ul li a:hover {
+        background: #4d2504;
+        color: #ffffff;
+      }
+      
+      nav ul li a:not(:only-child):after {
+        padding-left: 4px;
+        content: ' ▾';
+      }
+      
+      /* Dropdown list */
+      nav ul li ul li {
+        min-width: 190px;
+      }
+      
+      nav ul li ul li a {
+        padding: 15px;
+        line-height: 20px;
+      }
+      
+      /* Dropdown list binds to JS toggle event */
+      .nav-dropdown {
+        position: absolute;
+        display: none;
+        z-index: 1;
+        background-color: #ffffff;
+        color: #fff;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+      }
+      
+      /* Mobile navigation */
+      
+      /* Binds to JS Toggle */
+      .nav-mobile {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #7b3700;
+        height: 70px;
+        width: 70px;
+      }
+      
+      @media only screen and (max-width: 798px) {
+        /* Hamburger nav visible on mobile only */
+        .nav-mobile {
+          display: block;
+        }
+      
+        nav {
+          width: 100%;
+          padding: 70px 0 15px;
+        }
+      
+        nav ul {
+          display: none;
+        }
+      
+        nav ul li {
+          float: none;
+        }
+      
+        nav ul li a {
+          padding: 15px;
+          line-height: 20px;
+        }
+      
+        nav ul li ul li a {
+          padding-left: 30px;
+        }
+      
+        .nav-dropdown {
+          position: static;
+        }
+      }
+      
+      @media screen and (min-width: 799px) {
+        .nav-list {
+          display: block !important;
+        }
+      }
+      
+      #nav-toggle {
+        position: absolute;
+        left: 18px;
+        top: 22px;
+        cursor: pointer;
+        padding: 10px 35px 16px 0px;
+      }
+      
+      #nav-toggle span,
+      #nav-toggle span:before,
+      #nav-toggle span:after {
+        cursor: pointer;
+        border-radius: 1px;
+        height: 5px;
+        width: 35px;
+        background: #ffffff;
+        position: absolute;
+        display: block;
+        content: '';
+        transition: all 300ms ease-in-out;
+      }
+      
+      #nav-toggle span:before {
+        top: -10px;
+      }
+      
+      #nav-toggle span:after {
+        bottom: -10px;
+      }
+      
+      #nav-toggle.active span {
+        background-color: transparent;
+      }
+      
+      #nav-toggle.active span:before,
+      #nav-toggle.active span:after {
+        top: 0;
+      }
+      
+      #nav-toggle.active span:before {
+        transform: rotate(45deg);
+      }
+      
+      #nav-toggle.active span:after {
+        transform: rotate(-45deg);
+      }
+      
+      /* Page content */
+      article {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 10px;
+      }
+      
+      </style>
+      <script>
+        (function($) { // Begin jQuery
+        $(function() { // DOM ready
+          // If a link has a dropdown, add sub menu toggle.
+          $('nav ul li a:not(:only-child)').click(function(e) {
+            $(this).siblings('.nav-dropdown').toggle();
+            // Close one dropdown when selecting another
+            $('.nav-dropdown').not($(this).siblings()).hide();
+            e.stopPropagation();
+          });
+          // Clicking away from dropdown will remove the dropdown class
+          $('html').click(function() {
+            $('.nav-dropdown').hide();
+          });
+          // Toggle open and close nav styles on click
+          $('#nav-toggle').click(function() {
+            $('nav ul').slideToggle();
+          });
+          // Hamburger to X toggle
+          $('#nav-toggle').on('click', function() {
+            this.classList.toggle('active');
+          });
+        }); // end DOM ready
+      })(jQuery); // end jQuery
+      </script>
+    <section class="navigation">
+        <div class="nav-container">
+          <div class="brand">
+            <a href="#!"><img src="logo.png" width="100" height="50" alt=""></a>
+          </div>
+          <nav>
+            <div class="nav-mobile" ><a id="nav-toggle" href="#!"><span></span></a></div>
+            <ul class="nav-list" style="background-color: #fff;">
+              <li style="background-color: #fff;">
+                <a href="dashboard.html">Home</a>
+              </li>
+              <!-- <li>
+                <a href="#!">About</a>
+              </li> -->
+              <li>
+                <a href="#!">Orders</a>
+                <ul class="nav-dropdown" >
+                  <li>
+                    <a href="allorders.html">All Orders</a>
+                  </li>
+                  <li>
+                    <a href="neworders.html">New</a>
+                  </li>
+                  <li>
+                    <a href="confirmedorders.html">Confirmed </a>
+                  </li>
+                  <li>
+                    <a href="completedorders.html">Completed</a>
+                  </li>
+                </ul>
+              </li>
+              <!-- <li>
+                <a href="#!">Pricing</a>
+              </li> -->
+              <li>
+                <a href="#!">Products</a>
+                <ul class="nav-dropdown">
+                  <li>
+                    <a href="#!">Create</a>
+                  </li>
+                  <li>
+                    <a href="#!">All</a>
+                  </li>
+                  <!-- <li>
+                    <a href="#!">Graphic Design</a>
+                  </li> -->
+                </ul>
+              </li>
+              <li>
+                <a href="shoproseofficial.com">Logout</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      
+            <!-- Main Dashboard -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+                <!-- <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 mt-4" >
+                    <h1 class="h2">Dashboard</h1>
+                </div> -->
+<style>
+    .brown
+    {
+        background-color: #cd7c3a;
+    }
+</style>
+                <div class="row">
+                    
+                    <div class="col-6 col-md-3">
+                        <div class="card text-white brown mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Pending</h5>
+                                <p class="card-text display-4" id="pendingOrders">...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card text-white brown mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Confirmed</h5>
+                                <p class="card-text display-4" id="confirmedOrders">...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card text-white brown mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Completed </h5>
+                                <p class="card-text display-4" id="completedOrders">...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card text-white brown mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Total Orders</h5>
+                                <p class="card-text display-4" id="totalOrders">...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+
+    <script>
+    async function fetchOrders() {
+      const response = await $.ajax({
+        type: "GET",
+        url: 'https://rose-heroku-dc607cde99d9.herokuapp.com/users',
+        dataType: "json",
+        timeout: 30000,
+      });
+
+      console.log(response.data);
+      return response.data
+    }
+    $(document).ready(async function () {
+ var orders= await fetchOrders()
+ 
+  const filteredOrders = orders.filter(order => order.email !== 'roseadmin@gmail.com');
+const pendingOrders=orders.filter(order => order.status == 'Paid');
+const completedOrders=orders.filter(order => order.status == 'completed');
+const confirmedOrders=orders.filter(order => order.status == 'confirmed');
+const countOrders=filteredOrders.length
+
+console.log(countOrders)
+
+
+
+$("#totalOrders").text(countOrders)
+$("#pendingOrders").text(pendingOrders.length)
+$("#completedOrders").text(completedOrders.length)
+$("#confirmedOrders").text(confirmedOrders.length)
+
+
+
+
+    })
+
+
+
+</script>
+</html>

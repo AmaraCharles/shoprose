@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Art Profile</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Responsive Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Art Platform</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Form Section -->
+<div class="container mt-5">
+  <h2 class="text-center">Update Art Profile</h2>
+
+  <form id="artForm">
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input type="text" class="form-control" id="title" placeholder="Enter title" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea class="form-control" id="description" rows="4" placeholder="Enter description"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="price">Price</label>
+      <input type="number" class="form-control" id="price" placeholder="Enter price" required>
+    </div>
+
+    <div class="form-group">
+      <label for="category">Category</label>
+      <input type="text" class="form-control" id="category" placeholder="Enter category">
+    </div>
+
+    <div class="form-group">
+      <label for="collection">Collection</label>
+      <input type="text" class="form-control" id="collection" placeholder="Enter collection">
+    </div>
+
+    <div class="form-group">
+      <label for="views">Views</label>
+      <input type="number" class="form-control" id="views" placeholder="Enter number of views">
+    </div>
+
+    <div class="form-group">
+      <label for="author">Author</label>
+      <input type="text" class="form-control" id="author" placeholder="Enter author">
+    </div>
+
+    <div class="form-group">
+      <label for="status">Status</label>
+      <select class="form-control" id="status">
+        <option value="available">Available</option>
+        <option value="sold">Sold</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="imging">Image Preview</label>
+      <img id="imaging" src="" alt="Image" class="img-fluid" style="max-width: 200px;">
+    </div>
+
+    <button type="submit" class="btn btn-primary" id="updateBtn">Update</button>
+  </form>
+
+  <div class="live-section mt-3"></div>
+</div>
+
+<script>
+// Your script goes here
+</script>
+
+</body>
+</html>

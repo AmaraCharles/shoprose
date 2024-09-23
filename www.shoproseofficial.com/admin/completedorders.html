@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- toster -->
+    showOrderCompletedAlert();
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light grey background */
+            font-size: 0.5rem; /* Reduce the base font size to half */
+        }
+        .sidebar {
+            height: 100vh;
+            background-color: #007bff; /* Bootstrap blue */
+            color: white;
+            padding-top: 20px;
+            font-size: 1rem; /* Maintain sidebar font size readability */
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            color: #d1e7fd; /* Light blue */
+        }
+        .card {
+            margin: 10px 0;
+            height: 100px;
+        }
+        .card-title {
+            font-size: 0.75rem; /* Reduce card title font size */
+        }
+        .card-text {
+            font-size: 1.5rem; /* Reduce card text font size */
+        }
+        h1, h2 {
+            font-size: 1rem; /* Reduce heading sizes */
+        }
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary d-md-none">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="allorders.html">All Orders</a>
+                </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="pendingorders.html">Pending</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" href="confirmedorders.html">Confirmed</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="completedorders.html">Completed</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar for larger screens -->
+            <nav class="col-md-2 d-none d-md-block sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="allorders.html">
+                                All Orders
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Pending
+                            </a>
+                        </li>
+                          <li class="nav-item"></li>
+                            <a class="nav-link" href="confirmedorders.html">
+                                Confirmed
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="completedorders.html">
+                                Completed
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <style>
+                .containerr {
+                display: flex;
+                justify-content: space-between; /* Evenly space the boxes */
+                padding: 10px; /* Add padding around the container */
+                height: 100px;
+              }
+              
+              .box {
+                background-color: #f0f0f0;
+                width: 30%; /* Adjust width to take up 30% of the row */
+                padding: 5px;
+                text-align: center;
+                
+                border: 1px solid #ccc;
+                border-radius: 5px;
+              }
+              .box2 {
+                background-color: #f0f0f0;
+                padding: 5px;
+                text-align: center;
+                height: 130px;
+                border: 1px solid #ccc; /* Border for visibility */
+                margin-bottom: 5px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+              }
+              
+              
+              </style>
+            <!-- Main Dashboard -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+                <div class="container my-4">
+                    <div class="col-12">
+                        <div><b>Items</b> (<span id="totalOrders">0</span>)</div>
+                        <div class="alert alert-info p-4 my-3">
+                            <h5 class="mb-3"> Completed Orders</h5>
+                            <p>
+                          These are orders that have been received by your clients  </p>
+                            
+                          </div>
+                        <!-- Box content -->
+                        <div class="container my-4">
+                            <div class="table-responsive">
+                              <table class="table table-striped table-hover table-bordered">
+                                <thead class="thead-dark">
+                                  <tr>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Email</th>
+                                    <th>
+                                     View Order
+                                    </th>
+                                    <th>
+                                        Complete Order
+                                       </th>
+                                  </tr>
+                                </thead>
+                                <tbody class="table-body">
+                                  <!-- Rows will be appended here dynamically -->
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                                                
+                    </div>
+                      </div>
+
+
+                  </div>
+                  
+            </main>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+<script>
+toastr.options = {
+  "closeButton": true,              // Show close button
+  "debug": false,                   // Disable debugging
+  "newestOnTop": true,              // Alerts appear on top of previous alerts
+  "progressBar": true,              // Show a progress bar
+  "positionClass": "toast-top-right", // Positioning at the top-right corner
+  "preventDuplicates": true,        // Prevent duplicate alerts
+  "showDuration": "300",            // Fade-in duration in ms
+  "hideDuration": "1000",           // Fade-out duration in ms
+  "timeOut": "5000",                // Time before auto-hide in ms
+  "extendedTimeOut": "1000",        // Extra time for mouse hover
+  "showEasing": "swing",            // Show easing effect
+  "hideEasing": "linear",           // Hide easing effect
+  "showMethod": "fadeIn",           // Fade in
+  "hideMethod": "fadeOut"           // Fade out
+};
+
+// Example usage when an order is completed
+
+let currentColor;
+async function fetchUserInfo() {
+
+
+const response = await $.ajax({
+  type: "GET",
+  url: `https://rose-heroku-dc607cde99d9.herokuapp.com/users`,
+  dataType: "json",
+  timeout: 30000,
+  success: async function (data) {
+    console.log("data from db", data);
+    Object.assign(currentUser, data.data)
+  },
+  error: function () {
+    alert(error)
+  }
+ 
+});
+
+return response.data;
+}
+
+
+async function updateProfile({ _id,firstName,lastName,item,address,status}) {
+  console.log(_id,firstName,lastName,item,address,status);
+//   console.log(currentUser);
+
+  const response = await $.ajax({
+    type: "PUT",
+    url: `https://rose-heroku-dc607cde99d9.herokuapp.com/users/${_id}/profile/update`,
+    dataType: "json",
+    data: { _id,firstName,lastName,item,address,status },
+    timeout: 30000,
+    success: function () {
+        alert("order completed successfully!")
+
+      setTimeout(function () {$(location).prop('href', './completedorders.html')     
+                   }, 1000 * 3)
+
+    }
+  });
+
+  console.log(response);
+  return response.data
+}
+
+
+
+
+
+async function hail(artworkJson) {
+
+      const specificOrder = decodeURIComponent(artworkJson);
+const parseSpecificOrder=JSON.parse(specificOrder)
+
+parseSpecificOrder.status="completed"
+console.log("checking parsed data:"+parseSpecificOrder);
+
+var _id=parseSpecificOrder._id
+var firstName=parseSpecificOrder.firstName
+var lastName=parseSpecificOrder.lastName
+var item=parseSpecificOrder.item
+var address=parseSpecificOrder.address
+var status=parseSpecificOrder.status
+
+await updateProfile({_id,firstName,lastName,item,address,status })
+
+
+      
+    }
+
+    function sendUserDetail(orderJson){
+        const fullOrder = decodeURIComponent(orderJson);
+       
+        const parseFullOrder=JSON.parse(fullOrder)
+        console.log(parseFullOrder);
+        
+        
+      localStorage.setItem("userId",parseFullOrder._id)
+      console.log(parseFullOrder._id);
+    
+      
+      localStorage.setItem("newOrder",fullOrder)
+
+      
+      location.href="userorder.html" 
+ 
+ 
+ }
+    function hail2(collectionJson) {
+      const artwork = decodeURIComponent(collectionJson);
+      localStorage.setItem("pricing", artwork)
+      location.href = "buy.html"
+    }
+
+
+  
+$(document).ready(async function () {
+    
+
+var orders= await fetchUserInfo()
+ 
+  const filteredOrders = orders.filter(order => order.email !== 'roseadmin@gmail.com');
+const confirmedOrders=filteredOrders.filter(order=>order.status=="complete")
+   $("#totalOrders").text(confirmedOrders.length)
+    console.log("all confirmed orders can be seen below" + confirmedOrders);
+
+    confirmedOrders.forEach(order => {
+    // Convert the order to JSON and encode it for safe use in URLs
+    const artworkJson = encodeURIComponent(JSON.stringify(order));
+
+    // Parse the imgUrl array and get the first image URL
+   
+    // Find the table body
+    var tbl = $('.table-body');
+
+    // Create a new row for each order
+    var row = $('<tr>').appendTo(tbl);
+
+    // Add the order details to the table row
+    $('<td>').text(`${order.firstName}`).appendTo(row);
+    $('<td>').text(`${order.lastName}`).appendTo(row);
+    $('<td>').text(`${order.email}`).appendTo(row);
+
+    // Create view and complete buttons
+    var viewButton = `<td><a class="col-6 col-lg-3" style="padding:8px; background-color: rgb(65, 150, 247);color:white" onclick='sendUserDetail("${artworkJson}")'>view</a></td>`;
+    var completeButton = `<td><a class="col-6 col-lg-3 " style="padding:8px; background-color: rgb(101, 238, 101);color:white" onclick='hail("${artworkJson}")'>complete</a></td>`;
+
+    // Append the buttons to the row
+    $(row).append(viewButton);
+    // $(row).append(completeButton);
+
+    // Append the row to the table
+    tbl.appendTo($(".table"));
+});
+          }
+        
+        )
+
+
+
+
+
+
+
+
+
+
+
+
+   
+  </script>
+  
+  
+    
+</html>
