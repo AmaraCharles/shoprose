@@ -227,7 +227,7 @@ const response = await $.ajax({
   timeout: 30000,
   success: async function (data) {
     console.log("data", data);
-    Object.assign(currentUser, data.data)
+   
   },
   error: function () {
     alert(error)
@@ -312,7 +312,7 @@ await updateProfile({_id,firstName,lastName,item,address,status })
       const orderInfo = await fetchUserInfo();
 $("#name").text(orderInfo.firstName + " "+ orderInfo.lastName)
 $("#email").text(orderInfo.email)
-$("#date").text(orderInfo.item[0].timestamp)
+
 $("#totalOrders").text(orderInfo.item.length)
   localStorage.setItem("orderStatus",orderInfo.status)
     
@@ -340,8 +340,7 @@ $("#totalOrders").text(orderInfo.item.length)
               <div>Price:₦${itm.price}</div>
               <div>Satus:${status}
               </div>
-              <div>Date:${itm.timestamp}
-              </div>
+              
               
           </div>
          
