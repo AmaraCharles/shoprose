@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
-  <id>https://www.shoprosecc.com/en-us/collections/all.atom</id>
-  <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/collections/all"/>
-  <link rel="self" type="application/atom+xml" href="https://www.shoprosecc.com/en-us/collections/action-lady-collection.atom"/>
+  <id>https://www.shoproseofficial.com/en-us/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.shoproseofficial.com/en-us/collections/action-lady-collection.atom"/>
   <title>Hertunba</title>
   <updated>2021-08-13T15:57:33+01:00</updated>
   <author>
     <name>Hertunba</name>
   </author>
   <entry>
-    <id>https://www.shoprosecc.com/en-us/products/4807593951322</id>
+    <id>https://www.shoproseofficial.com/en-us/products/4807593951322</id>
     <published>2021-08-13T15:57:33+01:00</published>
     <updated>2021-08-13T15:57:33+01:00</updated>
-    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/coat-of-many-colors"/>
+    <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/en-us/products/coat-of-many-colors"/>
     <title>Coat of Many Colors</title>
     <s:type></s:type>
     <s:vendor>Hertunba</s:vendor>
@@ -39,56 +39,56 @@
 ]]>
     </summary>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807593951322</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807593951322</id>
       <title>S / ng</title>
       <s:price currency="USD">75.00</s:price>
       <s:sku>SKU COAT-COLORS-8</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807593951322</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807593951322</id>
       <title>M / ng</title>
       <s:price currency="USD">75.00</s:price>
       <s:sku>SKU COAT-COLORS-9</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807593951322</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807593951322</id>
       <title>L / ng</title>
       <s:price currency="USD">75.00</s:price>
       <s:sku>SKU COAT-COLORS-10</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807593951322</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807593951322</id>
       <title>XL / ng</title>
       <s:price currency="USD">75.00</s:price>
       <s:sku>SKU COAT-COLORS-11</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807593951322</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807593951322</id>
       <title>S / intl</title>
       <s:price currency="USD">75.00</s:price>
       <s:sku>SKU COAT-COLORS-8</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807593951322</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807593951322</id>
       <title>M / intl</title>
       <s:price currency="USD">75.00</s:price>
       <s:sku>SKU COAT-COLORS-9</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807593951322</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807593951322</id>
       <title>L / intl</title>
       <s:price currency="USD">75.00</s:price>
       <s:sku>SKU COAT-COLORS-10</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807593951322</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807593951322</id>
       <title>XL / intl</title>
       <s:price currency="USD">75.00</s:price>
       <s:sku>SKU COAT-COLORS-11</s:sku>
@@ -96,10 +96,10 @@
     </s:variant>
   </entry>
   <entry>
-    <id>https://www.shoprosecc.com/en-us/products/4807605715034</id>
+    <id>https://www.shoproseofficial.com/en-us/products/4807605715034</id>
     <published>2021-07-06T00:41:41+01:00</published>
     <updated>2021-07-06T00:41:41+01:00</updated>
-    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/vonne-dress"/>
+    <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/en-us/products/vonne-dress"/>
     <title>Vonne Dress</title>
     <s:type></s:type>
     <s:vendor>Hertunba</s:vendor>
@@ -125,56 +125,56 @@
 ]]>
     </summary>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807605715034</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807605715034</id>
       <title>S / ng</title>
       <s:price currency="USD">50.00</s:price>
       <s:sku>SKU VONNE-8</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807605715034</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807605715034</id>
       <title>M / ng</title>
       <s:price currency="USD">50.00</s:price>
       <s:sku>SKU VONNE-9</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807605715034</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807605715034</id>
       <title>L / ng</title>
       <s:price currency="USD">50.00</s:price>
       <s:sku>SKU VONNE-10</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807605715034</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807605715034</id>
       <title>XL / ng</title>
       <s:price currency="USD">50.00</s:price>
       <s:sku>SKU VONNE-11</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807605715034</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807605715034</id>
       <title>S / intl</title>
       <s:price currency="USD">50.00</s:price>
       <s:sku>SKU VONNE-8</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807605715034</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807605715034</id>
       <title>M / intl</title>
       <s:price currency="USD">50.00</s:price>
       <s:sku>SKU VONNE-9</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807605715034</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807605715034</id>
       <title>L / intl</title>
       <s:price currency="USD">50.00</s:price>
       <s:sku>SKU VONNE-10</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4807605715034</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4807605715034</id>
       <title>XL / intl</title>
       <s:price currency="USD">50.00</s:price>
       <s:sku>SKU VONNE-11</s:sku>
@@ -182,10 +182,10 @@
     </s:variant>
   </entry>
   <entry>
-    <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+    <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
     <published>2020-10-24T12:15:19+01:00</published>
     <updated>2020-10-24T12:15:19+01:00</updated>
-    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/the-omuge-velvet-suit"/>
+    <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/en-us/products/the-omuge-velvet-suit"/>
     <title>The Omuge Velvet Suit</title>
     <s:type></s:type>
     <s:vendor>Hertunba</s:vendor>
@@ -211,140 +211,140 @@
 ]]>
     </summary>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>S / ng / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-12</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>S / ng / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-12</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>S / intl / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-13</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>S / intl / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-13</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>M / ng / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-14</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>M / ng / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-14</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>M / intl / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-15</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>M / intl / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-15</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>L / ng / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-16</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>L / ng / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-16</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>L / intl / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-17</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>L / intl / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-17</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>XL / ng / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-18</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>XL / ng / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-18</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>XL / intl / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-19</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>XL / intl / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-19</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>Custom / ng / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-20</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>Custom / ng / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-20</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>Custom / intl / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-21</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879538266</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879538266</id>
       <title>Custom / intl / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU OMUGE-SUIT-21</s:sku>
@@ -352,10 +352,10 @@
     </s:variant>
   </entry>
   <entry>
-    <id>https://www.shoprosecc.com/en-us/products/4808879407194</id>
+    <id>https://www.shoproseofficial.com/en-us/products/4808879407194</id>
     <published>2020-10-24T12:12:15+01:00</published>
     <updated>2020-10-24T12:12:15+01:00</updated>
-    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/odet-bridal-suit"/>
+    <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/en-us/products/odet-bridal-suit"/>
     <title>Odet Bridal Suit</title>
     <s:type></s:type>
     <s:vendor>Hertunba</s:vendor>
@@ -381,70 +381,70 @@
 ]]>
     </summary>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879407194</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879407194</id>
       <title>S / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU ODET-BRIDAL-SUIT-8</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879407194</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879407194</id>
       <title>M / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU ODET-BRIDAL-SUIT-9</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879407194</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879407194</id>
       <title>L / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU ODET-BRIDAL-SUIT-10</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879407194</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879407194</id>
       <title>XL / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU ODET-BRIDAL-SUIT-11</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879407194</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879407194</id>
       <title>Custom / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU ODET-BRIDAL-SUIT-12</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879407194</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879407194</id>
       <title>S / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU ODET-BRIDAL-SUIT-8</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879407194</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879407194</id>
       <title>M / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU ODET-BRIDAL-SUIT-9</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879407194</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879407194</id>
       <title>L / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU ODET-BRIDAL-SUIT-10</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879407194</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879407194</id>
       <title>XL / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU ODET-BRIDAL-SUIT-11</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879407194</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879407194</id>
       <title>Custom / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>SKU ODET-BRIDAL-SUIT-12</s:sku>
@@ -452,10 +452,10 @@
     </s:variant>
   </entry>
   <entry>
-    <id>https://www.shoprosecc.com/en-us/products/4808879145050</id>
+    <id>https://www.shoproseofficial.com/en-us/products/4808879145050</id>
     <published>2020-10-24T12:05:23+01:00</published>
     <updated>2020-10-24T12:05:23+01:00</updated>
-    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/shema-earth-dress"/>
+    <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/en-us/products/shema-earth-dress"/>
     <title>Shema Earth Dress</title>
     <s:type></s:type>
     <s:vendor>Hertunba</s:vendor>
@@ -481,28 +481,28 @@
 ]]>
     </summary>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879145050</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879145050</id>
       <title>One Size / ng / ng</title>
       <s:price currency="USD">75.00</s:price>
       <s:sku>SKU SHEMA-EARTH-8</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879145050</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879145050</id>
       <title>One Size / ng / intl</title>
       <s:price currency="USD">75.00</s:price>
       <s:sku>SKU SHEMA-EARTH-8</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879145050</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879145050</id>
       <title>One Size / intl / ng</title>
       <s:price currency="USD">75.00</s:price>
       <s:sku>SKU SHEMA-EARTH-9</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808879145050</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808879145050</id>
       <title>One Size / intl / intl</title>
       <s:price currency="USD">75.00</s:price>
       <s:sku>SKU SHEMA-EARTH-9</s:sku>
@@ -510,10 +510,10 @@
     </s:variant>
   </entry>
   <entry>
-    <id>https://www.shoprosecc.com/en-us/products/4808878555226</id>
+    <id>https://www.shoproseofficial.com/en-us/products/4808878555226</id>
     <published>2020-10-24T11:49:44+01:00</published>
     <updated>2020-10-24T11:49:44+01:00</updated>
-    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/ego-skirt-suit"/>
+    <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/en-us/products/ego-skirt-suit"/>
     <title>Ego Skirt Suit</title>
     <s:type></s:type>
     <s:vendor>Hertunba</s:vendor>
@@ -539,70 +539,70 @@
 ]]>
     </summary>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808878555226</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808878555226</id>
       <title>S / ng</title>
       <s:price currency="USD">175.00</s:price>
       <s:sku>SKU EGO-SKIRT-SUIT-8</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808878555226</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808878555226</id>
       <title>M / ng</title>
       <s:price currency="USD">175.00</s:price>
       <s:sku>SKU EGO-SKIRT-SUIT-9</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808878555226</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808878555226</id>
       <title>L / ng</title>
       <s:price currency="USD">175.00</s:price>
       <s:sku>SKU EGO-SKIRT-SUIT-10</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808878555226</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808878555226</id>
       <title>XL / ng</title>
       <s:price currency="USD">175.00</s:price>
       <s:sku>SKU EGO-SKIRT-SUIT-11</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808878555226</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808878555226</id>
       <title>Custom / ng</title>
       <s:price currency="USD">175.00</s:price>
       <s:sku>SKU EGO-SKIRT-SUIT-12</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808878555226</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808878555226</id>
       <title>S / intl</title>
       <s:price currency="USD">175.00</s:price>
       <s:sku>SKU EGO-SKIRT-SUIT-8</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808878555226</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808878555226</id>
       <title>M / intl</title>
       <s:price currency="USD">175.00</s:price>
       <s:sku>SKU EGO-SKIRT-SUIT-9</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808878555226</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808878555226</id>
       <title>L / intl</title>
       <s:price currency="USD">175.00</s:price>
       <s:sku>SKU EGO-SKIRT-SUIT-10</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808878555226</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808878555226</id>
       <title>XL / intl</title>
       <s:price currency="USD">175.00</s:price>
       <s:sku>SKU EGO-SKIRT-SUIT-11</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/4808878555226</id>
+      <id>https://www.shoproseofficial.com/en-us/products/4808878555226</id>
       <title>Custom / intl</title>
       <s:price currency="USD">175.00</s:price>
       <s:sku>SKU EGO-SKIRT-SUIT-12</s:sku>

@@ -106,13 +106,14 @@
    
       async function fetchUserInfo() {
         var details = localStorage.getItem('wish');
-        var _id = details
-        var transactionId = details.slice(25, 61);
+        var transactionId = details
+        var _id="669ba41036964d2269ede01d"
+        // var transactionId = details.slice(25, 61);
     
         try {
           const response = await $.ajax({
             type: "GET",
-            url: `https://rose-heroku-dc607cde99d9.herokuapp.com/users/art/roseadmin@gmail.com/${_id}`, // Include id and transactionId in the URL
+            url: `https://rose-heroku-dc607cde99d9.herokuapp.com/users/art/${_id}/${transactionId}`, // Include id and transactionId in the URL
             dataType: "json",
             timeout: 30000,
             success: function (data) {
@@ -148,14 +149,17 @@
       $('#views').val(userInfo.views);
       $('#collection').val(userInfo.collection);
       var imging=$("#imaging")
-      imaging.src=userInfo.imgUrl
+      var parseImgLink=JSON.parse(userInfo.imgUrl)
+      console.log(parseImgLink[0]);
+      
+      imaging.src=parseImgLink[0]
     });
     
     
     
 async function updateProfile({ from, title,price,description,category,collection,views,status }) {   var details = localStorage.getItem('wish');
-        var _id = details.slice(0, 24);
-        var transactionId = details.slice(25, 61);
+        var _id = "669ba41036964d2269ede01d";
+        var transactionId = localStorage.getItem("wish");
     
   console.log( title, from,price,category,collection,views,description,status );
   console.log(currentUser);

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
-  <id>https://www.shoprosecc.com/en-us/collections/all.atom</id>
-  <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/collections/all"/>
-  <link rel="self" type="application/atom+xml" href="https://www.shoprosecc.com/en-us/collections/hertunba-x-kim.atom"/>
+  <id>https://www.shoproseofficial.com/en-us/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.shoproseofficial.com/en-us/collections/hertunba-x-kim.atom"/>
   <title>Hertunba</title>
   <updated>2022-04-17T17:50:01+01:00</updated>
   <author>
     <name>Hertunba</name>
   </author>
   <entry>
-    <id>https://www.shoprosecc.com/en-us/products/6730911973466</id>
+    <id>https://www.shoproseofficial.com/en-us/products/6730911973466</id>
     <published>2022-04-17T17:50:01+01:00</published>
     <updated>2022-04-17T17:50:01+01:00</updated>
-    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/the-kim-two-piece-suit"/>
+    <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/en-us/products/the-kim-two-piece-suit"/>
     <title>The Kim Two Piece Suit</title>
     <s:type></s:type>
     <s:vendor>Hertunba</s:vendor>
@@ -38,56 +38,56 @@
 ]]>
     </summary>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911973466</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911973466</id>
       <title>S / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911973466</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911973466</id>
       <title>S / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911973466</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911973466</id>
       <title>M / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911973466</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911973466</id>
       <title>M / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911973466</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911973466</id>
       <title>L / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911973466</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911973466</id>
       <title>L / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911973466</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911973466</id>
       <title>XL / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911973466</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911973466</id>
       <title>XL / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku></s:sku>
@@ -95,10 +95,10 @@
     </s:variant>
   </entry>
   <entry>
-    <id>https://www.shoprosecc.com/en-us/products/6730912825434</id>
+    <id>https://www.shoproseofficial.com/en-us/products/6730912825434</id>
     <published>2022-04-17T15:40:02+01:00</published>
     <updated>2022-04-17T15:40:02+01:00</updated>
-    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/ona-fire-suit"/>
+    <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/en-us/products/ona-fire-suit"/>
     <title>Ona Fire Suit</title>
     <s:type></s:type>
     <s:vendor>Hertunba</s:vendor>
@@ -131,56 +131,56 @@
 ]]>
     </summary>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912825434</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912825434</id>
       <title>S / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>ONA-FIRE</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912825434</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912825434</id>
       <title>S / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>ONA-FIRE</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912825434</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912825434</id>
       <title>M / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>ONA-FIRE-2</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912825434</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912825434</id>
       <title>M / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>ONA-FIRE-2</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912825434</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912825434</id>
       <title>L / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>ONA-FIRE-3</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912825434</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912825434</id>
       <title>L / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>ONA-FIRE-3</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912825434</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912825434</id>
       <title>XL / ng</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>ONA-FIRE-4</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912825434</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912825434</id>
       <title>XL / intl</title>
       <s:price currency="USD">165.00</s:price>
       <s:sku>ONA-FIRE-4</s:sku>
@@ -188,10 +188,10 @@
     </s:variant>
   </entry>
   <entry>
-    <id>https://www.shoprosecc.com/en-us/products/6730912530522</id>
+    <id>https://www.shoproseofficial.com/en-us/products/6730912530522</id>
     <published>2022-04-17T15:40:01+01:00</published>
     <updated>2022-04-17T15:40:01+01:00</updated>
-    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/omoh-dress"/>
+    <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/en-us/products/omoh-dress"/>
     <title>Omoh Dress</title>
     <s:type></s:type>
     <s:vendor>Hertunba</s:vendor>
@@ -216,56 +216,56 @@
 ]]>
     </summary>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912530522</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912530522</id>
       <title>S / ng</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku>OMOH</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912530522</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912530522</id>
       <title>S / intl</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku>OMOH</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912530522</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912530522</id>
       <title>M / ng</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku>OMOH-2</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912530522</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912530522</id>
       <title>M / intl</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku>OMOH-2</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912530522</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912530522</id>
       <title>L / ng</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku>OMOH-3</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912530522</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912530522</id>
       <title>L / intl</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku>OMOH-3</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912530522</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912530522</id>
       <title>XL / ng</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku>OMOH-4</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730912530522</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730912530522</id>
       <title>XL / intl</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku>OMOH-4</s:sku>
@@ -273,10 +273,10 @@
     </s:variant>
   </entry>
   <entry>
-    <id>https://www.shoprosecc.com/en-us/products/6730911613018</id>
+    <id>https://www.shoproseofficial.com/en-us/products/6730911613018</id>
     <published>2022-04-17T15:40:01+01:00</published>
     <updated>2022-04-17T15:40:01+01:00</updated>
-    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/oprah-wrap-dress"/>
+    <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/en-us/products/oprah-wrap-dress"/>
     <title>Oprah Wrap Dress</title>
     <s:type></s:type>
     <s:vendor>Hertunba</s:vendor>
@@ -306,56 +306,56 @@
 ]]>
     </summary>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911613018</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911613018</id>
       <title>S / ng</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911613018</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911613018</id>
       <title>S / intl</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911613018</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911613018</id>
       <title>M / ng</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911613018</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911613018</id>
       <title>M / intl</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911613018</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911613018</id>
       <title>L / ng</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911613018</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911613018</id>
       <title>L / intl</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911613018</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911613018</id>
       <title>XL / ng</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku></s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730911613018</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730911613018</id>
       <title>XL / intl</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku></s:sku>
@@ -363,10 +363,10 @@
     </s:variant>
   </entry>
   <entry>
-    <id>https://www.shoprosecc.com/en-us/products/6730910924890</id>
+    <id>https://www.shoproseofficial.com/en-us/products/6730910924890</id>
     <published>2022-04-17T15:40:00+01:00</published>
     <updated>2022-04-17T15:40:00+01:00</updated>
-    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/bianca-dress"/>
+    <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/en-us/products/bianca-dress"/>
     <title>Bianca Dress</title>
     <s:type></s:type>
     <s:vendor>Hertunba</s:vendor>
@@ -381,7 +381,7 @@
         <strong>Type: </strong><br>
         <strong>Price: </strong>
             100.00 - 120.00
-            <a href="https://www.shoprosecc.com/en-us/products/bianca-dress">(8 variants)</a>
+            <a href="https://www.shoproseofficial.com/en-us/products/bianca-dress">(8 variants)</a>
       </p>
     </td>
   </tr>
@@ -398,56 +398,56 @@
 ]]>
     </summary>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910924890</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910924890</id>
       <title>S / ng</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>Bianca</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910924890</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910924890</id>
       <title>S / intl</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>Bianca</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910924890</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910924890</id>
       <title>M / ng</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>Bianca-2</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910924890</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910924890</id>
       <title>M / intl</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>Bianca-2</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910924890</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910924890</id>
       <title>L / ng</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>Bianca-3</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910924890</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910924890</id>
       <title>L / intl</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>Bianca-3</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910924890</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910924890</id>
       <title>XL / ng</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>Bianca-4</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910924890</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910924890</id>
       <title>XL / intl</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku>Bianca-4</s:sku>
@@ -455,10 +455,10 @@
     </s:variant>
   </entry>
   <entry>
-    <id>https://www.shoprosecc.com/en-us/products/6730910072922</id>
+    <id>https://www.shoproseofficial.com/en-us/products/6730910072922</id>
     <published>2022-04-17T15:40:00+01:00</published>
     <updated>2022-04-17T15:40:00+01:00</updated>
-    <link rel="alternate" type="text/html" href="https://www.shoprosecc.com/en-us/products/aima-robe-dress-1"/>
+    <link rel="alternate" type="text/html" href="https://www.shoproseofficial.com/en-us/products/aima-robe-dress-1"/>
     <title>Aima Robe dress</title>
     <s:type></s:type>
     <s:vendor>Hertunba</s:vendor>
@@ -473,7 +473,7 @@
         <strong>Type: </strong><br>
         <strong>Price: </strong>
             100.00 - 120.00
-            <a href="https://www.shoprosecc.com/en-us/products/aima-robe-dress-1">(8 variants)</a>
+            <a href="https://www.shoproseofficial.com/en-us/products/aima-robe-dress-1">(8 variants)</a>
       </p>
     </td>
   </tr>
@@ -486,56 +486,56 @@
 ]]>
     </summary>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910072922</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910072922</id>
       <title>S / ng</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>AIMA</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910072922</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910072922</id>
       <title>S / intl</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>AIMA</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910072922</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910072922</id>
       <title>M / ng</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>AIMA -2</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910072922</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910072922</id>
       <title>M / intl</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>AIMA -2</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910072922</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910072922</id>
       <title>L / ng</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>AIMA -3</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910072922</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910072922</id>
       <title>L / intl</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>AIMA -3</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910072922</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910072922</id>
       <title>XL / ng</title>
       <s:price currency="USD">120.00</s:price>
       <s:sku>AIMA -4</s:sku>
       <s:grams>0</s:grams>
     </s:variant>
     <s:variant>
-      <id>https://www.shoprosecc.com/en-us/products/6730910072922</id>
+      <id>https://www.shoproseofficial.com/en-us/products/6730910072922</id>
       <title>XL / intl</title>
       <s:price currency="USD">100.00</s:price>
       <s:sku>AIMA -4</s:sku>

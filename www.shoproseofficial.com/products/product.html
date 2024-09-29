@@ -2688,25 +2688,6 @@ return size
         class="button product-add-available"
         value="" onclick="headout(event)">Add to cart</a>
 
-     <div class="modal fade" id="addToCartModal" tabindex="-1" aria-labelledby="addToCartModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="addToCartModalLabel">Item Added to Cart</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>Your item has been added to the cart.</p>
-            <p>What would you like to do next?</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Continue Shopping</button>
-            <a href="cart.html" class="btn btn-primary">View Cart</a>
-          </div>
-        </div>
-      </div>
    
   
       
@@ -2752,9 +2733,16 @@ return size
         cursor: pointer;
         color: bisque;
     }
+    @media  screen and (min-width:500px) {
+      .preferences{
+
+        display: block;
+      }
+      
+    }
 </style>
 <div  id="description"></div>
-<div id="preferences" style="margin-top: 20px; " >
+<div id="preferences" style="margin-top: 20px; display: none " class="preferences" >
   You may also like:
 
 <div class="shell">
@@ -3034,6 +3022,24 @@ return size
 
 
 
+<!-- Modal Structure -->
+<div id="customModal" class="modal fade" style="display: none;" tabindex="-1" aria-labelledby="customModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="customModalLabel">Your Cart</h5>
+        <button type="button" class="btn-close" id="closeModalBtn"></button>
+      </div>
+      <div class="modal-body">
+        <p>Your cart has been updated. What would you like to do next?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" id="continueBtn">Continue Shopping</button>
+        <a href="/view-cart" class="btn btn-primary">View Cart</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -3346,10 +3352,17 @@ color: var(--light);
 </div>
 
 <script>
+  
+ 
+</script>
+
+<script>
+
     function collect(element){
   
   var size=element.value
   console.log(size);
+  localStorage.setItem("tempsize",size)
   var pricing=localStorage.getItem("pricing")
   if(pricing){
 
@@ -3386,6 +3399,10 @@ function hail(artworkJson) {
       return response.data
     }
 
+    function redirectUrl(){
+
+
+    }
 
  
   function headout(event) {
@@ -3394,7 +3411,7 @@ function hail(artworkJson) {
     // Example usage
     // Retrieve the "pricing" item from localStorage
     const pickndump = localStorage.getItem("pricing");
-
+const tempsize=localStorage.getItem("tempsize")
     // Encode the item
     const newListItem = encodeURIComponent(pickndump);
 
@@ -3403,6 +3420,9 @@ function hail(artworkJson) {
     var globalCartContainer = document.getElementById("globalCartContainer");
 
     let globalCart;
+    if(tempsize){
+      localStorage.removeItem("tempsize")
+      
     if (exp) {
         var expArray = JSON.parse(exp);
 
@@ -3418,7 +3438,9 @@ function hail(artworkJson) {
 
         console.log("Stored to cart");
         toastr.success('Item added to the cart!');
+      
         location.href = "../cart.html";
+       
     } else {
         // Initialize a new array with the new item if "exp" doesn't exist
         var expArray = [newListItem];
@@ -3429,7 +3451,13 @@ function hail(artworkJson) {
 
         console.log("No cart in localStorage but stored to cart");
         toastr.success('Item added to the cart!');
+        localStorage.removeItem("tempsize")
         location.href = "../cart.html";
+       
+    }}
+    else{
+
+      alert("Please select a size!")
     }
 }
 
