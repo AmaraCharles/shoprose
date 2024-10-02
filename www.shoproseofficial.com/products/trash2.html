@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,59 +9,177 @@
 
 </head>
 <body>
-  <!-- Trigger Button -->
-
-<!-- Modal Structure -->
-<div id="customModal" class="modal fade" style="display: none;" tabindex="-1" aria-labelledby="customModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="customModalLabel">Your Cart</h5>
-        <button type="button" class="btn-close" id="closeModalBtn"></button>
-      </div>
-      <div class="modal-body">
-        <p>Your cart has been updated. What would you like to do next?</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" id="continueBtn">Continue Shopping</button>
-        <a href="/view-cart" class="btn btn-primary">View Cart</a>
+  <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cartModalLabel">Cart Action</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <p>Your item has been added to the cart.</p>
+          <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" onclick="viewCart()">View Cart</button>
+              <button class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
+ Modal HTML 
 
 <script>
-  // Get modal and buttons
-  const modal = document.getElementById('customModal');
-  const openModalBtn = document.getElementById('openModalBtn');
-  const closeModalBtn = document.getElementById('closeModalBtn');
-  const continueBtn = document.getElementById('continueBtn');
+// Function to trigger the modal manually
+function showCartModal() {
+    var myModal = new bootstrap.Modal(document.getElementById('cartModal'), {
+        keyboard: false
+    });
+    myModal.show();
+}
 
-  // Open modal
-  function openModal() {
-    modal.style.display = 'block'; // Show the modal
-    modal.classList.add('show');   // Add Bootstrap's 'show' class for animation
-  };
-
-  // Close modal
-  function closeModal() {
-    modal.style.display = 'none';  // Hide the modal
-    modal.classList.remove('show'); // Remove Bootstrap's 'show' class
-  }
-
-  closeModalBtn.addEventListener('click', closeModal);
-  continueBtn.addEventListener('click', closeModal);
-
-  // Close modal when clicking outside of the modal content
-  window.addEventListener('click', function(event) {
-    if (event.target == modal) {
-      closeModal();
-    }
-
-   
-  });
-  openModal();
+// Function for viewing the cart
+function viewCart() {
+    window.location.href = 'cart.html';  // Redirect to the cart page
+}
+showCartModal()
 </script>
+
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal with JavaScript</title>
+    <style>
+        /* Style the modal's background overlay */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+        }
+
+        /* Style for the modal content */
+        .modal-content {
+            background-color: white;
+            margin: 15% auto;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 500px;
+            text-align: center;
+            position: relative;
+        }
+
+        /* Close button styling */
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 25px;
+            font-weight: bold;
+            color: #aaa;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+        }
+
+        /* Buttons styling */
+        .modal-btn {
+            padding: 10px 20px;
+            margin-top: 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .modal-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .modal-btn-secondary {
+            background-color: #6c757d;
+        }
+
+        .modal-btn-secondary:hover {
+            background-color: #5a6268;
+        }
+
+        /* Media queries for mobile responsiveness */
+        @media (max-width: 576px) {
+            .modal-content {
+                width: 90%;
+                margin-top: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Trigger to open modal -->
+    <button id="openModalBtn" class="modal-btn">Add to Cart</button>
+
+    <!-- Modal Structure -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModalBtn">&times;</span>
+            <h2>Item added to cart!</h2>
+            <p>Would you like to view your cart or continue shopping?</p>
+            <div>
+                <button class="modal-btn">View Cart</button>
+                <button class="modal-btn modal-btn-secondary" id="continueShoppingBtn">Continue Shopping</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get modal and buttons
+        const modal = document.getElementById('cartModal');
+        const openModalBtn = document.getElementById('openModalBtn');
+        const closeModalBtn = document.getElementById('closeModalBtn');
+        const continueShoppingBtn = document.getElementById('continueShoppingBtn');
+
+        // Function to open the modal
+        function openModal() {
+            modal.style.display = 'block';
+        }
+
+        // Function to close the modal
+        function closeModal() {
+            modal.style.display = 'none';
+        }
+
+        // Open modal on button click
+        openModalBtn.addEventListener('click', openModal);
+
+        // Close modal on close button click or continue shopping button click
+        closeModalBtn.addEventListener('click', closeModal);
+        continueShoppingBtn.addEventListener('click', closeModal);
+
+        // Close modal if user clicks outside the modal content
+        window.addEventListener('click', function(event) {
+            if (event.target == modal) {
+                closeModal();
+            }
+        });
+    </script>
 
 </body>
 </html>

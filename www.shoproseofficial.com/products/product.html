@@ -3382,7 +3382,7 @@ console.log("new object:" +pricingObject);
 function hail(artworkJson) {
       const artwork = decodeURIComponent(artworkJson);
       localStorage.setItem("pricing", artwork)
-      location.href = "../products/product.html"
+      location.href = "../product.html"
     }
 
   async function fetchUserInfo2() {
@@ -3450,6 +3450,8 @@ const tempsize=localStorage.getItem("tempsize")
         localStorage.setItem("flexiblecart", JSON.stringify(expArray));
 
         console.log("No cart in localStorage but stored to cart");
+        localStorage.setItem("cartRecord", expArray.length);
+
         toastr.success('Item added to the cart!');
         localStorage.removeItem("tempsize")
         location.href = "../cart.html";

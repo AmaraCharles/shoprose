@@ -1,0 +1,29 @@
+function handleColorPicker() {
+  var jeColor = function (elem, options) {
+    var opts = typeof options === "function" ? options() : options;
+    return new jeColorPicker(elem, opts);
+  };
+  jeColor.dateVer = "V1.0.1";
+
+  function jeColorPicker(elem, options) {
+    var hexInput = document.querySelector(`${elem}`);
+    if (!hexInput) return;
+    hexInput.addEventListener("change", function () {
+      var newElem = elem.replace("#", "");
+      var bgColor = document.querySelector(
+        `.apo-colorlabel[for="${newElem}"] .apo-icon__color`
+      );
+      var textValue = document.querySelector(
+        `.apo-colorlabel[for="${newElem}"] .apo-textvalue`
+      );
+      bgColor.style.fill = this.value;
+      textValue.innerHTML = `${this.value}`;
+      textValue.style.color = this.value;
+
+    });
+  }
+  window.ap_front_settings.jeColor = jeColor;
+  return jeColor;
+}
+
+handleColorPicker();

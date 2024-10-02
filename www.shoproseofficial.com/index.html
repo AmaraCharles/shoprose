@@ -1413,7 +1413,7 @@ template-index
 
         <div class="main-header-item main-header-cart-item">
           
-            <a class="main-header-link" href="https://www.shoproseofficial.com/cart" title="Cart">
+            <a class="main-header-link" href="https://www.shoproseofficial.com/cart.html" title="Cart">
               <style>
   
                 .cart-container {
@@ -1776,7 +1776,7 @@ border-radius: 1px;
           </div>
         </div>
       </div>
-      <div class="carousel-item" style="height: 90vh; background-size: cover; background-position: center;">
+      <div class="carousel-item" style="height: 100vh; background-size: cover; background-position: center;">
         <img class="d-block w-100" src="images/responsive/dark.jpeg" alt="Third slide"style="height: 100%; background-size: cover; background-position: center;">
         <div class="carousel-caption d-md-block">
           <div  style="background-color: white; height: 200px;  color: #7b3700; padding: 20px;">
@@ -1812,7 +1812,7 @@ border-radius: 1px;
 
 .box {
   background-color: #f0f0f0;
-  width: 30%; /* Adjust width to take up 30% of the row */
+  width: 100px; /* Adjust width to take up 30% of the row */
   padding: 5px;
   text-align: center;
   
@@ -1834,7 +1834,7 @@ border-radius: 1px;
 </style>
 <div style="margin-top: 20px;">
   <h5 style="font-family: PlayfairDisplay-Regular; color:#7b3700;">Top Sellers <a href="collections/top-sellers.html"><i class="fa fa-arrow-right" style=" color:#7b3700; margin-left: 10px;"> </i></a></h5>
-  <div style="background-color: rgb(252, 248, 248); width: 100%;height: 100px;margin-bottom: 20px" id="top-sellers">
+  <div style="background-color: rgb(252, 248, 248); width: 100%;height: 200px;margin-bottom: 20px" id="top-sellers">
     <div class="containerr" id="containerr">
     
 
@@ -1889,7 +1889,7 @@ border-radius: 1px;
   function hail(artworkJson) {
     const artwork = decodeURIComponent(artworkJson);
     localStorage.setItem("pricing", artwork)
-    location.href = "./products/product.html"
+    location.href = "./product.html"
   }
   function hail2(collectionJson) {
     const artwork = decodeURIComponent(collectionJson);
@@ -1915,12 +1915,12 @@ if (counter>=4){ console.log("list ends here");
 else{
         if (artwork) {
           const artworkJson = encodeURIComponent(JSON.stringify(artwork));
-          const smart = artwork
-
+          const parsedLink = JSON.parse(artwork.imgUrl)
+var urlHolder=parsedLink[0]
           const artworkHtml = `
 
  <a class="box" onclick='hail("${artworkJson}")'>
-            <img src="${artwork.imgUrl}" alt="Product" class="img-responsive" style="width:100%; height:100%;" />
+            <img src="${urlHolder}" alt="Product" class="img-responsive" style="width:100%; height:100%;" />
      </a>
 
      
@@ -1939,13 +1939,14 @@ else{
 else{
         if (artwork) {
           const artworkJson = encodeURIComponent(JSON.stringify(artwork));
-          const smart = artwork
+          const parsedLink = JSON.parse(artwork.imgUrl)
+          var urlHolder=parsedLink[0]
 
           const artworkHtml = `
         
         <a class="col-6 col-lg-3" onclick='hail("${artworkJson}")'>
           <div class="box2">
-             <img src="${artwork.imgUrl}" alt="Product" class="img-responsive" style="width:100%; height:100%;" />
+             <img src="${urlHolder}" alt="Product" class="img-responsive" style="width:100%; height:100%;" />
             
             </div>
             <div class="info mb-2" id="info" >
