@@ -7630,6 +7630,13 @@
           </nav>
          
         </header>
+
+        <script>
+          function navFunction(element) {
+           
+            location.href=element.id
+          }
+        </script>
         <main class="h-full overflow-y-auto">
           <div class="sm:container grid lg:px-6 sm:px-4 px-2 mx-auto">
             <h1 class="my-6 text-lg font-bold text-gray-700 dark:text-gray-300">Dashboard Overview</h1>
@@ -7646,7 +7653,8 @@
                             d="M16 5l-8-4-8 4 8 4 8-4zM8 2.328l5.345 2.672-5.345 2.672-5.345-2.672 5.345-2.672zM14.398 7.199l1.602 0.801-8 4-8-4 1.602-0.801 6.398 3.199zM14.398 10.199l1.602 0.801-8 4-8-4 1.602-0.801 6.398 3.199z">
                           </path>
                         </svg></div>
-                      <div>
+                        
+                      <div onclick="navFunction(this)" id="neworders.html">
                         <p class="mb-3 text-base font-medium text-gray-50 dark:text-gray-100">New Orders</p>
                         <p class="text-2xl font-bold leading-none text-gray-50 dark:text-gray-50" id="pendingOrders"></p>
                       </div>
@@ -7658,6 +7666,7 @@
                     </div>
                   </div>
                 </div>
+              </a>
                 <div class="min-w-0 rounded-lg overflow-hidden bg-white dark:bg-gray-800 flex justify-center h-full">
                   <div
                     class="p-4 border border-gray-200 justify-between dark:border-gray-800 w-full p-6 rounded-lg text-white dark:text-orange-100 bg-orange-400">
@@ -7669,7 +7678,7 @@
                             d="M16 5l-8-4-8 4 8 4 8-4zM8 2.328l5.345 2.672-5.345 2.672-5.345-2.672 5.345-2.672zM14.398 7.199l1.602 0.801-8 4-8-4 1.602-0.801 6.398 3.199zM14.398 10.199l1.602 0.801-8 4-8-4 1.602-0.801 6.398 3.199z">
                           </path>
                         </svg></div>
-                      <div>
+                      <div onclick="navFunction(this)" id="confirmedorders.html">
                         <p class="mb-3 text-base font-medium text-gray-50 dark:text-gray-100">Confirmed Orders</p>
                         <p class="text-2xl font-bold leading-none text-gray-50 dark:text-gray-50" id="confirmedOrders"></p>
                       </div>
@@ -7692,7 +7701,7 @@
                         <circle cx="20" cy="21" r="1"></circle>
                         <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
                       </svg></div>
-                    <div>
+                    <div onclick="navFunction(this)" id="completedorders.html">
                       <p class="mb-3 text-base font-medium text-gray-50 dark:text-gray-100">Completed Orders</p>
                       <p class="text-2xl font-bold leading-none text-gray-50 dark:text-gray-50" id="completedOrders"></p>
                     </div>
@@ -7709,7 +7718,7 @@
                           d="M14.5 2h-13c-0.825 0-1.5 0.675-1.5 1.5v9c0 0.825 0.675 1.5 1.5 1.5h13c0.825 0 1.5-0.675 1.5-1.5v-9c0-0.825-0.675-1.5-1.5-1.5zM1.5 3h13c0.271 0 0.5 0.229 0.5 0.5v1.5h-14v-1.5c0-0.271 0.229-0.5 0.5-0.5zM14.5 13h-13c-0.271 0-0.5-0.229-0.5-0.5v-4.5h14v4.5c0 0.271-0.229 0.5-0.5 0.5zM2 10h1v2h-1zM4 10h1v2h-1zM6 10h1v2h-1z">
                         </path>
                       </svg></div>
-                    <div>
+                    <div onclick="navFunction(this)" id="orders.html">
                       <p class="mb-3 text-base font-medium text-gray-50 dark:text-gray-100">Total Orders</p>
                       <p class="text-2xl font-bold leading-none text-gray-50 dark:text-gray-50" id="totalOrders"></p>
                     </div>
@@ -7726,7 +7735,7 @@
                           d="M14.5 2h-13c-0.825 0-1.5 0.675-1.5 1.5v9c0 0.825 0.675 1.5 1.5 1.5h13c0.825 0 1.5-0.675 1.5-1.5v-9c0-0.825-0.675-1.5-1.5-1.5zM1.5 3h13c0.271 0 0.5 0.229 0.5 0.5v1.5h-14v-1.5c0-0.271 0.229-0.5 0.5-0.5zM14.5 13h-13c-0.271 0-0.5-0.229-0.5-0.5v-4.5h14v4.5c0 0.271-0.229 0.5-0.5 0.5zM2 10h1v2h-1zM4 10h1v2h-1zM6 10h1v2h-1z">
                         </path>
                       </svg></div>
-                    <div>
+                    <div onclick="navFunction(this)" id="products.html">
                       <p class="mb-3 text-base font-medium text-gray-50 dark:text-gray-100">Total Products</p>
                       <p class="text-2xl font-bold leading-none text-gray-50 dark:text-gray-50" id="totalProducts"></p>
                     </div>
