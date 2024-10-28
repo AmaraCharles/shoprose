@@ -7668,16 +7668,16 @@
                                         </div>
             
                                         <div class="form-group mt-4">
-                                            <h5>Choose Collection</h5>
-                                            <p class="small text-muted">This is the collection where your item will appear.</p>
+                                            <h5>Choose Category</h5>
+                                            <p class="small text-muted">This is the category where your item will appear.</p>
                                             <select id="category" class="form-control" required>
                                                 <option value="">Select Category</option>
                                                 <option value="bags">Bags</option>
-                                                <option value="Ceramics and Pottery">Ceramics and Pottery</option>
-                                                <option value="Sculptures">Sculptures</option>
-                                                <option value="Pottery">Pottery</option>
-                                                <option value="Jewelries">Jewelries</option>
-                                                <option value="Art">Artworks</option>
+                                                <option value="Shoes">Shoes</option>
+                                                <option value="Dresses">Dresses</option>
+                                                <option value="Two piece">Two piece</option>
+                                                <option value="Pants">Pants</option>
+                                                <option value="Lingerie">Lingerie</option>
                                             </select>
                                         </div>
             
@@ -7759,26 +7759,31 @@
 
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open">
     <style>
-      div.grammarly-desktop-integration {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+ .img-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
 
-      div.grammarly-desktop-integration:before {
-        content: attr(data-content);
-      }
-    </style>
+.preview-image {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    border-radius: 8px;
+}
+
+.delete-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgba(255, 0, 0, 0.8);
+    color: white;
+    padding: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+</style>
     <script>
         const cloudName = 'dsyjlantq';  // Your Cloudinary cloud name
         const uploadPreset = 'assetspur';  // Your Cloudinary upload preset
@@ -7825,28 +7830,51 @@
 
         // Handle file selection and display previews
         document.getElementById('fileInput').addEventListener('change', function(event) {
-            const files = Array.from(event.target.files);
-            const imageContainer = document.getElementById('selected-images');
-            
-            // Add new selected files without overwriting previous ones
-            selectedFiles = selectedFiles.concat(files);
+    const files = Array.from(event.target.files);
+    const imageContainer = document.getElementById('selected-images');
+    
+    // Add new selected files without overwriting previous ones
+    selectedFiles = selectedFiles.concat(files);
 
-            // Display previews for each selected file
-            selectedFiles.forEach((file, index) => {
-                // Prevent duplicate image previews
-                if (!document.getElementById(`preview-${index}`)) {
-                    const reader = new FileReader();
-                    reader.onload = function(e) {
-                        const img = document.createElement('img');
-                        img.src = e.target.result;
-                        img.className = 'preview-image';
-                        img.id = `preview-${index}`;
-                        imageContainer.appendChild(img);
-                    };
-                    reader.readAsDataURL(file);
-                }
-            });
-        });
+    // Display previews for each selected file
+    selectedFiles.forEach((file, index) => {
+        // Prevent duplicate image previews
+        if (!document.getElementById(`container-${index}`)) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                // Create a container div for the image and delete icon
+                const imgContainer = document.createElement('div');
+                imgContainer.className = 'img-container';
+                imgContainer.id = `container-${index}`;
+
+                // Create the image element
+                const img = document.createElement('img');
+                img.src = e.target.result;
+                img.className = 'preview-image';
+                img.id = `preview-${index}`;
+                imgContainer.appendChild(img);
+
+                // Create the delete icon element
+                const deleteIcon = document.createElement('span');
+                deleteIcon.className = 'delete-icon';
+                deleteIcon.innerHTML = '🗑️'; // You can use an icon or emoji
+                deleteIcon.onclick = function() {
+                    // Remove the image container from the DOM
+                    imgContainer.remove();
+
+                    // Remove the file from selectedFiles array
+                    selectedFiles.splice(index, 1);
+                };
+                imgContainer.appendChild(deleteIcon);
+
+                // Append the container to the main image container
+                imageContainer.appendChild(imgContainer);
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+});
+
 
         // Handle file uploads to Cloudinary
         document.getElementById('uploadButton').addEventListener('click', function(e) {

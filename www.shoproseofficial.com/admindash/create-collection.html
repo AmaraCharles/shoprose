@@ -14,11 +14,9 @@
   <meta property="og:title" content="Dashtar | React eCommerce Admin Dashboard">
   <meta property="og:type" content="eCommerce Website">
   <meta property="og:url" content="https://dashtar-admin.netlify.app">
-  <meta property="og:image"
-    content="https://res.cloudinary.com/ahossain/image/upload/v1636572997/kachabazar-admin_ijlexj.png">
-
+  
   <!-- <link rel="manifest" href="/manifest.json" /> -->
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link href="./orders_files/css2" rel="stylesheet">
   <title>Dashtar | React eCommerce Admin Dashboard</title>
   <script type="module" crossorigin="" src="./orders_files/index-Dv1Dpj4n.js.download"></script>
@@ -7648,7 +7646,7 @@
                                         </div>
             
                                         <div class="text-center">
-                                            <button type="button" id="upload-button" class="btn btn-success">Create Item</button>
+                                            <button type="button" id="upload-button" class="btn btn-success">Create Collection</button>
                                         </div>
                                     </div>
                                 </div>
@@ -7731,25 +7729,40 @@
             alert("Your message has been successfully sent.Please check email subsequently for feedback,")
         }
 </script>
-    <script>
-        document.getElementById('upload_file').addEventListener('change', function(event) {
-            const file = event.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    const img = document.createElement('img');
-                  
-                    img.src = e.target.result;
-                    img.className="lazy"
-                    const imageContainer = document.getElementById('selected-image');
-                    imageContainer.innerHTML = '';  // Clear any existing content
-                    imageContainer.appendChild(img);
-                }
-                reader.readAsDataURL(file);
-            }
-        });
+<div class="mb-4">
+  <div class="d-create-file border p-3 rounded">
+      <p id="file_name" class="small text-muted">PNG, JPG, GIF, WEBP, or MP4. Max 200MB.</p>
+      <button type="button" id="get_file" class="btn btn-primary">Browse</button>
+      <input type="file" id="upload_file" class="form-control mt-2" hidden>
+  </div>
+  <div id="selected-image"></div> <!-- Container for the image preview -->
+</div>
 
-        
+<script>
+  // Trigger the file input when "Browse" button is clicked
+  document.getElementById("get_file").addEventListener("click", function() {
+      document.getElementById("upload_file").click();
+  });
+
+  // Display image preview after file selection
+  document.getElementById('upload_file').addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (file) {
+          const reader = new FileReader();
+          reader.onload = function(e) {
+              const img = document.createElement('img');
+              img.src = e.target.result;
+              img.className = "lazy";
+              
+              const imageContainer = document.getElementById('selected-image');
+              imageContainer.innerHTML = '';  // Clear any existing content
+              imageContainer.appendChild(img); // Add the new image
+          }
+          reader.readAsDataURL(file);
+      }
+  });
+</script>
+<script>
         document.getElementById('title').addEventListener('input', function(event) {
             const name = event.target.value;
             const nameContainer = document.getElementById('see_name');
@@ -7837,7 +7850,7 @@
           localStorage.setItem("imgUrl",imgUrl)
           var userFromLS=localStorage.getItem("user")
           var parsedData=JSON.parse(userFromLS)
-          const userId=parsedData._id
+          const userId="669ba41036964d2269ede01d"
         //   const from=parsedData.email
         //   const price=document.getElementById("price").value
           const title=document.getElementById("title").value
@@ -8004,6 +8017,7 @@
       
       
         $('#upload-button').click(async function (event) {
+      console.log("clocked");
       
           event.preventDefault();
           function release({firstName}){
@@ -8092,6 +8106,5 @@
       data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}">
     </div>
   </template></grammarly-desktop-integration>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
+   
 </html>
